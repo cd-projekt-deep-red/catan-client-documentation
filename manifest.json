@@ -1,0 +1,452 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AssetManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AssetManager.html",
+          "hash": "0JLip+kmCNibrS4rTf3rlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Board.html",
+          "hash": "IjyMZB7p1UZcLQf8IwHCTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BoardManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BoardManager.html",
+          "hash": "c20Mz5b6FQuKMncLmBdpuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BoardManagerV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BoardManagerV2.html",
+          "hash": "WUCC3+QlkixvMZ+H7v4jeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EdgeCoordinates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EdgeCoordinates.html",
+          "hash": "1DIVBIJM12toK8dlgvvmHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Event.html",
+          "hash": "iJ13kFk2A62tpVN0hK7PeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventManager.boardStatusEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventManager.boardStatusEvents.html",
+          "hash": "YWICC94jxq6kmcjF7UjH/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventManager.popCenterEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventManager.popCenterEvents.html",
+          "hash": "15X3Qn7LpKDd9FUIGZHDAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventManager.roadEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventManager.roadEvents.html",
+          "hash": "JUmmjWQokIRzyScynGS7jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventManager.html",
+          "hash": "TSRscZX7X/9BynggKLZv7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventParser.html",
+          "hash": "lJXB5jkVv75rZ156Ma/LIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EventStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EventStream.html",
+          "hash": "bytJ7P6YjqH5YSMTDMvhqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ExampleEventConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ExampleEventConsumer.html",
+          "hash": "bHKLxBAYWGbX4fl2v67vWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameMetaData.html",
+          "hash": "auvmbt/Dk1jRGgKTXmLz1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameStartEvent.html",
+          "hash": "IsO3AH1fNg+kn62NI1U3BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameStatus.html",
+          "hash": "Bwv89/14LaSaH/SOhzLiTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HexMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HexMath.html",
+          "hash": "zf6XEfOCQ3p6b4Q7SWND3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MockNetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MockNetworkManager.html",
+          "hash": "gRKmeqNC/ZEWMdf+7Gz8kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NetworkManager.html",
+          "hash": "6su1qjrVyMabkAmVxpnTLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Notify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Notify.html",
+          "hash": "JN5AaLsqCfdrO9d+CEu1lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Player.html",
+          "hash": "yruRKtDrcMpOsR3cErUJag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerRollEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerRollEvent.html",
+          "hash": "/nYeAGjC6pb/Ire2Oja+ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RectTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RectTransformExtensions.html",
+          "hash": "JTiSgFhK8atFLEKoxmd+aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ResourceTile2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ResourceTile2.html",
+          "hash": "97vJQOicnDLKzqsKr8176A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ResourceType.html",
+          "hash": "lCyaBy51pAFNSctzT7QAug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Team.html",
+          "hash": "GmS3LYncS+7rbhvqkjn2QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TileCoordinates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TileCoordinates.html",
+          "hash": "s0JWWiGOFO+tjE5vEO5unQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIManager.html",
+          "hash": "vgrwSLF0DQe5L8ueSGA4Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.VertexCoordinates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VertexCoordinates.html",
+          "hash": "WsI/qX0GXgO6VB5kpNdjlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "5BMUAUUn5/S5OUI3JnBHnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "CQQxavrX9SFRZHErtxlVgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "rFfHa0iWxbdq6QIoQdTK0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ZpFt7eDWpdY2EMMNhP+oFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
