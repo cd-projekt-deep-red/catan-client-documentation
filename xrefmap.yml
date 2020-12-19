@@ -1083,6 +1083,25 @@ references:
   commentId: T:Global.UIManager
   fullName: UIManager
   nameWithType: UIManager
+- uid: Global.UIManager.announcementPrefab
+  name: announcementPrefab
+  href: api/Global.UIManager.html#Global_UIManager_announcementPrefab
+  commentId: F:Global.UIManager.announcementPrefab
+  fullName: UIManager.announcementPrefab
+  nameWithType: UIManager.announcementPrefab
+- uid: Global.UIManager.createAnnouncement(System.String,System.String,System.Single)
+  name: createAnnouncement(String, String, Single)
+  href: api/Global.UIManager.html#Global_UIManager_createAnnouncement_System_String_System_String_System_Single_
+  commentId: M:Global.UIManager.createAnnouncement(System.String,System.String,System.Single)
+  fullName: UIManager.createAnnouncement(System.String, System.String, System.Single)
+  nameWithType: UIManager.createAnnouncement(String, String, Single)
+- uid: Global.UIManager.createAnnouncement*
+  name: createAnnouncement
+  href: api/Global.UIManager.html#Global_UIManager_createAnnouncement_
+  commentId: Overload:Global.UIManager.createAnnouncement
+  isSpec: "True"
+  fullName: UIManager.createAnnouncement
+  nameWithType: UIManager.createAnnouncement
 - uid: Global.UIManager.createPlayerUI
   name: createPlayerUI()
   href: api/Global.UIManager.html#Global_UIManager_createPlayerUI
