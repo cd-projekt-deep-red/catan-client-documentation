@@ -1114,6 +1114,12 @@ references:
   commentId: F:Global.UIManager.localPlayerStatsPrefab
   fullName: UIManager.localPlayerStatsPrefab
   nameWithType: UIManager.localPlayerStatsPrefab
+- uid: Global.UIManager.turnTimerPrefab
+  name: turnTimerPrefab
+  href: api/Global.UIManager.html#Global_UIManager_turnTimerPrefab
+  commentId: F:Global.UIManager.turnTimerPrefab
+  fullName: UIManager.turnTimerPrefab
+  nameWithType: UIManager.turnTimerPrefab
 - uid: Global.UIManager.uiCanvas
   name: uiCanvas
   href: api/Global.UIManager.html#Global_UIManager_uiCanvas
