@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate EventManager.boardStatusEvents
+    <title>Class LocalPlayerStats
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate EventManager.boardStatusEvents
+    <meta name="title" content="Class LocalPlayerStats
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -125,8 +125,8 @@
                           <li class="">
                             <a href="Global.EventManager.html" title="EventManager" class="">EventManager</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="active">EventManager.boardStatusEvents</a>
+                          <li class="">
+                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="">EventManager.boardStatusEvents</a>
                           </li>
                           <li class="">
                             <a href="Global.EventManager.popCenterEvents.html" title="EventManager.popCenterEvents" class="">EventManager.popCenterEvents</a>
@@ -161,8 +161,8 @@
                           <li class="">
                             <a href="Global.IconContainerSettings.html" title="IconContainerSettings" class="">IconContainerSettings</a>
                           </li>
-                          <li class="">
-                            <a href="Global.LocalPlayerStats.html" title="LocalPlayerStats" class="">LocalPlayerStats</a>
+                          <li class="active">
+                            <a href="Global.LocalPlayerStats.html" title="LocalPlayerStats" class="active">LocalPlayerStats</a>
                           </li>
                           <li class="">
                             <a href="Global.MockNetworkManager.html" title="MockNetworkManager" class="">MockNetworkManager</a>
@@ -268,18 +268,157 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.EventManager.boardStatusEvents">
+            <article class="content wrap" id="_content" data-uid="Global.LocalPlayerStats">
   
   
-  <h1 id="Global_EventManager_boardStatusEvents" data-uid="Global.EventManager.boardStatusEvents" class="text-break">Delegate EventManager.boardStatusEvents
+  <h1 id="Global_LocalPlayerStats" data-uid="Global.LocalPlayerStats" class="text-break">Class LocalPlayerStats
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LocalPlayerStats</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_EventManager_boardStatusEvents_syntax">Syntax</h5>
+  <h5 id="Global_LocalPlayerStats_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void boardStatusEvents(BoardStatus serverBoardStatus);</code></pre>
+    <pre><code class="lang-csharp hljs">public class LocalPlayerStats : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_LocalPlayerStats_assetManagerSprites" data-uid="Global.LocalPlayerStats.assetManagerSprites">assetManagerSprites</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LocalPlayerStats_buildingContainers" data-uid="Global.LocalPlayerStats.buildingContainers">buildingContainers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject[] buildingContainers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LocalPlayerStats_playername" data-uid="Global.LocalPlayerStats.playername">playername</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI playername</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LocalPlayerStats_profileImage" data-uid="Global.LocalPlayerStats.profileImage">profileImage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer profileImage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LocalPlayerStats_resourceContainers" data-uid="Global.LocalPlayerStats.resourceContainers">resourceContainers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject[] resourceContainers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_LocalPlayerStats_setPlayerLocalStats_" data-uid="Global.LocalPlayerStats.setPlayerLocalStats*"></a>
+  <h4 id="Global_LocalPlayerStats_setPlayerLocalStats_System_Int32_System_String_System_String_System_Int32_" data-uid="Global.LocalPlayerStats.setPlayerLocalStats(System.Int32,System.String,System.String,System.Int32)">setPlayerLocalStats(Int32, String, String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setPlayerLocalStats(int pid, string name, string color, int pImageIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,8 +431,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BoardStatus.html">BoardStatus</a></td>
-        <td><span class="parametername">serverBoardStatus</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pImageIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LocalPlayerStats_updateStatCount_" data-uid="Global.LocalPlayerStats.updateStatCount*"></a>
+  <h4 id="Global_LocalPlayerStats_updateStatCount_PlayerStat_" data-uid="Global.LocalPlayerStats.updateStatCount(PlayerStat)">updateStatCount(PlayerStat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateStatCount(PlayerStat playerStats)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.PlayerStat.html">PlayerStat</a></td>
+        <td><span class="parametername">playerStats</span></td>
         <td></td>
       </tr>
     </tbody>

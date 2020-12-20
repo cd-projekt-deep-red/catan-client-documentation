@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate EventManager.boardStatusEvents
+    <title>Class Announcement
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate EventManager.boardStatusEvents
+    <meta name="title" content="Class Announcement
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -86,8 +86,8 @@
                       <a href="Global.html" title="Global" class="">Global</a>
                         
                         <ul class="nav level2">
-                          <li class="">
-                            <a href="Global.Announcement.html" title="Announcement" class="">Announcement</a>
+                          <li class="active">
+                            <a href="Global.Announcement.html" title="Announcement" class="active">Announcement</a>
                           </li>
                           <li class="">
                             <a href="Global.AssetManager.html" title="AssetManager" class="">AssetManager</a>
@@ -125,8 +125,8 @@
                           <li class="">
                             <a href="Global.EventManager.html" title="EventManager" class="">EventManager</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="active">EventManager.boardStatusEvents</a>
+                          <li class="">
+                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="">EventManager.boardStatusEvents</a>
                           </li>
                           <li class="">
                             <a href="Global.EventManager.popCenterEvents.html" title="EventManager.popCenterEvents" class="">EventManager.popCenterEvents</a>
@@ -268,18 +268,263 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.EventManager.boardStatusEvents">
+            <article class="content wrap" id="_content" data-uid="Global.Announcement">
   
   
-  <h1 id="Global_EventManager_boardStatusEvents" data-uid="Global.EventManager.boardStatusEvents" class="text-break">Delegate EventManager.boardStatusEvents
+  <h1 id="Global_Announcement" data-uid="Global.Announcement" class="text-break">Class Announcement
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Announcement</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_EventManager_boardStatusEvents_syntax">Syntax</h5>
+  <h5 id="Global_Announcement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void boardStatusEvents(BoardStatus serverBoardStatus);</code></pre>
+    <pre><code class="lang-csharp hljs">public class Announcement : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_Announcement_announcementAnimator" data-uid="Global.Announcement.announcementAnimator">announcementAnimator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animator announcementAnimator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Animator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_announcementSpeedMultiplier" data-uid="Global.Announcement.announcementSpeedMultiplier">announcementSpeedMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float announcementSpeedMultiplier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_announcementText" data-uid="Global.Announcement.announcementText">announcementText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI announcementText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_announcementTextGO" data-uid="Global.Announcement.announcementTextGO">announcementTextGO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject announcementTextGO</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_assetManagerSounds" data-uid="Global.Announcement.assetManagerSounds">assetManagerSounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_assetManagerSprites" data-uid="Global.Announcement.assetManagerSprites">assetManagerSprites</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_banner" data-uid="Global.Announcement.banner">banner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image banner</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_ghostDelay" data-uid="Global.Announcement.ghostDelay">ghostDelay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ghostDelay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Announcement_ghostPrefab" data-uid="Global.Announcement.ghostPrefab">ghostPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject ghostPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_Announcement_destroyAnnouncement_" data-uid="Global.Announcement.destroyAnnouncement*"></a>
+  <h4 id="Global_Announcement_destroyAnnouncement" data-uid="Global.Announcement.destroyAnnouncement">destroyAnnouncement()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void destroyAnnouncement()</code></pre>
+  </div>
+  
+  
+  <a id="Global_Announcement_setAnimatorSpeed_" data-uid="Global.Announcement.setAnimatorSpeed*"></a>
+  <h4 id="Global_Announcement_setAnimatorSpeed_System_Single_" data-uid="Global.Announcement.setAnimatorSpeed(System.Single)">setAnimatorSpeed(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setAnimatorSpeed(float speed)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,8 +537,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BoardStatus.html">BoardStatus</a></td>
-        <td><span class="parametername">serverBoardStatus</span></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">speed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Announcement_setAnnouncementSpeed_" data-uid="Global.Announcement.setAnnouncementSpeed*"></a>
+  <h4 id="Global_Announcement_setAnnouncementSpeed" data-uid="Global.Announcement.setAnnouncementSpeed">setAnnouncementSpeed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setAnnouncementSpeed()</code></pre>
+  </div>
+  
+  
+  <a id="Global_Announcement_setBannerStyle_" data-uid="Global.Announcement.setBannerStyle*"></a>
+  <h4 id="Global_Announcement_setBannerStyle_System_String_" data-uid="Global.Announcement.setBannerStyle(System.String)">setBannerStyle(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setBannerStyle(string announcementStyle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">announcementStyle</span></td>
         <td></td>
       </tr>
     </tbody>

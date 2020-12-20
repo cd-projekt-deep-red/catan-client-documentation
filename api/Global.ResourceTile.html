@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate EventManager.boardStatusEvents
+    <title>Class ResourceTile
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate EventManager.boardStatusEvents
+    <meta name="title" content="Class ResourceTile
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -125,8 +125,8 @@
                           <li class="">
                             <a href="Global.EventManager.html" title="EventManager" class="">EventManager</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="active">EventManager.boardStatusEvents</a>
+                          <li class="">
+                            <a href="Global.EventManager.boardStatusEvents.html" title="EventManager.boardStatusEvents" class="">EventManager.boardStatusEvents</a>
                           </li>
                           <li class="">
                             <a href="Global.EventManager.popCenterEvents.html" title="EventManager.popCenterEvents" class="">EventManager.popCenterEvents</a>
@@ -197,8 +197,8 @@
                           <li class="">
                             <a href="Global.ResourceIconSettings.html" title="ResourceIconSettings" class="">ResourceIconSettings</a>
                           </li>
-                          <li class="">
-                            <a href="Global.ResourceTile.html" title="ResourceTile" class="">ResourceTile</a>
+                          <li class="active">
+                            <a href="Global.ResourceTile.html" title="ResourceTile" class="active">ResourceTile</a>
                           </li>
                           <li class="">
                             <a href="Global.Road.html" title="Road" class="">Road</a>
@@ -268,18 +268,277 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.EventManager.boardStatusEvents">
+            <article class="content wrap" id="_content" data-uid="Global.ResourceTile">
   
   
-  <h1 id="Global_EventManager_boardStatusEvents" data-uid="Global.EventManager.boardStatusEvents" class="text-break">Delegate EventManager.boardStatusEvents
+  <h1 id="Global_ResourceTile" data-uid="Global.ResourceTile" class="text-break">Class ResourceTile
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ResourceTile</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_EventManager_boardStatusEvents_syntax">Syntax</h5>
+  <h5 id="Global_ResourceTile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void boardStatusEvents(BoardStatus serverBoardStatus);</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResourceTile : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_ResourceTile_assetManagerSounds" data-uid="Global.ResourceTile.assetManagerSounds">assetManagerSounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_assetManagerSprites" data-uid="Global.ResourceTile.assetManagerSprites">assetManagerSprites</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_edgeSpriteRenderer" data-uid="Global.ResourceTile.edgeSpriteRenderer">edgeSpriteRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer edgeSpriteRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_resourceAnimator" data-uid="Global.ResourceTile.resourceAnimator">resourceAnimator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animator resourceAnimator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Animator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_resourceAudioSource" data-uid="Global.ResourceTile.resourceAudioSource">resourceAudioSource</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioSource resourceAudioSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_resourceSpriteMask" data-uid="Global.ResourceTile.resourceSpriteMask">resourceSpriteMask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteMask resourceSpriteMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_resourceSpriteRenderer" data-uid="Global.ResourceTile.resourceSpriteRenderer">resourceSpriteRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer resourceSpriteRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_slotFrontSpriteRenderer" data-uid="Global.ResourceTile.slotFrontSpriteRenderer">slotFrontSpriteRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer slotFrontSpriteRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_slotRearSpriteRenderer" data-uid="Global.ResourceTile.slotRearSpriteRenderer">slotRearSpriteRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer slotRearSpriteRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ResourceTile_sounds" data-uid="Global.ResourceTile.sounds">sounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip[] sounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_ResourceTile_setResource_" data-uid="Global.ResourceTile.setResource*"></a>
+  <h4 id="Global_ResourceTile_setResource_System_Single_System_String_System_Int32_" data-uid="Global.ResourceTile.setResource(System.Single,System.String,System.Int32)">setResource(Single, String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setResource(float delay, string resource, int layerOrder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,8 +551,65 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BoardStatus.html">BoardStatus</a></td>
-        <td><span class="parametername">serverBoardStatus</span></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">layerOrder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_ResourceTile_sfxDrop_" data-uid="Global.ResourceTile.sfxDrop*"></a>
+  <h4 id="Global_ResourceTile_sfxDrop" data-uid="Global.ResourceTile.sfxDrop">sfxDrop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sfxDrop()</code></pre>
+  </div>
+  
+  
+  <a id="Global_ResourceTile_sfxSpawn_" data-uid="Global.ResourceTile.sfxSpawn*"></a>
+  <h4 id="Global_ResourceTile_sfxSpawn" data-uid="Global.ResourceTile.sfxSpawn">sfxSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sfxSpawn()</code></pre>
+  </div>
+  
+  
+  <a id="Global_ResourceTile_toggleStyle_" data-uid="Global.ResourceTile.toggleStyle*"></a>
+  <h4 id="Global_ResourceTile_toggleStyle_System_Boolean_" data-uid="Global.ResourceTile.toggleStyle(System.Boolean)">toggleStyle(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void toggleStyle(bool isSimple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSimple</span></td>
         <td></td>
       </tr>
     </tbody>
