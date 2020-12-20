@@ -649,12 +649,12 @@ references:
   commentId: T:Model.Board
   fullName: Model.Board
   nameWithType: Board
-- uid: Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile2)
-  name: addTile(TileCoordinates, ResourceTile2)
-  href: api/Model.Board.html#Model_Board_addTile_Model_TileCoordinates_Model_ResourceTile2_
-  commentId: M:Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile2)
-  fullName: Model.Board.addTile(Model.TileCoordinates, Model.ResourceTile2)
-  nameWithType: Board.addTile(TileCoordinates, ResourceTile2)
+- uid: Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile)
+  name: addTile(TileCoordinates, ResourceTile)
+  href: api/Model.Board.html#Model_Board_addTile_Model_TileCoordinates_Model_ResourceTile_
+  commentId: M:Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile)
+  fullName: Model.Board.addTile(Model.TileCoordinates, Model.ResourceTile)
+  nameWithType: Board.addTile(TileCoordinates, ResourceTile)
 - uid: Model.Board.addTile*
   name: addTile
   href: api/Model.Board.html#Model_Board_addTile_
@@ -937,38 +937,38 @@ references:
   isSpec: "True"
   fullName: Model.Player.Team
   nameWithType: Player.Team
-- uid: Model.ResourceTile2
-  name: ResourceTile2
-  href: api/Model.ResourceTile2.html
-  commentId: T:Model.ResourceTile2
-  fullName: Model.ResourceTile2
-  nameWithType: ResourceTile2
-- uid: Model.ResourceTile2.Type
+- uid: Model.ResourceTile
+  name: ResourceTile
+  href: api/Model.ResourceTile.html
+  commentId: T:Model.ResourceTile
+  fullName: Model.ResourceTile
+  nameWithType: ResourceTile
+- uid: Model.ResourceTile.Type
   name: Type
-  href: api/Model.ResourceTile2.html#Model_ResourceTile2_Type
-  commentId: P:Model.ResourceTile2.Type
-  fullName: Model.ResourceTile2.Type
-  nameWithType: ResourceTile2.Type
-- uid: Model.ResourceTile2.Type*
+  href: api/Model.ResourceTile.html#Model_ResourceTile_Type
+  commentId: P:Model.ResourceTile.Type
+  fullName: Model.ResourceTile.Type
+  nameWithType: ResourceTile.Type
+- uid: Model.ResourceTile.Type*
   name: Type
-  href: api/Model.ResourceTile2.html#Model_ResourceTile2_Type_
-  commentId: Overload:Model.ResourceTile2.Type
+  href: api/Model.ResourceTile.html#Model_ResourceTile_Type_
+  commentId: Overload:Model.ResourceTile.Type
   isSpec: "True"
-  fullName: Model.ResourceTile2.Type
-  nameWithType: ResourceTile2.Type
-- uid: Model.ResourceTile2.Value
+  fullName: Model.ResourceTile.Type
+  nameWithType: ResourceTile.Type
+- uid: Model.ResourceTile.Value
   name: Value
-  href: api/Model.ResourceTile2.html#Model_ResourceTile2_Value
-  commentId: P:Model.ResourceTile2.Value
-  fullName: Model.ResourceTile2.Value
-  nameWithType: ResourceTile2.Value
-- uid: Model.ResourceTile2.Value*
+  href: api/Model.ResourceTile.html#Model_ResourceTile_Value
+  commentId: P:Model.ResourceTile.Value
+  fullName: Model.ResourceTile.Value
+  nameWithType: ResourceTile.Value
+- uid: Model.ResourceTile.Value*
   name: Value
-  href: api/Model.ResourceTile2.html#Model_ResourceTile2_Value_
-  commentId: Overload:Model.ResourceTile2.Value
+  href: api/Model.ResourceTile.html#Model_ResourceTile_Value_
+  commentId: Overload:Model.ResourceTile.Value
   isSpec: "True"
-  fullName: Model.ResourceTile2.Value
-  nameWithType: ResourceTile2.Value
+  fullName: Model.ResourceTile.Value
+  nameWithType: ResourceTile.Value
 - uid: Model.ResourceType
   name: ResourceType
   href: api/Model.ResourceType.html

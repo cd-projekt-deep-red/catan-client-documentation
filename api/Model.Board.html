@@ -156,7 +156,7 @@
                             <a href="Model.Player.html" title="Player" class="">Player</a>
                           </li>
                           <li class="">
-                            <a href="Model.ResourceTile2.html" title="ResourceTile2" class="">ResourceTile2</a>
+                            <a href="Model.ResourceTile.html" title="ResourceTile" class="">ResourceTile</a>
                           </li>
                           <li class="">
                             <a href="Model.ResourceType.html" title="ResourceType" class="">ResourceType</a>
@@ -259,7 +259,11 @@
     <tbody>
       <tr>
         <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="Model.EdgeCoordinates.html">EdgeCoordinates</a>, <a class="xref" href="Model.ResourceType.html">ResourceType</a>&gt;</td>
-        <td></td>
+        <td><p>Dictionary of all ports keyed by axial edge coordinates. Ports are
+represented by just a resource type. A resource type of
+<a class="xref" href="Model.ResourceType.html#Model_ResourceType_None">None</a> indicates a 3:1 port that
+accepts any resource. All other resource types indicate a 2:1 port.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -271,7 +275,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;TileCoordinates, ResourceTile2&gt; ResourceTiles { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;TileCoordinates, ResourceTile&gt; ResourceTiles { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,8 +287,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="Model.TileCoordinates.html">TileCoordinates</a>, <a class="xref" href="Model.ResourceTile2.html">ResourceTile2</a>&gt;</td>
-        <td><p>Dictionary of all resource tiles keyed by axial <a class="xref" href="Model.TileCoordinates.html">TileCoordinates</a>.</p>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="Model.TileCoordinates.html">TileCoordinates</a>, <a class="xref" href="Model.ResourceTile.html">ResourceTile</a>&gt;</td>
+        <td><p>Dictionary of all resource tiles keyed by axial tile coordinates.</p>
 </td>
       </tr>
     </tbody>
@@ -294,12 +298,12 @@
   
   
   <a id="Model_Board_addTile_" data-uid="Model.Board.addTile*"></a>
-  <h4 id="Model_Board_addTile_Model_TileCoordinates_Model_ResourceTile2_" data-uid="Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile2)">addTile(TileCoordinates, ResourceTile2)</h4>
+  <h4 id="Model_Board_addTile_Model_TileCoordinates_Model_ResourceTile_" data-uid="Model.Board.addTile(Model.TileCoordinates,Model.ResourceTile)">addTile(TileCoordinates, ResourceTile)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void addTile(TileCoordinates coordinates, ResourceTile2 Tile)</code></pre>
+    <pre><code class="lang-csharp hljs">public void addTile(TileCoordinates coordinates, ResourceTile Tile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,7 +321,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Model.ResourceTile2.html">ResourceTile2</a></td>
+        <td><a class="xref" href="Model.ResourceTile.html">ResourceTile</a></td>
         <td><span class="parametername">Tile</span></td>
         <td></td>
       </tr>
