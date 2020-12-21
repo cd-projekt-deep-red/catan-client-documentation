@@ -1531,6 +1531,12 @@ references:
   commentId: T:Global.LocalPlayerStats
   fullName: LocalPlayerStats
   nameWithType: LocalPlayerStats
+- uid: Global.LocalPlayerStats.armySprite
+  name: armySprite
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_armySprite
+  commentId: F:Global.LocalPlayerStats.armySprite
+  fullName: LocalPlayerStats.armySprite
+  nameWithType: LocalPlayerStats.armySprite
 - uid: Global.LocalPlayerStats.assetManagerSprites
   name: assetManagerSprites
   href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_assetManagerSprites
@@ -1543,6 +1549,18 @@ references:
   commentId: F:Global.LocalPlayerStats.buildingContainers
   fullName: LocalPlayerStats.buildingContainers
   nameWithType: LocalPlayerStats.buildingContainers
+- uid: Global.LocalPlayerStats.crownAnimator
+  name: crownAnimator
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_crownAnimator
+  commentId: F:Global.LocalPlayerStats.crownAnimator
+  fullName: LocalPlayerStats.crownAnimator
+  nameWithType: LocalPlayerStats.crownAnimator
+- uid: Global.LocalPlayerStats.crownSprite
+  name: crownSprite
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_crownSprite
+  commentId: F:Global.LocalPlayerStats.crownSprite
+  fullName: LocalPlayerStats.crownSprite
+  nameWithType: LocalPlayerStats.crownSprite
 - uid: Global.LocalPlayerStats.playername
   name: playername
   href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_playername
@@ -1561,32 +1579,62 @@ references:
   commentId: F:Global.LocalPlayerStats.resourceContainers
   fullName: LocalPlayerStats.resourceContainers
   nameWithType: LocalPlayerStats.resourceContainers
-- uid: Global.LocalPlayerStats.setPlayerLocalStats(System.Int32,System.String,System.String,System.Int32)
-  name: setPlayerLocalStats(Int32, String, String, Int32)
-  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_setPlayerLocalStats_System_Int32_System_String_System_String_System_Int32_
-  commentId: M:Global.LocalPlayerStats.setPlayerLocalStats(System.Int32,System.String,System.String,System.Int32)
-  fullName: LocalPlayerStats.setPlayerLocalStats(System.Int32, System.String, System.String, System.Int32)
-  nameWithType: LocalPlayerStats.setPlayerLocalStats(Int32, String, String, Int32)
-- uid: Global.LocalPlayerStats.setPlayerLocalStats*
-  name: setPlayerLocalStats
-  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_setPlayerLocalStats_
-  commentId: Overload:Global.LocalPlayerStats.setPlayerLocalStats
+- uid: Global.LocalPlayerStats.roadSprite
+  name: roadSprite
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_roadSprite
+  commentId: F:Global.LocalPlayerStats.roadSprite
+  fullName: LocalPlayerStats.roadSprite
+  nameWithType: LocalPlayerStats.roadSprite
+- uid: Global.LocalPlayerStats.setPlayer(Player)
+  name: setPlayer(Player)
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_setPlayer_Player_
+  commentId: M:Global.LocalPlayerStats.setPlayer(Player)
+  fullName: LocalPlayerStats.setPlayer(Player)
+  nameWithType: LocalPlayerStats.setPlayer(Player)
+- uid: Global.LocalPlayerStats.setPlayer*
+  name: setPlayer
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_setPlayer_
+  commentId: Overload:Global.LocalPlayerStats.setPlayer
   isSpec: "True"
-  fullName: LocalPlayerStats.setPlayerLocalStats
-  nameWithType: LocalPlayerStats.setPlayerLocalStats
-- uid: Global.LocalPlayerStats.updateStatCount(PlayerStat)
-  name: updateStatCount(PlayerStat)
-  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_updateStatCount_PlayerStat_
-  commentId: M:Global.LocalPlayerStats.updateStatCount(PlayerStat)
-  fullName: LocalPlayerStats.updateStatCount(PlayerStat)
-  nameWithType: LocalPlayerStats.updateStatCount(PlayerStat)
-- uid: Global.LocalPlayerStats.updateStatCount*
-  name: updateStatCount
-  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_updateStatCount_
-  commentId: Overload:Global.LocalPlayerStats.updateStatCount
+  fullName: LocalPlayerStats.setPlayer
+  nameWithType: LocalPlayerStats.setPlayer
+- uid: Global.LocalPlayerStats.statsAnimator
+  name: statsAnimator
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_statsAnimator
+  commentId: F:Global.LocalPlayerStats.statsAnimator
+  fullName: LocalPlayerStats.statsAnimator
+  nameWithType: LocalPlayerStats.statsAnimator
+- uid: Global.LocalPlayerStats.updateInformation(PlayerGameState)
+  name: updateInformation(PlayerGameState)
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_updateInformation_PlayerGameState_
+  commentId: M:Global.LocalPlayerStats.updateInformation(PlayerGameState)
+  fullName: LocalPlayerStats.updateInformation(PlayerGameState)
+  nameWithType: LocalPlayerStats.updateInformation(PlayerGameState)
+- uid: Global.LocalPlayerStats.updateInformation*
+  name: updateInformation
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_updateInformation_
+  commentId: Overload:Global.LocalPlayerStats.updateInformation
   isSpec: "True"
-  fullName: LocalPlayerStats.updateStatCount
-  nameWithType: LocalPlayerStats.updateStatCount
+  fullName: LocalPlayerStats.updateInformation
+  nameWithType: LocalPlayerStats.updateInformation
+- uid: Global.LocalPlayerStats.vpAnimator
+  name: vpAnimator
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_vpAnimator
+  commentId: F:Global.LocalPlayerStats.vpAnimator
+  fullName: LocalPlayerStats.vpAnimator
+  nameWithType: LocalPlayerStats.vpAnimator
+- uid: Global.LocalPlayerStats.vpAnimatorScript
+  name: vpAnimatorScript
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_vpAnimatorScript
+  commentId: F:Global.LocalPlayerStats.vpAnimatorScript
+  fullName: LocalPlayerStats.vpAnimatorScript
+  nameWithType: LocalPlayerStats.vpAnimatorScript
+- uid: Global.LocalPlayerStats.vpSprite
+  name: vpSprite
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_vpSprite
+  commentId: F:Global.LocalPlayerStats.vpSprite
+  fullName: LocalPlayerStats.vpSprite
+  nameWithType: LocalPlayerStats.vpSprite
 - uid: Global.MockNetworkManager
   name: MockNetworkManager
   href: api/Global.MockNetworkManager.html
@@ -2724,12 +2772,12 @@ references:
   commentId: F:Global.UIManager.uiCanvas
   fullName: UIManager.uiCanvas
   nameWithType: UIManager.uiCanvas
-- uid: Global.UIManager.updateLocalPlayerStats(PlayerStat)
-  name: updateLocalPlayerStats(PlayerStat)
-  href: api/Global.UIManager.html#Global_UIManager_updateLocalPlayerStats_PlayerStat_
-  commentId: M:Global.UIManager.updateLocalPlayerStats(PlayerStat)
-  fullName: UIManager.updateLocalPlayerStats(PlayerStat)
-  nameWithType: UIManager.updateLocalPlayerStats(PlayerStat)
+- uid: Global.UIManager.updateLocalPlayerStats(PlayerGameState)
+  name: updateLocalPlayerStats(PlayerGameState)
+  href: api/Global.UIManager.html#Global_UIManager_updateLocalPlayerStats_PlayerGameState_
+  commentId: M:Global.UIManager.updateLocalPlayerStats(PlayerGameState)
+  fullName: UIManager.updateLocalPlayerStats(PlayerGameState)
+  nameWithType: UIManager.updateLocalPlayerStats(PlayerGameState)
 - uid: Global.UIManager.updateLocalPlayerStats*
   name: updateLocalPlayerStats
   href: api/Global.UIManager.html#Global_UIManager_updateLocalPlayerStats_
