@@ -197,6 +197,68 @@ references:
   commentId: F:Global.AssetManager.spriteDict
   fullName: AssetManager.spriteDict
   nameWithType: AssetManager.spriteDict
+- uid: Global.BadgeAnimator
+  name: BadgeAnimator
+  href: api/Global.BadgeAnimator.html
+  commentId: T:Global.BadgeAnimator
+  fullName: BadgeAnimator
+  nameWithType: BadgeAnimator
+- uid: Global.BadgeAnimator.army
+  name: army
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_army
+  commentId: F:Global.BadgeAnimator.army
+  fullName: BadgeAnimator.army
+  nameWithType: BadgeAnimator.army
+- uid: Global.BadgeAnimator.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_assetManagerSprites
+  commentId: F:Global.BadgeAnimator.assetManagerSprites
+  fullName: BadgeAnimator.assetManagerSprites
+  nameWithType: BadgeAnimator.assetManagerSprites
+- uid: Global.BadgeAnimator.isLargestArmy
+  name: isLargestArmy
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_isLargestArmy
+  commentId: F:Global.BadgeAnimator.isLargestArmy
+  fullName: BadgeAnimator.isLargestArmy
+  nameWithType: BadgeAnimator.isLargestArmy
+- uid: Global.BadgeAnimator.isLongestRoad
+  name: isLongestRoad
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_isLongestRoad
+  commentId: F:Global.BadgeAnimator.isLongestRoad
+  fullName: BadgeAnimator.isLongestRoad
+  nameWithType: BadgeAnimator.isLongestRoad
+- uid: Global.BadgeAnimator.road
+  name: road
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_road
+  commentId: F:Global.BadgeAnimator.road
+  fullName: BadgeAnimator.road
+  nameWithType: BadgeAnimator.road
+- uid: Global.BadgeAnimator.setArmySprite
+  name: setArmySprite()
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_setArmySprite
+  commentId: M:Global.BadgeAnimator.setArmySprite
+  fullName: BadgeAnimator.setArmySprite()
+  nameWithType: BadgeAnimator.setArmySprite()
+- uid: Global.BadgeAnimator.setArmySprite*
+  name: setArmySprite
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_setArmySprite_
+  commentId: Overload:Global.BadgeAnimator.setArmySprite
+  isSpec: "True"
+  fullName: BadgeAnimator.setArmySprite
+  nameWithType: BadgeAnimator.setArmySprite
+- uid: Global.BadgeAnimator.setRoadSprite
+  name: setRoadSprite()
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_setRoadSprite
+  commentId: M:Global.BadgeAnimator.setRoadSprite
+  fullName: BadgeAnimator.setRoadSprite()
+  nameWithType: BadgeAnimator.setRoadSprite()
+- uid: Global.BadgeAnimator.setRoadSprite*
+  name: setRoadSprite
+  href: api/Global.BadgeAnimator.html#Global_BadgeAnimator_setRoadSprite_
+  commentId: Overload:Global.BadgeAnimator.setRoadSprite
+  isSpec: "True"
+  fullName: BadgeAnimator.setRoadSprite
+  nameWithType: BadgeAnimator.setRoadSprite
 - uid: Global.BoardManager
   name: BoardManager
   href: api/Global.BoardManager.html
@@ -780,6 +842,69 @@ references:
   isSpec: "True"
   fullName: ConnectionSettings.toggleGhostVisibility
   nameWithType: ConnectionSettings.toggleGhostVisibility
+- uid: Global.CrownAnimator
+  name: CrownAnimator
+  href: api/Global.CrownAnimator.html
+  commentId: T:Global.CrownAnimator
+  fullName: CrownAnimator
+  nameWithType: CrownAnimator
+- uid: Global.CrownAnimator.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_assetManagerSprites
+  commentId: F:Global.CrownAnimator.assetManagerSprites
+  fullName: CrownAnimator.assetManagerSprites
+  nameWithType: CrownAnimator.assetManagerSprites
+- uid: Global.CrownAnimator.crown
+  name: crown
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_crown
+  commentId: F:Global.CrownAnimator.crown
+  fullName: CrownAnimator.crown
+  nameWithType: CrownAnimator.crown
+- uid: Global.CrownAnimator.setCrownDefault
+  name: setCrownDefault()
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setCrownDefault
+  commentId: M:Global.CrownAnimator.setCrownDefault
+  fullName: CrownAnimator.setCrownDefault()
+  nameWithType: CrownAnimator.setCrownDefault()
+- uid: Global.CrownAnimator.setCrownDefault*
+  name: setCrownDefault
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setCrownDefault_
+  commentId: Overload:Global.CrownAnimator.setCrownDefault
+  isSpec: "True"
+  fullName: CrownAnimator.setCrownDefault
+  nameWithType: CrownAnimator.setCrownDefault
+- uid: Global.CrownAnimator.setCrownSprite(System.Int32)
+  name: setCrownSprite(Int32)
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setCrownSprite_System_Int32_
+  commentId: M:Global.CrownAnimator.setCrownSprite(System.Int32)
+  fullName: CrownAnimator.setCrownSprite(System.Int32)
+  nameWithType: CrownAnimator.setCrownSprite(Int32)
+- uid: Global.CrownAnimator.setCrownSprite*
+  name: setCrownSprite
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setCrownSprite_
+  commentId: Overload:Global.CrownAnimator.setCrownSprite
+  isSpec: "True"
+  fullName: CrownAnimator.setCrownSprite
+  nameWithType: CrownAnimator.setCrownSprite
+- uid: Global.CrownAnimator.setSparkle(System.String)
+  name: setSparkle(String)
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setSparkle_System_String_
+  commentId: M:Global.CrownAnimator.setSparkle(System.String)
+  fullName: CrownAnimator.setSparkle(System.String)
+  nameWithType: CrownAnimator.setSparkle(String)
+- uid: Global.CrownAnimator.setSparkle*
+  name: setSparkle
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_setSparkle_
+  commentId: Overload:Global.CrownAnimator.setSparkle
+  isSpec: "True"
+  fullName: CrownAnimator.setSparkle
+  nameWithType: CrownAnimator.setSparkle
+- uid: Global.CrownAnimator.sparkles
+  name: sparkles
+  href: api/Global.CrownAnimator.html#Global_CrownAnimator_sparkles
+  commentId: F:Global.CrownAnimator.sparkles
+  fullName: CrownAnimator.sparkles
+  nameWithType: CrownAnimator.sparkles
 - uid: Global.DieSettings
   name: DieSettings
   href: api/Global.DieSettings.html
@@ -1498,6 +1623,12 @@ references:
   commentId: T:Global.PlayerGameCardSettings
   fullName: PlayerGameCardSettings
   nameWithType: PlayerGameCardSettings
+- uid: Global.PlayerGameCardSettings.armySprite
+  name: armySprite
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_armySprite
+  commentId: F:Global.PlayerGameCardSettings.armySprite
+  fullName: PlayerGameCardSettings.armySprite
+  nameWithType: PlayerGameCardSettings.armySprite
 - uid: Global.PlayerGameCardSettings.assetManagerSprites
   name: assetManagerSprites
   href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_assetManagerSprites
@@ -1516,6 +1647,12 @@ references:
   commentId: F:Global.PlayerGameCardSettings.crownAnimator
   fullName: PlayerGameCardSettings.crownAnimator
   nameWithType: PlayerGameCardSettings.crownAnimator
+- uid: Global.PlayerGameCardSettings.crownSprite
+  name: crownSprite
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_crownSprite
+  commentId: F:Global.PlayerGameCardSettings.crownSprite
+  fullName: PlayerGameCardSettings.crownSprite
+  nameWithType: PlayerGameCardSettings.crownSprite
 - uid: Global.PlayerGameCardSettings.playername
   name: playername
   href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_playername
@@ -1528,12 +1665,18 @@ references:
   commentId: F:Global.PlayerGameCardSettings.playerProfileImage
   fullName: PlayerGameCardSettings.playerProfileImage
   nameWithType: PlayerGameCardSettings.playerProfileImage
-- uid: Global.PlayerGameCardSettings.setPlayer
-  name: setPlayer()
-  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_setPlayer
-  commentId: M:Global.PlayerGameCardSettings.setPlayer
-  fullName: PlayerGameCardSettings.setPlayer()
-  nameWithType: PlayerGameCardSettings.setPlayer()
+- uid: Global.PlayerGameCardSettings.roadSprite
+  name: roadSprite
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_roadSprite
+  commentId: F:Global.PlayerGameCardSettings.roadSprite
+  fullName: PlayerGameCardSettings.roadSprite
+  nameWithType: PlayerGameCardSettings.roadSprite
+- uid: Global.PlayerGameCardSettings.setPlayer(Player)
+  name: setPlayer(Player)
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_setPlayer_Player_
+  commentId: M:Global.PlayerGameCardSettings.setPlayer(Player)
+  fullName: PlayerGameCardSettings.setPlayer(Player)
+  nameWithType: PlayerGameCardSettings.setPlayer(Player)
 - uid: Global.PlayerGameCardSettings.setPlayer*
   name: setPlayer
   href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_setPlayer_
@@ -1547,12 +1690,12 @@ references:
   commentId: F:Global.PlayerGameCardSettings.statsAnimator
   fullName: PlayerGameCardSettings.statsAnimator
   nameWithType: PlayerGameCardSettings.statsAnimator
-- uid: Global.PlayerGameCardSettings.updateInformation
-  name: updateInformation()
-  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_updateInformation
-  commentId: M:Global.PlayerGameCardSettings.updateInformation
-  fullName: PlayerGameCardSettings.updateInformation()
-  nameWithType: PlayerGameCardSettings.updateInformation()
+- uid: Global.PlayerGameCardSettings.updateInformation(PlayerGameState)
+  name: updateInformation(PlayerGameState)
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_updateInformation_PlayerGameState_
+  commentId: M:Global.PlayerGameCardSettings.updateInformation(PlayerGameState)
+  fullName: PlayerGameCardSettings.updateInformation(PlayerGameState)
+  nameWithType: PlayerGameCardSettings.updateInformation(PlayerGameState)
 - uid: Global.PlayerGameCardSettings.updateInformation*
   name: updateInformation
   href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_updateInformation_
@@ -1566,6 +1709,46 @@ references:
   commentId: F:Global.PlayerGameCardSettings.vpAnimator
   fullName: PlayerGameCardSettings.vpAnimator
   nameWithType: PlayerGameCardSettings.vpAnimator
+- uid: Global.PlayerGameCardSettings.vpAnimatorScript
+  name: vpAnimatorScript
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_vpAnimatorScript
+  commentId: F:Global.PlayerGameCardSettings.vpAnimatorScript
+  fullName: PlayerGameCardSettings.vpAnimatorScript
+  nameWithType: PlayerGameCardSettings.vpAnimatorScript
+- uid: Global.PlayerGameCardSettings.vpSprite
+  name: vpSprite
+  href: api/Global.PlayerGameCardSettings.html#Global_PlayerGameCardSettings_vpSprite
+  commentId: F:Global.PlayerGameCardSettings.vpSprite
+  fullName: PlayerGameCardSettings.vpSprite
+  nameWithType: PlayerGameCardSettings.vpSprite
+- uid: Global.PlayersPanel
+  name: PlayersPanel
+  href: api/Global.PlayersPanel.html
+  commentId: T:Global.PlayersPanel
+  fullName: PlayersPanel
+  nameWithType: PlayersPanel
+- uid: Global.PlayersPanel.generatePlayers(Player[])
+  name: generatePlayers(Player[])
+  href: api/Global.PlayersPanel.html#Global_PlayersPanel_generatePlayers_Player___
+  commentId: M:Global.PlayersPanel.generatePlayers(Player[])
+  name.vb: generatePlayers(Player())
+  fullName: PlayersPanel.generatePlayers(Player[])
+  fullName.vb: PlayersPanel.generatePlayers(Player())
+  nameWithType: PlayersPanel.generatePlayers(Player[])
+  nameWithType.vb: PlayersPanel.generatePlayers(Player())
+- uid: Global.PlayersPanel.generatePlayers*
+  name: generatePlayers
+  href: api/Global.PlayersPanel.html#Global_PlayersPanel_generatePlayers_
+  commentId: Overload:Global.PlayersPanel.generatePlayers
+  isSpec: "True"
+  fullName: PlayersPanel.generatePlayers
+  nameWithType: PlayersPanel.generatePlayers
+- uid: Global.PlayersPanel.playerCardPrefab
+  name: playerCardPrefab
+  href: api/Global.PlayersPanel.html#Global_PlayersPanel_playerCardPrefab
+  commentId: F:Global.PlayersPanel.playerCardPrefab
+  fullName: PlayersPanel.playerCardPrefab
+  nameWithType: PlayersPanel.playerCardPrefab
 - uid: Global.PlayerStat
   name: PlayerStat
   href: api/Global.PlayerStat.html
@@ -2523,6 +2706,12 @@ references:
   commentId: F:Global.UIManager.localPlayerStatsPrefab
   fullName: UIManager.localPlayerStatsPrefab
   nameWithType: UIManager.localPlayerStatsPrefab
+- uid: Global.UIManager.playersPanelPrefab
+  name: playersPanelPrefab
+  href: api/Global.UIManager.html#Global_UIManager_playersPanelPrefab
+  commentId: F:Global.UIManager.playersPanelPrefab
+  fullName: UIManager.playersPanelPrefab
+  nameWithType: UIManager.playersPanelPrefab
 - uid: Global.UIManager.turnTimerPrefab
   name: turnTimerPrefab
   href: api/Global.UIManager.html#Global_UIManager_turnTimerPrefab
@@ -2548,6 +2737,62 @@ references:
   isSpec: "True"
   fullName: UIManager.updateLocalPlayerStats
   nameWithType: UIManager.updateLocalPlayerStats
+- uid: Global.VPAnimator
+  name: VPAnimator
+  href: api/Global.VPAnimator.html
+  commentId: T:Global.VPAnimator
+  fullName: VPAnimator
+  nameWithType: VPAnimator
+- uid: Global.VPAnimator.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.VPAnimator.html#Global_VPAnimator_assetManagerSprites
+  commentId: F:Global.VPAnimator.assetManagerSprites
+  fullName: VPAnimator.assetManagerSprites
+  nameWithType: VPAnimator.assetManagerSprites
+- uid: Global.VPAnimator.setSparkle(System.String)
+  name: setSparkle(String)
+  href: api/Global.VPAnimator.html#Global_VPAnimator_setSparkle_System_String_
+  commentId: M:Global.VPAnimator.setSparkle(System.String)
+  fullName: VPAnimator.setSparkle(System.String)
+  nameWithType: VPAnimator.setSparkle(String)
+- uid: Global.VPAnimator.setSparkle*
+  name: setSparkle
+  href: api/Global.VPAnimator.html#Global_VPAnimator_setSparkle_
+  commentId: Overload:Global.VPAnimator.setSparkle
+  isSpec: "True"
+  fullName: VPAnimator.setSparkle
+  nameWithType: VPAnimator.setSparkle
+- uid: Global.VPAnimator.setVPSprite
+  name: setVPSprite()
+  href: api/Global.VPAnimator.html#Global_VPAnimator_setVPSprite
+  commentId: M:Global.VPAnimator.setVPSprite
+  fullName: VPAnimator.setVPSprite()
+  nameWithType: VPAnimator.setVPSprite()
+- uid: Global.VPAnimator.setVPSprite*
+  name: setVPSprite
+  href: api/Global.VPAnimator.html#Global_VPAnimator_setVPSprite_
+  commentId: Overload:Global.VPAnimator.setVPSprite
+  isSpec: "True"
+  fullName: VPAnimator.setVPSprite
+  nameWithType: VPAnimator.setVPSprite
+- uid: Global.VPAnimator.sparkleSprites
+  name: sparkleSprites
+  href: api/Global.VPAnimator.html#Global_VPAnimator_sparkleSprites
+  commentId: F:Global.VPAnimator.sparkleSprites
+  fullName: VPAnimator.sparkleSprites
+  nameWithType: VPAnimator.sparkleSprites
+- uid: Global.VPAnimator.vp
+  name: vp
+  href: api/Global.VPAnimator.html#Global_VPAnimator_vp
+  commentId: F:Global.VPAnimator.vp
+  fullName: VPAnimator.vp
+  nameWithType: VPAnimator.vp
+- uid: Global.VPAnimator.vpSprite
+  name: vpSprite
+  href: api/Global.VPAnimator.html#Global_VPAnimator_vpSprite
+  commentId: F:Global.VPAnimator.vpSprite
+  fullName: VPAnimator.vpSprite
+  nameWithType: VPAnimator.vpSprite
 - uid: Model
   name: Model
   href: api/Model.html
@@ -2835,6 +3080,19 @@ references:
   isSpec: "True"
   fullName: Model.Player.Name
   nameWithType: Player.Name
+- uid: Model.Player.ProfileImage
+  name: ProfileImage
+  href: api/Model.Player.html#Model_Player_ProfileImage
+  commentId: P:Model.Player.ProfileImage
+  fullName: Model.Player.ProfileImage
+  nameWithType: Player.ProfileImage
+- uid: Model.Player.ProfileImage*
+  name: ProfileImage
+  href: api/Model.Player.html#Model_Player_ProfileImage_
+  commentId: Overload:Model.Player.ProfileImage
+  isSpec: "True"
+  fullName: Model.Player.ProfileImage
+  nameWithType: Player.ProfileImage
 - uid: Model.Player.Team
   name: Team
   href: api/Model.Player.html#Model_Player_Team
@@ -2854,6 +3112,19 @@ references:
   commentId: T:Model.PlayerGameState
   fullName: Model.PlayerGameState
   nameWithType: PlayerGameState
+- uid: Model.PlayerGameState.#ctor(System.Int32)
+  name: PlayerGameState(Int32)
+  href: api/Model.PlayerGameState.html#Model_PlayerGameState__ctor_System_Int32_
+  commentId: M:Model.PlayerGameState.#ctor(System.Int32)
+  fullName: Model.PlayerGameState.PlayerGameState(System.Int32)
+  nameWithType: PlayerGameState.PlayerGameState(Int32)
+- uid: Model.PlayerGameState.#ctor*
+  name: PlayerGameState
+  href: api/Model.PlayerGameState.html#Model_PlayerGameState__ctor_
+  commentId: Overload:Model.PlayerGameState.#ctor
+  isSpec: "True"
+  fullName: Model.PlayerGameState.PlayerGameState
+  nameWithType: PlayerGameState.PlayerGameState
 - uid: Model.PlayerGameState.BuildingsOwned
   name: BuildingsOwned
   href: api/Model.PlayerGameState.html#Model_PlayerGameState_BuildingsOwned
