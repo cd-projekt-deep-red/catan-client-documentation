@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BuildPopulationSettings
+    <title>Class PlayerGameState
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BuildPopulationSettings
+    <meta name="title" content="Class PlayerGameState
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -104,8 +104,8 @@
                           <li class="">
                             <a href="Global.BuildingIconSettings.html" title="BuildingIconSettings" class="">BuildingIconSettings</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.BuildPopulationSettings.html" title="BuildPopulationSettings" class="active">BuildPopulationSettings</a>
+                          <li class="">
+                            <a href="Global.BuildPopulationSettings.html" title="BuildPopulationSettings" class="">BuildPopulationSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.BuildRoadSettings.html" title="BuildRoadSettings" class="">BuildRoadSettings</a>
@@ -233,8 +233,8 @@
                           <li class="">
                             <a href="Model.Player.html" title="Player" class="">Player</a>
                           </li>
-                          <li class="">
-                            <a href="Model.PlayerGameState.html" title="PlayerGameState" class="">PlayerGameState</a>
+                          <li class="active">
+                            <a href="Model.PlayerGameState.html" title="PlayerGameState" class="active">PlayerGameState</a>
                           </li>
                           <li class="">
                             <a href="Model.ResourceTile.html" title="ResourceTile" class="">ResourceTile</a>
@@ -274,36 +274,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.BuildPopulationSettings">
+            <article class="content wrap" id="_content" data-uid="Model.PlayerGameState">
   
   
-  <h1 id="Global_BuildPopulationSettings" data-uid="Global.BuildPopulationSettings" class="text-break">Class BuildPopulationSettings
+  <h1 id="Model_PlayerGameState" data-uid="Model.PlayerGameState" class="text-break">Class PlayerGameState
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Information about a given player for UI purposes</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BuildPopulationSettings</span></div>
+    <div class="level1"><span class="xref">PlayerGameState</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_BuildPopulationSettings_syntax">Syntax</h5>
+  <h5 id="Model_PlayerGameState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BuildPopulationSettings : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerGameState</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Global_BuildPopulationSettings_assetManagerSprites" data-uid="Global.BuildPopulationSettings.assetManagerSprites">assetManagerSprites</h4>
+  <a id="Model_PlayerGameState_BuildingsOwned_" data-uid="Model.PlayerGameState.BuildingsOwned*"></a>
+  <h4 id="Model_PlayerGameState_BuildingsOwned" data-uid="Model.PlayerGameState.BuildingsOwned">BuildingsOwned</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; BuildingsOwned { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -313,21 +339,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
-        <td></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The amount of buildings owned by the player.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_city" data-uid="Global.BuildPopulationSettings.city">city</h4>
+  <a id="Model_PlayerGameState_hasLargestArmy_" data-uid="Model.PlayerGameState.hasLargestArmy*"></a>
+  <h4 id="Model_PlayerGameState_hasLargestArmy" data-uid="Model.PlayerGameState.hasLargestArmy">hasLargestArmy</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject city</code></pre>
+    <pre><code class="lang-csharp hljs">public bool hasLargestArmy { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -337,21 +365,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Does the player have the largest army.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_cityResourcesNeededSpriteRenderers" data-uid="Global.BuildPopulationSettings.cityResourcesNeededSpriteRenderers">cityResourcesNeededSpriteRenderers</h4>
+  <a id="Model_PlayerGameState_hasLongestRoad_" data-uid="Model.PlayerGameState.hasLongestRoad*"></a>
+  <h4 id="Model_PlayerGameState_hasLongestRoad" data-uid="Model.PlayerGameState.hasLongestRoad">hasLongestRoad</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer[] cityResourcesNeededSpriteRenderers</code></pre>
+    <pre><code class="lang-csharp hljs">public bool hasLongestRoad { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -361,21 +391,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SpriteRenderer</span>[]</td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Does the player have the longest road.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_citySpriteRenderer" data-uid="Global.BuildPopulationSettings.citySpriteRenderer">citySpriteRenderer</h4>
+  <a id="Model_PlayerGameState_isLeader_" data-uid="Model.PlayerGameState.isLeader*"></a>
+  <h4 id="Model_PlayerGameState_isLeader" data-uid="Model.PlayerGameState.isLeader">isLeader</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer citySpriteRenderer</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isLeader { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -385,21 +417,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Is the player leading the pack.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_iconCityAnimator" data-uid="Global.BuildPopulationSettings.iconCityAnimator">iconCityAnimator</h4>
+  <a id="Model_PlayerGameState_PlayerID_" data-uid="Model.PlayerGameState.PlayerID*"></a>
+  <h4 id="Model_PlayerGameState_PlayerID" data-uid="Model.PlayerGameState.PlayerID">PlayerID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator iconCityAnimator</code></pre>
+    <pre><code class="lang-csharp hljs">public int PlayerID { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -409,21 +443,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Animator</span></td>
-        <td></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The ID of the player.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_iconCitySpriteRenderer" data-uid="Global.BuildPopulationSettings.iconCitySpriteRenderer">iconCitySpriteRenderer</h4>
+  <a id="Model_PlayerGameState_ResourcesOwned_" data-uid="Model.PlayerGameState.ResourcesOwned*"></a>
+  <h4 id="Model_PlayerGameState_ResourcesOwned" data-uid="Model.PlayerGameState.ResourcesOwned">ResourcesOwned</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer iconCitySpriteRenderer</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; ResourcesOwned { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -433,21 +469,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The amount of resources owned by the player.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BuildPopulationSettings_iconSettlementAnimator" data-uid="Global.BuildPopulationSettings.iconSettlementAnimator">iconSettlementAnimator</h4>
+  <a id="Model_PlayerGameState_VP_" data-uid="Model.PlayerGameState.VP*"></a>
+  <h4 id="Model_PlayerGameState_VP" data-uid="Model.PlayerGameState.VP">VP</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator iconSettlementAnimator</code></pre>
+    <pre><code class="lang-csharp hljs">public int VP { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -457,176 +495,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Animator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_iconSettlementSpriteRenderer" data-uid="Global.BuildPopulationSettings.iconSettlementSpriteRenderer">iconSettlementSpriteRenderer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer iconSettlementSpriteRenderer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_mouseArea" data-uid="Global.BuildPopulationSettings.mouseArea">mouseArea</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BoxCollider2D mouseArea</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">BoxCollider2D</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_resourcesCityNeededAnimator" data-uid="Global.BuildPopulationSettings.resourcesCityNeededAnimator">resourcesCityNeededAnimator</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator resourcesCityNeededAnimator</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Animator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_resourcesSettlementNeededAnimator" data-uid="Global.BuildPopulationSettings.resourcesSettlementNeededAnimator">resourcesSettlementNeededAnimator</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator resourcesSettlementNeededAnimator</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Animator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_settlement" data-uid="Global.BuildPopulationSettings.settlement">settlement</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject settlement</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_settlementResourcesNeededSpriteRenderers" data-uid="Global.BuildPopulationSettings.settlementResourcesNeededSpriteRenderers">settlementResourcesNeededSpriteRenderers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer[] settlementResourcesNeededSpriteRenderers</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BuildPopulationSettings_settlementSpriteRenderer" data-uid="Global.BuildPopulationSettings.settlementSpriteRenderer">settlementSpriteRenderer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer settlementSpriteRenderer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The amount of VP the player has.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -634,13 +505,15 @@
   </h3>
   
   
-  <a id="Global_BuildPopulationSettings_setPopulationColor_" data-uid="Global.BuildPopulationSettings.setPopulationColor*"></a>
-  <h4 id="Global_BuildPopulationSettings_setPopulationColor_System_String_" data-uid="Global.BuildPopulationSettings.setPopulationColor(System.String)">setPopulationColor(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Model_PlayerGameState_setBuilding_" data-uid="Model.PlayerGameState.setBuilding*"></a>
+  <h4 id="Model_PlayerGameState_setBuilding_System_String_System_Int32_" data-uid="Model.PlayerGameState.setBuilding(System.String,System.Int32)">setBuilding(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Takes a building type string and a building count integer
+and sets the player's new building count value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setPopulationColor(string color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setBuilding(string buildingType, int buildingCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -654,20 +527,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">buildingType</span></td>
+        <td><p>the name of the building to set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">buildingCount</span></td>
+        <td><p>positive integer count of how much of that building the player has</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_BuildPopulationSettings_toggleVisibility_" data-uid="Global.BuildPopulationSettings.toggleVisibility*"></a>
-  <h4 id="Global_BuildPopulationSettings_toggleVisibility_System_Boolean_" data-uid="Global.BuildPopulationSettings.toggleVisibility(System.Boolean)">toggleVisibility(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Model_PlayerGameState_setResource_" data-uid="Model.PlayerGameState.setResource*"></a>
+  <h4 id="Model_PlayerGameState_setResource_System_String_System_Int32_" data-uid="Model.PlayerGameState.setResource(System.String,System.Int32)">setResource(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Takes a resource type string and a resource count integer
+and sets the player's new resource count value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void toggleVisibility(bool visible)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setResource(string resourceType, int resourceCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -680,22 +562,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">visible</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>the name of the resource to set</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">resourceCount</span></td>
+        <td><p>positive integer count of how much of that resource the player has</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_BuildPopulationSettings_upgradePopulation_" data-uid="Global.BuildPopulationSettings.upgradePopulation*"></a>
-  <h4 id="Global_BuildPopulationSettings_upgradePopulation" data-uid="Global.BuildPopulationSettings.upgradePopulation">upgradePopulation()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void upgradePopulation()</code></pre>
-  </div>
 </article>
           </div>
           
