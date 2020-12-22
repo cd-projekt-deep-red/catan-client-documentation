@@ -123,6 +123,9 @@
                             <a href="Global.DieSettings.html" title="DieSettings" class="">DieSettings</a>
                           </li>
                           <li class="">
+                            <a href="Global.DomesticTrades.html" title="DomesticTrades" class="">DomesticTrades</a>
+                          </li>
+                          <li class="">
                             <a href="Global.EventDisplay.html" title="EventDisplay" class="">EventDisplay</a>
                           </li>
                           <li class="">
@@ -171,6 +174,9 @@
                             <a href="Global.LocalPlayerStats.html" title="LocalPlayerStats" class="">LocalPlayerStats</a>
                           </li>
                           <li class="">
+                            <a href="Global.MaritimeTrades.html" title="MaritimeTrades" class="">MaritimeTrades</a>
+                          </li>
+                          <li class="">
                             <a href="Global.MockNetworkManager.html" title="MockNetworkManager" class="">MockNetworkManager</a>
                           </li>
                           <li class="">
@@ -199,6 +205,9 @@
                           </li>
                           <li class="">
                             <a href="Global.PortSettings.html" title="PortSettings" class="">PortSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PortTradeSettings.html" title="PortTradeSettings" class="">PortTradeSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.RectTransformExtensions.html" title="RectTransformExtensions" class="">RectTransformExtensions</a>
@@ -232,6 +241,9 @@
                           </li>
                           <li class="">
                             <a href="Global.VPAnimator.html" title="VPAnimator" class="">VPAnimator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.WindowSettings.html" title="WindowSettings" class="">WindowSettings</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -312,6 +324,30 @@
   </div>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="Global_TradeMessage_assetManagerSounds" data-uid="Global.TradeMessage.assetManagerSounds">assetManagerSounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="Global_TradeMessage_assetManagerSprites" data-uid="Global.TradeMessage.assetManagerSprites">assetManagerSprites</h4>
@@ -554,6 +590,30 @@
   </table>
   
   
+  <h4 id="Global_TradeMessage_tradeAudioSource" data-uid="Global.TradeMessage.tradeAudioSource">tradeAudioSource</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioSource tradeAudioSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_TradeMessage_tradeIcon" data-uid="Global.TradeMessage.tradeIcon">tradeIcon</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -580,14 +640,85 @@
   </h3>
   
   
-  <a id="Global_TradeMessage_setMessageStyleState_" data-uid="Global.TradeMessage.setMessageStyleState*"></a>
-  <h4 id="Global_TradeMessage_setMessageStyleState" data-uid="Global.TradeMessage.setMessageStyleState">setMessageStyleState()</h4>
+  <a id="Global_TradeMessage_playTradeSound_" data-uid="Global.TradeMessage.playTradeSound*"></a>
+  <h4 id="Global_TradeMessage_playTradeSound_System_Int32_" data-uid="Global.TradeMessage.playTradeSound(System.Int32)">playTradeSound(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setMessageStyleState()</code></pre>
+    <pre><code class="lang-csharp hljs">public void playTradeSound(int sfxIndex)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">sfxIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_TradeMessage_setAllPeriodsStyle_" data-uid="Global.TradeMessage.setAllPeriodsStyle*"></a>
+  <h4 id="Global_TradeMessage_setAllPeriodsStyle_System_Int32_" data-uid="Global.TradeMessage.setAllPeriodsStyle(System.Int32)">setAllPeriodsStyle(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setAllPeriodsStyle(int areActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">areActive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_TradeMessage_setMessageStyleState_" data-uid="Global.TradeMessage.setMessageStyleState*"></a>
+  <h4 id="Global_TradeMessage_setMessageStyleState_System_Int32_" data-uid="Global.TradeMessage.setMessageStyleState(System.Int32)">setMessageStyleState(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setMessageStyleState(int styleState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">styleState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_TradeMessage_setPeriodStyle_" data-uid="Global.TradeMessage.setPeriodStyle*"></a>
@@ -645,12 +776,39 @@
   
   
   <a id="Global_TradeMessage_setTrade_" data-uid="Global.TradeMessage.setTrade*"></a>
-  <h4 id="Global_TradeMessage_setTrade" data-uid="Global.TradeMessage.setTrade">setTrade()</h4>
+  <h4 id="Global_TradeMessage_setTrade_TradeOffer_" data-uid="Global.TradeMessage.setTrade(TradeOffer)">setTrade(TradeOffer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setTrade()</code></pre>
+    <pre><code class="lang-csharp hljs">public void setTrade(TradeOffer offer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TradeOffer</span></td>
+        <td><span class="parametername">offer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_TradeMessage_tradeWaiting_" data-uid="Global.TradeMessage.tradeWaiting*"></a>
+  <h4 id="Global_TradeMessage_tradeWaiting" data-uid="Global.TradeMessage.tradeWaiting">tradeWaiting()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tradeWaiting()</code></pre>
   </div>
 </article>
           </div>

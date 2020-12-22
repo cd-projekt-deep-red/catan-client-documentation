@@ -123,6 +123,9 @@
                             <a href="Global.DieSettings.html" title="DieSettings" class="">DieSettings</a>
                           </li>
                           <li class="">
+                            <a href="Global.DomesticTrades.html" title="DomesticTrades" class="">DomesticTrades</a>
+                          </li>
+                          <li class="">
                             <a href="Global.EventDisplay.html" title="EventDisplay" class="">EventDisplay</a>
                           </li>
                           <li class="">
@@ -171,6 +174,9 @@
                             <a href="Global.LocalPlayerStats.html" title="LocalPlayerStats" class="">LocalPlayerStats</a>
                           </li>
                           <li class="">
+                            <a href="Global.MaritimeTrades.html" title="MaritimeTrades" class="">MaritimeTrades</a>
+                          </li>
+                          <li class="">
                             <a href="Global.MockNetworkManager.html" title="MockNetworkManager" class="">MockNetworkManager</a>
                           </li>
                           <li class="">
@@ -199,6 +205,9 @@
                           </li>
                           <li class="">
                             <a href="Global.PortSettings.html" title="PortSettings" class="">PortSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PortTradeSettings.html" title="PortTradeSettings" class="">PortTradeSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.RectTransformExtensions.html" title="RectTransformExtensions" class="">RectTransformExtensions</a>
@@ -232,6 +241,9 @@
                           </li>
                           <li class="">
                             <a href="Global.VPAnimator.html" title="VPAnimator" class="">VPAnimator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.WindowSettings.html" title="WindowSettings" class="">WindowSettings</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -340,13 +352,13 @@
   
   
   <a id="Model_TradeOffer__ctor_" data-uid="Model.TradeOffer.#ctor*"></a>
-  <h4 id="Model_TradeOffer__ctor_System_String_System_Int32_System_String_System_Int32_System_Boolean_" data-uid="Model.TradeOffer.#ctor(System.String,System.Int32,System.String,System.Int32,System.Boolean)">TradeOffer(String, Int32, String, Int32, Boolean)</h4>
+  <h4 id="Model_TradeOffer__ctor_System_String_System_String_System_String_System_Int32_System_String_System_String_System_Int32_System_Boolean_" data-uid="Model.TradeOffer.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.Boolean)">TradeOffer(String, String, String, Int32, String, String, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Consturctor for a new trade offer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TradeOffer(string giving, int givingCount, string receiving, int receivingCount, bool canAccept)</code></pre>
+    <pre><code class="lang-csharp hljs">public TradeOffer(string id, string givingPlayer, string giving, int givingCount, string receivingPlayer, string receiving, int receivingCount, bool canAccept)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -360,6 +372,18 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>unique id for the offer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">givingPlayer</span></td>
+        <td><p>id of the giver</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">giving</span></td>
         <td><p>what resource is being offered</p>
 </td>
@@ -368,6 +392,12 @@
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">givingCount</span></td>
         <td><p>how much is being offered</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">receivingPlayer</span></td>
+        <td><p>id of the receiver</p>
 </td>
       </tr>
       <tr>
@@ -414,6 +444,32 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>Can the Receiver afford the offer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_TradeOffer_GiverID_" data-uid="Model.TradeOffer.GiverID*"></a>
+  <h4 id="Model_TradeOffer_GiverID" data-uid="Model.TradeOffer.GiverID">GiverID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GiverID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The player id of the giver.</p>
 </td>
       </tr>
     </tbody>
@@ -467,6 +523,57 @@
         <td><span class="xref">System.String</span></td>
         <td><p>The resource being offered.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_TradeOffer_OfferID_" data-uid="Model.TradeOffer.OfferID*"></a>
+  <h4 id="Model_TradeOffer_OfferID" data-uid="Model.TradeOffer.OfferID">OfferID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OfferID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The unique ID for the trade offer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_TradeOffer_ReceiverID_" data-uid="Model.TradeOffer.ReceiverID*"></a>
+  <h4 id="Model_TradeOffer_ReceiverID" data-uid="Model.TradeOffer.ReceiverID">ReceiverID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReceiverID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

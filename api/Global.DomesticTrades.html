@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EventEntrySettings
+    <title>Class DomesticTrades
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EventEntrySettings
+    <meta name="title" content="Class DomesticTrades
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -122,14 +122,14 @@
                           <li class="">
                             <a href="Global.DieSettings.html" title="DieSettings" class="">DieSettings</a>
                           </li>
-                          <li class="">
-                            <a href="Global.DomesticTrades.html" title="DomesticTrades" class="">DomesticTrades</a>
+                          <li class="active">
+                            <a href="Global.DomesticTrades.html" title="DomesticTrades" class="active">DomesticTrades</a>
                           </li>
                           <li class="">
                             <a href="Global.EventDisplay.html" title="EventDisplay" class="">EventDisplay</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.EventEntrySettings.html" title="EventEntrySettings" class="active">EventEntrySettings</a>
+                          <li class="">
+                            <a href="Global.EventEntrySettings.html" title="EventEntrySettings" class="">EventEntrySettings</a>
                           </li>
                           <li class="">
                             <a href="Global.EventManager.html" title="EventManager" class="">EventManager</a>
@@ -304,34 +304,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.EventEntrySettings">
+            <article class="content wrap" id="_content" data-uid="Global.DomesticTrades">
   
   
-  <h1 id="Global_EventEntrySettings" data-uid="Global.EventEntrySettings" class="text-break">Class EventEntrySettings
+  <h1 id="Global_DomesticTrades" data-uid="Global.DomesticTrades" class="text-break">Class DomesticTrades
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EventEntrySettings</span></div>
+    <div class="level1"><span class="xref">DomesticTrades</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_EventEntrySettings_syntax">Syntax</h5>
+  <h5 id="Global_DomesticTrades_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EventEntrySettings : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class DomesticTrades : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_EventEntrySettings_eventText" data-uid="Global.EventEntrySettings.eventText">eventText</h4>
+  <h4 id="Global_DomesticTrades_playerTradeLines" data-uid="Global.DomesticTrades.playerTradeLines">playerTradeLines</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI eventText</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject[] playerTradeLines</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,31 +343,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_EventEntrySettings_eventTextAnimator" data-uid="Global.EventEntrySettings.eventTextAnimator">eventTextAnimator</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator eventTextAnimator</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Animator</span></td>
+        <td><span class="xref">GameObject</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -376,13 +352,13 @@
   </h3>
   
   
-  <a id="Global_EventEntrySettings_setEventText_" data-uid="Global.EventEntrySettings.setEventText*"></a>
-  <h4 id="Global_EventEntrySettings_setEventText_System_String_" data-uid="Global.EventEntrySettings.setEventText(System.String)">setEventText(String)</h4>
+  <a id="Global_DomesticTrades_setTraders_" data-uid="Global.DomesticTrades.setTraders*"></a>
+  <h4 id="Global_DomesticTrades_setTraders_Player___" data-uid="Global.DomesticTrades.setTraders(Player[])">setTraders(Player[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setEventText(string text)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setTraders(Player[] players)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -395,8 +371,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">text</span></td>
+        <td><span class="xref">Player</span>[]</td>
+        <td><span class="parametername">players</span></td>
         <td></td>
       </tr>
     </tbody>
