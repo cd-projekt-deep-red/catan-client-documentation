@@ -2640,6 +2640,12 @@ references:
   commentId: F:Global.Timer.timerSprites
   fullName: Timer.timerSprites
   nameWithType: Timer.timerSprites
+- uid: Global.TradeMessage
+  name: TradeMessage
+  href: api/Global.TradeMessage.html
+  commentId: T:Global.TradeMessage
+  fullName: TradeMessage
+  nameWithType: TradeMessage
 - uid: Global.UIManager
   name: UIManager
   href: api/Global.UIManager.html
