@@ -531,12 +531,12 @@ references:
   commentId: F:Global.BuildingIconSettings.iconSpriteRenderer
   fullName: BuildingIconSettings.iconSpriteRenderer
   nameWithType: BuildingIconSettings.iconSpriteRenderer
-- uid: Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,System.String,System.Boolean)
-  name: setBuildingIcon(String, Int32, String, Boolean)
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_setBuildingIcon_System_String_System_Int32_System_String_System_Boolean_
-  commentId: M:Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,System.String,System.Boolean)
-  fullName: BuildingIconSettings.setBuildingIcon(System.String, System.Int32, System.String, System.Boolean)
-  nameWithType: BuildingIconSettings.setBuildingIcon(String, Int32, String, Boolean)
+- uid: Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,Team,System.Boolean)
+  name: setBuildingIcon(String, Int32, Team, Boolean)
+  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_setBuildingIcon_System_String_System_Int32_Team_System_Boolean_
+  commentId: M:Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,Team,System.Boolean)
+  fullName: BuildingIconSettings.setBuildingIcon(System.String, System.Int32, Team, System.Boolean)
+  nameWithType: BuildingIconSettings.setBuildingIcon(String, Int32, Team, Boolean)
 - uid: Global.BuildingIconSettings.setBuildingIcon*
   name: setBuildingIcon
   href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_setBuildingIcon_
@@ -1512,12 +1512,12 @@ references:
   commentId: F:Global.IconContainerSettings.resourceIconPrefab
   fullName: IconContainerSettings.resourceIconPrefab
   nameWithType: IconContainerSettings.resourceIconPrefab
-- uid: Global.IconContainerSettings.setIconCount(System.Int32,System.String)
-  name: setIconCount(Int32, String)
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_setIconCount_System_Int32_System_String_
-  commentId: M:Global.IconContainerSettings.setIconCount(System.Int32,System.String)
-  fullName: IconContainerSettings.setIconCount(System.Int32, System.String)
-  nameWithType: IconContainerSettings.setIconCount(Int32, String)
+- uid: Global.IconContainerSettings.setIconCount(System.Int32,Team)
+  name: setIconCount(Int32, Team)
+  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_setIconCount_System_Int32_Team_
+  commentId: M:Global.IconContainerSettings.setIconCount(System.Int32,Team)
+  fullName: IconContainerSettings.setIconCount(System.Int32, Team)
+  nameWithType: IconContainerSettings.setIconCount(Int32, Team)
 - uid: Global.IconContainerSettings.setIconCount*
   name: setIconCount
   href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_setIconCount_
@@ -2209,12 +2209,12 @@ references:
   commentId: F:Global.ResourceIconSettings.iconSpriteRenderer
   fullName: ResourceIconSettings.iconSpriteRenderer
   nameWithType: ResourceIconSettings.iconSpriteRenderer
-- uid: Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.String,System.Boolean)
-  name: setResourceIcon(String, Int32, String, Boolean)
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_setResourceIcon_System_String_System_Int32_System_String_System_Boolean_
-  commentId: M:Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.String,System.Boolean)
-  fullName: ResourceIconSettings.setResourceIcon(System.String, System.Int32, System.String, System.Boolean)
-  nameWithType: ResourceIconSettings.setResourceIcon(String, Int32, String, Boolean)
+- uid: Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.Boolean)
+  name: setResourceIcon(String, Int32, Boolean)
+  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_setResourceIcon_System_String_System_Int32_System_Boolean_
+  commentId: M:Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.Boolean)
+  fullName: ResourceIconSettings.setResourceIcon(System.String, System.Int32, System.Boolean)
+  nameWithType: ResourceIconSettings.setResourceIcon(String, Int32, Boolean)
 - uid: Global.ResourceIconSettings.setResourceIcon*
   name: setResourceIcon
   href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_setResourceIcon_
@@ -3102,12 +3102,12 @@ references:
   commentId: T:Model.PlayerGameState
   fullName: Model.PlayerGameState
   nameWithType: PlayerGameState
-- uid: Model.PlayerGameState.#ctor(System.Int32)
-  name: PlayerGameState(Int32)
-  href: api/Model.PlayerGameState.html#Model_PlayerGameState__ctor_System_Int32_
-  commentId: M:Model.PlayerGameState.#ctor(System.Int32)
-  fullName: Model.PlayerGameState.PlayerGameState(System.Int32)
-  nameWithType: PlayerGameState.PlayerGameState(Int32)
+- uid: Model.PlayerGameState.#ctor(System.String)
+  name: PlayerGameState(String)
+  href: api/Model.PlayerGameState.html#Model_PlayerGameState__ctor_System_String_
+  commentId: M:Model.PlayerGameState.#ctor(System.String)
+  fullName: Model.PlayerGameState.PlayerGameState(System.String)
+  nameWithType: PlayerGameState.PlayerGameState(String)
 - uid: Model.PlayerGameState.#ctor*
   name: PlayerGameState
   href: api/Model.PlayerGameState.html#Model_PlayerGameState__ctor_

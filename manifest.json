@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BuildingIconSettings.html",
-          "hash": "Cd2HTEuQSX6VWGGY3YSq0g=="
+          "hash": "O5mmA5vT6od00gWB/mx7oA=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.IconContainerSettings.html",
-          "hash": "iiaPvHhAMIh86ljHxi89ZA=="
+          "hash": "tzWQRIuis/OzC9H4fV9VPA=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ResourceIconSettings.html",
-          "hash": "jLpSbTdqxEPtMfObrVCDzw=="
+          "hash": "G8/KSvH0P+3IonKZKibN3g=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.PlayerGameState.html",
-          "hash": "xYny196c9mtgcJ55gtA/DA=="
+          "hash": "iH2hV9svVTctCSkI9hQVLg=="
         }
       },
       "is_incremental": false,
