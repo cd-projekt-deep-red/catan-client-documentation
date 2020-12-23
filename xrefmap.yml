@@ -3093,6 +3093,32 @@ references:
   isSpec: "True"
   fullName: UIManager.createPlayerUI
   nameWithType: UIManager.createPlayerUI
+- uid: Global.UIManager.createTradeWindow
+  name: createTradeWindow()
+  href: api/Global.UIManager.html#Global_UIManager_createTradeWindow
+  commentId: M:Global.UIManager.createTradeWindow
+  fullName: UIManager.createTradeWindow()
+  nameWithType: UIManager.createTradeWindow()
+- uid: Global.UIManager.createTradeWindow*
+  name: createTradeWindow
+  href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_
+  commentId: Overload:Global.UIManager.createTradeWindow
+  isSpec: "True"
+  fullName: UIManager.createTradeWindow
+  nameWithType: UIManager.createTradeWindow
+- uid: Global.UIManager.createWindow(System.Int32,System.Int32,System.String,System.String)
+  name: createWindow(Int32, Int32, String, String)
+  href: api/Global.UIManager.html#Global_UIManager_createWindow_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:Global.UIManager.createWindow(System.Int32,System.Int32,System.String,System.String)
+  fullName: UIManager.createWindow(System.Int32, System.Int32, System.String, System.String)
+  nameWithType: UIManager.createWindow(Int32, Int32, String, String)
+- uid: Global.UIManager.createWindow*
+  name: createWindow
+  href: api/Global.UIManager.html#Global_UIManager_createWindow_
+  commentId: Overload:Global.UIManager.createWindow
+  isSpec: "True"
+  fullName: UIManager.createWindow
+  nameWithType: UIManager.createWindow
 - uid: Global.UIManager.eventDisplayPrefab
   name: eventDisplayPrefab
   href: api/Global.UIManager.html#Global_UIManager_eventDisplayPrefab
@@ -3117,6 +3143,12 @@ references:
   commentId: F:Global.UIManager.playersPanelPrefab
   fullName: UIManager.playersPanelPrefab
   nameWithType: UIManager.playersPanelPrefab
+- uid: Global.UIManager.tradeContentPrefab
+  name: tradeContentPrefab
+  href: api/Global.UIManager.html#Global_UIManager_tradeContentPrefab
+  commentId: F:Global.UIManager.tradeContentPrefab
+  fullName: UIManager.tradeContentPrefab
+  nameWithType: UIManager.tradeContentPrefab
 - uid: Global.UIManager.turnTimerPrefab
   name: turnTimerPrefab
   href: api/Global.UIManager.html#Global_UIManager_turnTimerPrefab
@@ -3142,6 +3174,12 @@ references:
   isSpec: "True"
   fullName: UIManager.updateLocalPlayerStats
   nameWithType: UIManager.updateLocalPlayerStats
+- uid: Global.UIManager.windowPrefab
+  name: windowPrefab
+  href: api/Global.UIManager.html#Global_UIManager_windowPrefab
+  commentId: F:Global.UIManager.windowPrefab
+  fullName: UIManager.windowPrefab
+  nameWithType: UIManager.windowPrefab
 - uid: Global.VPAnimator
   name: VPAnimator
   href: api/Global.VPAnimator.html
@@ -3204,6 +3242,68 @@ references:
   commentId: T:Global.WindowSettings
   fullName: WindowSettings
   nameWithType: WindowSettings
+- uid: Global.WindowSettings.animateIn
+  name: animateIn()
+  href: api/Global.WindowSettings.html#Global_WindowSettings_animateIn
+  commentId: M:Global.WindowSettings.animateIn
+  fullName: WindowSettings.animateIn()
+  nameWithType: WindowSettings.animateIn()
+- uid: Global.WindowSettings.animateIn*
+  name: animateIn
+  href: api/Global.WindowSettings.html#Global_WindowSettings_animateIn_
+  commentId: Overload:Global.WindowSettings.animateIn
+  isSpec: "True"
+  fullName: WindowSettings.animateIn
+  nameWithType: WindowSettings.animateIn
+- uid: Global.WindowSettings.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.WindowSettings.html#Global_WindowSettings_assetManagerSprites
+  commentId: F:Global.WindowSettings.assetManagerSprites
+  fullName: WindowSettings.assetManagerSprites
+  nameWithType: WindowSettings.assetManagerSprites
+- uid: Global.WindowSettings.closeButton
+  name: closeButton
+  href: api/Global.WindowSettings.html#Global_WindowSettings_closeButton
+  commentId: F:Global.WindowSettings.closeButton
+  fullName: WindowSettings.closeButton
+  nameWithType: WindowSettings.closeButton
+- uid: Global.WindowSettings.contentArea
+  name: contentArea
+  href: api/Global.WindowSettings.html#Global_WindowSettings_contentArea
+  commentId: F:Global.WindowSettings.contentArea
+  fullName: WindowSettings.contentArea
+  nameWithType: WindowSettings.contentArea
+- uid: Global.WindowSettings.header
+  name: header
+  href: api/Global.WindowSettings.html#Global_WindowSettings_header
+  commentId: F:Global.WindowSettings.header
+  fullName: WindowSettings.header
+  nameWithType: WindowSettings.header
+- uid: Global.WindowSettings.setWindow(System.Int32,System.Int32,System.String,System.String)
+  name: setWindow(Int32, Int32, String, String)
+  href: api/Global.WindowSettings.html#Global_WindowSettings_setWindow_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:Global.WindowSettings.setWindow(System.Int32,System.Int32,System.String,System.String)
+  fullName: WindowSettings.setWindow(System.Int32, System.Int32, System.String, System.String)
+  nameWithType: WindowSettings.setWindow(Int32, Int32, String, String)
+- uid: Global.WindowSettings.setWindow*
+  name: setWindow
+  href: api/Global.WindowSettings.html#Global_WindowSettings_setWindow_
+  commentId: Overload:Global.WindowSettings.setWindow
+  isSpec: "True"
+  fullName: WindowSettings.setWindow
+  nameWithType: WindowSettings.setWindow
+- uid: Global.WindowSettings.windowBackground
+  name: windowBackground
+  href: api/Global.WindowSettings.html#Global_WindowSettings_windowBackground
+  commentId: F:Global.WindowSettings.windowBackground
+  fullName: WindowSettings.windowBackground
+  nameWithType: WindowSettings.windowBackground
+- uid: Global.WindowSettings.windowTitle
+  name: windowTitle
+  href: api/Global.WindowSettings.html#Global_WindowSettings_windowTitle
+  commentId: F:Global.WindowSettings.windowTitle
+  fullName: WindowSettings.windowTitle
+  nameWithType: WindowSettings.windowTitle
 - uid: Model
   name: Model
   href: api/Model.html
