@@ -771,6 +771,12 @@ references:
   commentId: F:Global.ButtonSettings.buttonText
   fullName: ButtonSettings.buttonText
   nameWithType: ButtonSettings.buttonText
+- uid: Global.ButtonSettings.buttonUI
+  name: buttonUI
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonUI
+  commentId: F:Global.ButtonSettings.buttonUI
+  fullName: ButtonSettings.buttonUI
+  nameWithType: ButtonSettings.buttonUI
 - uid: Global.ButtonSettings.setButton(System.Int32,System.Int32,System.String)
   name: setButton(Int32, Int32, String)
   href: api/Global.ButtonSettings.html#Global_ButtonSettings_setButton_System_Int32_System_Int32_System_String_
@@ -2733,12 +2739,6 @@ references:
   commentId: F:Global.ResourceTile.slotRearSpriteRenderer
   fullName: ResourceTile.slotRearSpriteRenderer
   nameWithType: ResourceTile.slotRearSpriteRenderer
-- uid: Global.ResourceTile.sounds
-  name: sounds
-  href: api/Global.ResourceTile.html#Global_ResourceTile_sounds
-  commentId: F:Global.ResourceTile.sounds
-  fullName: ResourceTile.sounds
-  nameWithType: ResourceTile.sounds
 - uid: Global.ResourceTile.toggleStyle(System.Boolean)
   name: toggleStyle(Boolean)
   href: api/Global.ResourceTile.html#Global_ResourceTile_toggleStyle_System_Boolean_
@@ -3324,6 +3324,12 @@ references:
   commentId: F:Global.UIManager.announcementPrefab
   fullName: UIManager.announcementPrefab
   nameWithType: UIManager.announcementPrefab
+- uid: Global.UIManager.buttonPrefab
+  name: buttonPrefab
+  href: api/Global.UIManager.html#Global_UIManager_buttonPrefab
+  commentId: F:Global.UIManager.buttonPrefab
+  fullName: UIManager.buttonPrefab
+  nameWithType: UIManager.buttonPrefab
 - uid: Global.UIManager.createAnnouncement(System.String,System.String,System.Single)
   name: createAnnouncement(String, String, Single)
   href: api/Global.UIManager.html#Global_UIManager_createAnnouncement_System_String_System_String_System_Single_
@@ -3350,6 +3356,19 @@ references:
   isSpec: "True"
   fullName: UIManager.createPlayerUI
   nameWithType: UIManager.createPlayerUI
+- uid: Global.UIManager.createRollPrompt
+  name: createRollPrompt()
+  href: api/Global.UIManager.html#Global_UIManager_createRollPrompt
+  commentId: M:Global.UIManager.createRollPrompt
+  fullName: UIManager.createRollPrompt()
+  nameWithType: UIManager.createRollPrompt()
+- uid: Global.UIManager.createRollPrompt*
+  name: createRollPrompt
+  href: api/Global.UIManager.html#Global_UIManager_createRollPrompt_
+  commentId: Overload:Global.UIManager.createRollPrompt
+  isSpec: "True"
+  fullName: UIManager.createRollPrompt
+  nameWithType: UIManager.createRollPrompt
 - uid: Global.UIManager.createTradeWindow(Player[],TradeOffer[])
   name: createTradeWindow(Player[], TradeOffer[])
   href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_Player___TradeOffer___
@@ -3541,6 +3560,12 @@ references:
   isSpec: "True"
   fullName: WindowSettings.animateOut
   nameWithType: WindowSettings.animateOut
+- uid: Global.WindowSettings.assetManagerSounds
+  name: assetManagerSounds
+  href: api/Global.WindowSettings.html#Global_WindowSettings_assetManagerSounds
+  commentId: F:Global.WindowSettings.assetManagerSounds
+  fullName: WindowSettings.assetManagerSounds
+  nameWithType: WindowSettings.assetManagerSounds
 - uid: Global.WindowSettings.assetManagerSprites
   name: assetManagerSprites
   href: api/Global.WindowSettings.html#Global_WindowSettings_assetManagerSprites
@@ -3584,6 +3609,12 @@ references:
   commentId: F:Global.WindowSettings.windowBackground
   fullName: WindowSettings.windowBackground
   nameWithType: WindowSettings.windowBackground
+- uid: Global.WindowSettings.windowSound
+  name: windowSound
+  href: api/Global.WindowSettings.html#Global_WindowSettings_windowSound
+  commentId: F:Global.WindowSettings.windowSound
+  fullName: WindowSettings.windowSound
+  nameWithType: WindowSettings.windowSound
 - uid: Global.WindowSettings.windowTitle
   name: windowTitle
   href: api/Global.WindowSettings.html#Global_WindowSettings_windowTitle
