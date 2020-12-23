@@ -1371,6 +1371,19 @@ references:
   commentId: T:Global.HexMath
   fullName: HexMath
   nameWithType: HexMath
+- uid: Global.HexMath.cordToVector3(TileCoordinates)
+  name: cordToVector3(TileCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_cordToVector3_TileCoordinates_
+  commentId: M:Global.HexMath.cordToVector3(TileCoordinates)
+  fullName: HexMath.cordToVector3(TileCoordinates)
+  nameWithType: HexMath.cordToVector3(TileCoordinates)
+- uid: Global.HexMath.cordToVector3*
+  name: cordToVector3
+  href: api/Global.HexMath.html#Global_HexMath_cordToVector3_
+  commentId: Overload:Global.HexMath.cordToVector3
+  isSpec: "True"
+  fullName: HexMath.cordToVector3
+  nameWithType: HexMath.cordToVector3
 - uid: Global.HexMath.GetNeighboringEdges(EdgeCoordinates)
   name: GetNeighboringEdges(EdgeCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_GetNeighboringEdges_EdgeCoordinates_
@@ -3791,12 +3804,18 @@ references:
   commentId: T:Model.ResourceType
   fullName: Model.ResourceType
   nameWithType: ResourceType
-- uid: Model.ResourceType.Brick
-  name: Brick
-  href: api/Model.ResourceType.html#Model_ResourceType_Brick
-  commentId: F:Model.ResourceType.Brick
-  fullName: Model.ResourceType.Brick
-  nameWithType: ResourceType.Brick
+- uid: Model.ResourceType.Clay
+  name: Clay
+  href: api/Model.ResourceType.html#Model_ResourceType_Clay
+  commentId: F:Model.ResourceType.Clay
+  fullName: Model.ResourceType.Clay
+  nameWithType: ResourceType.Clay
+- uid: Model.ResourceType.Desert
+  name: Desert
+  href: api/Model.ResourceType.html#Model_ResourceType_Desert
+  commentId: F:Model.ResourceType.Desert
+  fullName: Model.ResourceType.Desert
+  nameWithType: ResourceType.Desert
 - uid: Model.ResourceType.None
   name: None
   href: api/Model.ResourceType.html#Model_ResourceType_None
@@ -3863,19 +3882,6 @@ references:
   commentId: T:Model.TileCoordinates
   fullName: Model.TileCoordinates
   nameWithType: TileCoordinates
-- uid: Model.TileCoordinates.cordToVector3
-  name: cordToVector3()
-  href: api/Model.TileCoordinates.html#Model_TileCoordinates_cordToVector3
-  commentId: M:Model.TileCoordinates.cordToVector3
-  fullName: Model.TileCoordinates.cordToVector3()
-  nameWithType: TileCoordinates.cordToVector3()
-- uid: Model.TileCoordinates.cordToVector3*
-  name: cordToVector3
-  href: api/Model.TileCoordinates.html#Model_TileCoordinates_cordToVector3_
-  commentId: Overload:Model.TileCoordinates.cordToVector3
-  isSpec: "True"
-  fullName: Model.TileCoordinates.cordToVector3
-  nameWithType: TileCoordinates.cordToVector3
 - uid: Model.TileCoordinates.Equals(Model.TileCoordinates)
   name: Equals(TileCoordinates)
   href: api/Model.TileCoordinates.html#Model_TileCoordinates_Equals_Model_TileCoordinates_
