@@ -1439,19 +1439,32 @@ references:
   commentId: T:Global.HexMath
   fullName: HexMath
   nameWithType: HexMath
-- uid: Global.HexMath.cordToVector3(TileCoordinates)
-  name: cordToVector3(TileCoordinates)
-  href: api/Global.HexMath.html#Global_HexMath_cordToVector3_TileCoordinates_
-  commentId: M:Global.HexMath.cordToVector3(TileCoordinates)
-  fullName: HexMath.cordToVector3(TileCoordinates)
-  nameWithType: HexMath.cordToVector3(TileCoordinates)
-- uid: Global.HexMath.cordToVector3*
-  name: cordToVector3
-  href: api/Global.HexMath.html#Global_HexMath_cordToVector3_
-  commentId: Overload:Global.HexMath.cordToVector3
+- uid: Global.HexMath.CordToResourceLayerOrder(TileCoordinates)
+  name: CordToResourceLayerOrder(TileCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_TileCoordinates_
+  commentId: M:Global.HexMath.CordToResourceLayerOrder(TileCoordinates)
+  fullName: HexMath.CordToResourceLayerOrder(TileCoordinates)
+  nameWithType: HexMath.CordToResourceLayerOrder(TileCoordinates)
+- uid: Global.HexMath.CordToResourceLayerOrder*
+  name: CordToResourceLayerOrder
+  href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_
+  commentId: Overload:Global.HexMath.CordToResourceLayerOrder
   isSpec: "True"
-  fullName: HexMath.cordToVector3
-  nameWithType: HexMath.cordToVector3
+  fullName: HexMath.CordToResourceLayerOrder
+  nameWithType: HexMath.CordToResourceLayerOrder
+- uid: Global.HexMath.CordToVector3(TileCoordinates)
+  name: CordToVector3(TileCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_CordToVector3_TileCoordinates_
+  commentId: M:Global.HexMath.CordToVector3(TileCoordinates)
+  fullName: HexMath.CordToVector3(TileCoordinates)
+  nameWithType: HexMath.CordToVector3(TileCoordinates)
+- uid: Global.HexMath.CordToVector3*
+  name: CordToVector3
+  href: api/Global.HexMath.html#Global_HexMath_CordToVector3_
+  commentId: Overload:Global.HexMath.CordToVector3
+  isSpec: "True"
+  fullName: HexMath.CordToVector3
+  nameWithType: HexMath.CordToVector3
 - uid: Global.HexMath.GetNeighboringEdges(EdgeCoordinates)
   name: GetNeighboringEdges(EdgeCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_GetNeighboringEdges_EdgeCoordinates_
@@ -4218,19 +4231,6 @@ references:
   isSpec: "True"
   fullName: Model.TileCoordinates.GetHashCode
   nameWithType: TileCoordinates.GetHashCode
-- uid: Model.TileCoordinates.layerOrder
-  name: layerOrder()
-  href: api/Model.TileCoordinates.html#Model_TileCoordinates_layerOrder
-  commentId: M:Model.TileCoordinates.layerOrder
-  fullName: Model.TileCoordinates.layerOrder()
-  nameWithType: TileCoordinates.layerOrder()
-- uid: Model.TileCoordinates.layerOrder*
-  name: layerOrder
-  href: api/Model.TileCoordinates.html#Model_TileCoordinates_layerOrder_
-  commentId: Overload:Model.TileCoordinates.layerOrder
-  isSpec: "True"
-  fullName: Model.TileCoordinates.layerOrder
-  nameWithType: TileCoordinates.layerOrder
 - uid: Model.TileCoordinates.op_Equality(Model.TileCoordinates,Model.TileCoordinates)
   name: Equality(TileCoordinates, TileCoordinates)
   href: api/Model.TileCoordinates.html#Model_TileCoordinates_op_Equality_Model_TileCoordinates_Model_TileCoordinates_
