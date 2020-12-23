@@ -741,6 +741,49 @@ references:
   isSpec: "True"
   fullName: BuildRoadSettings.toggleVisibility
   nameWithType: BuildRoadSettings.toggleVisibility
+- uid: Global.ButtonSettings
+  name: ButtonSettings
+  href: api/Global.ButtonSettings.html
+  commentId: T:Global.ButtonSettings
+  fullName: ButtonSettings
+  nameWithType: ButtonSettings
+- uid: Global.ButtonSettings.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_assetManagerSprites
+  commentId: F:Global.ButtonSettings.assetManagerSprites
+  fullName: ButtonSettings.assetManagerSprites
+  nameWithType: ButtonSettings.assetManagerSprites
+- uid: Global.ButtonSettings.button
+  name: button
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_button
+  commentId: F:Global.ButtonSettings.button
+  fullName: ButtonSettings.button
+  nameWithType: ButtonSettings.button
+- uid: Global.ButtonSettings.buttonBackground
+  name: buttonBackground
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonBackground
+  commentId: F:Global.ButtonSettings.buttonBackground
+  fullName: ButtonSettings.buttonBackground
+  nameWithType: ButtonSettings.buttonBackground
+- uid: Global.ButtonSettings.buttonText
+  name: buttonText
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonText
+  commentId: F:Global.ButtonSettings.buttonText
+  fullName: ButtonSettings.buttonText
+  nameWithType: ButtonSettings.buttonText
+- uid: Global.ButtonSettings.setButton(System.Int32,System.Int32,System.String)
+  name: setButton(Int32, Int32, String)
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_setButton_System_Int32_System_Int32_System_String_
+  commentId: M:Global.ButtonSettings.setButton(System.Int32,System.Int32,System.String)
+  fullName: ButtonSettings.setButton(System.Int32, System.Int32, System.String)
+  nameWithType: ButtonSettings.setButton(Int32, Int32, String)
+- uid: Global.ButtonSettings.setButton*
+  name: setButton
+  href: api/Global.ButtonSettings.html#Global_ButtonSettings_setButton_
+  commentId: Overload:Global.ButtonSettings.setButton
+  isSpec: "True"
+  fullName: ButtonSettings.setButton
+  nameWithType: ButtonSettings.setButton
 - uid: Global.ConnectionSettings
   name: ConnectionSettings
   href: api/Global.ConnectionSettings.html
@@ -1059,6 +1102,25 @@ references:
   isSpec: "True"
   fullName: DomesticTrades.setTraders
   nameWithType: DomesticTrades.setTraders
+- uid: Global.DomesticTrades.tradeLines
+  name: tradeLines
+  href: api/Global.DomesticTrades.html#Global_DomesticTrades_tradeLines
+  commentId: F:Global.DomesticTrades.tradeLines
+  fullName: DomesticTrades.tradeLines
+  nameWithType: DomesticTrades.tradeLines
+- uid: Global.DomesticTrades.tradeUpdate(TradeOffer)
+  name: tradeUpdate(TradeOffer)
+  href: api/Global.DomesticTrades.html#Global_DomesticTrades_tradeUpdate_TradeOffer_
+  commentId: M:Global.DomesticTrades.tradeUpdate(TradeOffer)
+  fullName: DomesticTrades.tradeUpdate(TradeOffer)
+  nameWithType: DomesticTrades.tradeUpdate(TradeOffer)
+- uid: Global.DomesticTrades.tradeUpdate*
+  name: tradeUpdate
+  href: api/Global.DomesticTrades.html#Global_DomesticTrades_tradeUpdate_
+  commentId: Overload:Global.DomesticTrades.tradeUpdate
+  isSpec: "True"
+  fullName: DomesticTrades.tradeUpdate
+  nameWithType: DomesticTrades.tradeUpdate
 - uid: Global.EventDisplay
   name: EventDisplay
   href: api/Global.EventDisplay.html
@@ -1710,6 +1772,22 @@ references:
   commentId: F:Global.MaritimeTrades.portTradePrefab
   fullName: MaritimeTrades.portTradePrefab
   nameWithType: MaritimeTrades.portTradePrefab
+- uid: Global.MaritimeTrades.refreshPorts(TradeOffer[])
+  name: refreshPorts(TradeOffer[])
+  href: api/Global.MaritimeTrades.html#Global_MaritimeTrades_refreshPorts_TradeOffer___
+  commentId: M:Global.MaritimeTrades.refreshPorts(TradeOffer[])
+  name.vb: refreshPorts(TradeOffer())
+  fullName: MaritimeTrades.refreshPorts(TradeOffer[])
+  fullName.vb: MaritimeTrades.refreshPorts(TradeOffer())
+  nameWithType: MaritimeTrades.refreshPorts(TradeOffer[])
+  nameWithType.vb: MaritimeTrades.refreshPorts(TradeOffer())
+- uid: Global.MaritimeTrades.refreshPorts*
+  name: refreshPorts
+  href: api/Global.MaritimeTrades.html#Global_MaritimeTrades_refreshPorts_
+  commentId: Overload:Global.MaritimeTrades.refreshPorts
+  isSpec: "True"
+  fullName: MaritimeTrades.refreshPorts
+  nameWithType: MaritimeTrades.refreshPorts
 - uid: Global.MockNetworkManager
   name: MockNetworkManager
   href: api/Global.MockNetworkManager.html
@@ -2231,6 +2309,19 @@ references:
   commentId: T:Global.PortTradeSettings
   fullName: PortTradeSettings
   nameWithType: PortTradeSettings
+- uid: Global.PortTradeSettings.acceptPortTrade(TradeOffer)
+  name: acceptPortTrade(TradeOffer)
+  href: api/Global.PortTradeSettings.html#Global_PortTradeSettings_acceptPortTrade_TradeOffer_
+  commentId: M:Global.PortTradeSettings.acceptPortTrade(TradeOffer)
+  fullName: PortTradeSettings.acceptPortTrade(TradeOffer)
+  nameWithType: PortTradeSettings.acceptPortTrade(TradeOffer)
+- uid: Global.PortTradeSettings.acceptPortTrade*
+  name: acceptPortTrade
+  href: api/Global.PortTradeSettings.html#Global_PortTradeSettings_acceptPortTrade_
+  commentId: Overload:Global.PortTradeSettings.acceptPortTrade
+  isSpec: "True"
+  fullName: PortTradeSettings.acceptPortTrade
+  nameWithType: PortTradeSettings.acceptPortTrade
 - uid: Global.PortTradeSettings.assetManagerSprites
   name: assetManagerSprites
   href: api/Global.PortTradeSettings.html#Global_PortTradeSettings_assetManagerSprites
@@ -2273,6 +2364,12 @@ references:
   commentId: F:Global.PortTradeSettings.receivingTradeText
   fullName: PortTradeSettings.receivingTradeText
   nameWithType: PortTradeSettings.receivingTradeText
+- uid: Global.PortTradeSettings.resourceCountPrefab
+  name: resourceCountPrefab
+  href: api/Global.PortTradeSettings.html#Global_PortTradeSettings_resourceCountPrefab
+  commentId: F:Global.PortTradeSettings.resourceCountPrefab
+  fullName: PortTradeSettings.resourceCountPrefab
+  nameWithType: PortTradeSettings.resourceCountPrefab
 - uid: Global.PortTradeSettings.setTrade(TradeOffer)
   name: setTrade(TradeOffer)
   href: api/Global.PortTradeSettings.html#Global_PortTradeSettings_setTrade_TradeOffer_
@@ -2412,6 +2509,68 @@ references:
   commentId: F:Global.Resource.YPosition
   fullName: Resource.YPosition
   nameWithType: Resource.YPosition
+- uid: Global.ResourceCounterSettings
+  name: ResourceCounterSettings
+  href: api/Global.ResourceCounterSettings.html
+  commentId: T:Global.ResourceCounterSettings
+  fullName: ResourceCounterSettings
+  nameWithType: ResourceCounterSettings
+- uid: Global.ResourceCounterSettings.assetManagerSounds
+  name: assetManagerSounds
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_assetManagerSounds
+  commentId: F:Global.ResourceCounterSettings.assetManagerSounds
+  fullName: ResourceCounterSettings.assetManagerSounds
+  nameWithType: ResourceCounterSettings.assetManagerSounds
+- uid: Global.ResourceCounterSettings.count
+  name: count
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_count
+  commentId: F:Global.ResourceCounterSettings.count
+  fullName: ResourceCounterSettings.count
+  nameWithType: ResourceCounterSettings.count
+- uid: Global.ResourceCounterSettings.DestroyObject
+  name: DestroyObject()
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_DestroyObject
+  commentId: M:Global.ResourceCounterSettings.DestroyObject
+  fullName: ResourceCounterSettings.DestroyObject()
+  nameWithType: ResourceCounterSettings.DestroyObject()
+- uid: Global.ResourceCounterSettings.DestroyObject*
+  name: DestroyObject
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_DestroyObject_
+  commentId: Overload:Global.ResourceCounterSettings.DestroyObject
+  isSpec: "True"
+  fullName: ResourceCounterSettings.DestroyObject
+  nameWithType: ResourceCounterSettings.DestroyObject
+- uid: Global.ResourceCounterSettings.playResourceSound
+  name: playResourceSound()
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_playResourceSound
+  commentId: M:Global.ResourceCounterSettings.playResourceSound
+  fullName: ResourceCounterSettings.playResourceSound()
+  nameWithType: ResourceCounterSettings.playResourceSound()
+- uid: Global.ResourceCounterSettings.playResourceSound*
+  name: playResourceSound
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_playResourceSound_
+  commentId: Overload:Global.ResourceCounterSettings.playResourceSound
+  isSpec: "True"
+  fullName: ResourceCounterSettings.playResourceSound
+  nameWithType: ResourceCounterSettings.playResourceSound
+- uid: Global.ResourceCounterSettings.resourceSprite
+  name: resourceSprite
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_resourceSprite
+  commentId: F:Global.ResourceCounterSettings.resourceSprite
+  fullName: ResourceCounterSettings.resourceSprite
+  nameWithType: ResourceCounterSettings.resourceSprite
+- uid: Global.ResourceCounterSettings.soundEmmiter
+  name: soundEmmiter
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_soundEmmiter
+  commentId: F:Global.ResourceCounterSettings.soundEmmiter
+  fullName: ResourceCounterSettings.soundEmmiter
+  nameWithType: ResourceCounterSettings.soundEmmiter
+- uid: Global.ResourceCounterSettings.textMaterials
+  name: textMaterials
+  href: api/Global.ResourceCounterSettings.html#Global_ResourceCounterSettings_textMaterials
+  commentId: F:Global.ResourceCounterSettings.textMaterials
+  fullName: ResourceCounterSettings.textMaterials
+  nameWithType: ResourceCounterSettings.textMaterials
 - uid: Global.ResourceIconSettings
   name: ResourceIconSettings
   href: api/Global.ResourceIconSettings.html
@@ -2972,6 +3131,12 @@ references:
   commentId: F:Global.TradeMessage.receivingTradeText
   fullName: TradeMessage.receivingTradeText
   nameWithType: TradeMessage.receivingTradeText
+- uid: Global.TradeMessage.resourceCountPrefab
+  name: resourceCountPrefab
+  href: api/Global.TradeMessage.html#Global_TradeMessage_resourceCountPrefab
+  commentId: F:Global.TradeMessage.resourceCountPrefab
+  fullName: TradeMessage.resourceCountPrefab
+  nameWithType: TradeMessage.resourceCountPrefab
 - uid: Global.TradeMessage.setAllPeriodsStyle(System.Int32)
   name: setAllPeriodsStyle(Int32)
   href: api/Global.TradeMessage.html#Global_TradeMessage_setAllPeriodsStyle_System_Int32_
@@ -3043,6 +3208,19 @@ references:
   commentId: F:Global.TradeMessage.teamIcon
   fullName: TradeMessage.teamIcon
   nameWithType: TradeMessage.teamIcon
+- uid: Global.TradeMessage.tradeAccepted(TradeOffer)
+  name: tradeAccepted(TradeOffer)
+  href: api/Global.TradeMessage.html#Global_TradeMessage_tradeAccepted_TradeOffer_
+  commentId: M:Global.TradeMessage.tradeAccepted(TradeOffer)
+  fullName: TradeMessage.tradeAccepted(TradeOffer)
+  nameWithType: TradeMessage.tradeAccepted(TradeOffer)
+- uid: Global.TradeMessage.tradeAccepted*
+  name: tradeAccepted
+  href: api/Global.TradeMessage.html#Global_TradeMessage_tradeAccepted_
+  commentId: Overload:Global.TradeMessage.tradeAccepted
+  isSpec: "True"
+  fullName: TradeMessage.tradeAccepted
+  nameWithType: TradeMessage.tradeAccepted
 - uid: Global.TradeMessage.tradeAudioSource
   name: tradeAudioSource
   href: api/Global.TradeMessage.html#Global_TradeMessage_tradeAudioSource
@@ -3068,6 +3246,72 @@ references:
   isSpec: "True"
   fullName: TradeMessage.tradeWaiting
   nameWithType: TradeMessage.tradeWaiting
+- uid: Global.TradeWindowContent
+  name: TradeWindowContent
+  href: api/Global.TradeWindowContent.html
+  commentId: T:Global.TradeWindowContent
+  fullName: TradeWindowContent
+  nameWithType: TradeWindowContent
+- uid: Global.TradeWindowContent.domesticTradeScript
+  name: domesticTradeScript
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_domesticTradeScript
+  commentId: F:Global.TradeWindowContent.domesticTradeScript
+  fullName: TradeWindowContent.domesticTradeScript
+  nameWithType: TradeWindowContent.domesticTradeScript
+- uid: Global.TradeWindowContent.endTrades
+  name: endTrades()
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_endTrades
+  commentId: M:Global.TradeWindowContent.endTrades
+  fullName: TradeWindowContent.endTrades()
+  nameWithType: TradeWindowContent.endTrades()
+- uid: Global.TradeWindowContent.endTrades*
+  name: endTrades
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_endTrades_
+  commentId: Overload:Global.TradeWindowContent.endTrades
+  isSpec: "True"
+  fullName: TradeWindowContent.endTrades
+  nameWithType: TradeWindowContent.endTrades
+- uid: Global.TradeWindowContent.finishButton
+  name: finishButton
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_finishButton
+  commentId: F:Global.TradeWindowContent.finishButton
+  fullName: TradeWindowContent.finishButton
+  nameWithType: TradeWindowContent.finishButton
+- uid: Global.TradeWindowContent.maritimeTradeScript
+  name: maritimeTradeScript
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_maritimeTradeScript
+  commentId: F:Global.TradeWindowContent.maritimeTradeScript
+  fullName: TradeWindowContent.maritimeTradeScript
+  nameWithType: TradeWindowContent.maritimeTradeScript
+- uid: Global.TradeWindowContent.setTradeUI(Player[],TradeOffer[])
+  name: setTradeUI(Player[], TradeOffer[])
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_setTradeUI_Player___TradeOffer___
+  commentId: M:Global.TradeWindowContent.setTradeUI(Player[],TradeOffer[])
+  name.vb: setTradeUI(Player(), TradeOffer())
+  fullName: TradeWindowContent.setTradeUI(Player[], TradeOffer[])
+  fullName.vb: TradeWindowContent.setTradeUI(Player(), TradeOffer())
+  nameWithType: TradeWindowContent.setTradeUI(Player[], TradeOffer[])
+  nameWithType.vb: TradeWindowContent.setTradeUI(Player(), TradeOffer())
+- uid: Global.TradeWindowContent.setTradeUI*
+  name: setTradeUI
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_setTradeUI_
+  commentId: Overload:Global.TradeWindowContent.setTradeUI
+  isSpec: "True"
+  fullName: TradeWindowContent.setTradeUI
+  nameWithType: TradeWindowContent.setTradeUI
+- uid: Global.TradeWindowContent.tradeUpdate(TradeOffer)
+  name: tradeUpdate(TradeOffer)
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_tradeUpdate_TradeOffer_
+  commentId: M:Global.TradeWindowContent.tradeUpdate(TradeOffer)
+  fullName: TradeWindowContent.tradeUpdate(TradeOffer)
+  nameWithType: TradeWindowContent.tradeUpdate(TradeOffer)
+- uid: Global.TradeWindowContent.tradeUpdate*
+  name: tradeUpdate
+  href: api/Global.TradeWindowContent.html#Global_TradeWindowContent_tradeUpdate_
+  commentId: Overload:Global.TradeWindowContent.tradeUpdate
+  isSpec: "True"
+  fullName: TradeWindowContent.tradeUpdate
+  nameWithType: TradeWindowContent.tradeUpdate
 - uid: Global.UIManager
   name: UIManager
   href: api/Global.UIManager.html
@@ -3106,12 +3350,15 @@ references:
   isSpec: "True"
   fullName: UIManager.createPlayerUI
   nameWithType: UIManager.createPlayerUI
-- uid: Global.UIManager.createTradeWindow
-  name: createTradeWindow()
-  href: api/Global.UIManager.html#Global_UIManager_createTradeWindow
-  commentId: M:Global.UIManager.createTradeWindow
-  fullName: UIManager.createTradeWindow()
-  nameWithType: UIManager.createTradeWindow()
+- uid: Global.UIManager.createTradeWindow(Player[],TradeOffer[])
+  name: createTradeWindow(Player[], TradeOffer[])
+  href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_Player___TradeOffer___
+  commentId: M:Global.UIManager.createTradeWindow(Player[],TradeOffer[])
+  name.vb: createTradeWindow(Player(), TradeOffer())
+  fullName: UIManager.createTradeWindow(Player[], TradeOffer[])
+  fullName.vb: UIManager.createTradeWindow(Player(), TradeOffer())
+  nameWithType: UIManager.createTradeWindow(Player[], TradeOffer[])
+  nameWithType.vb: UIManager.createTradeWindow(Player(), TradeOffer())
 - uid: Global.UIManager.createTradeWindow*
   name: createTradeWindow
   href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_
@@ -3187,6 +3434,19 @@ references:
   isSpec: "True"
   fullName: UIManager.updateLocalPlayerStats
   nameWithType: UIManager.updateLocalPlayerStats
+- uid: Global.UIManager.updateOffer(TradeOffer)
+  name: updateOffer(TradeOffer)
+  href: api/Global.UIManager.html#Global_UIManager_updateOffer_TradeOffer_
+  commentId: M:Global.UIManager.updateOffer(TradeOffer)
+  fullName: UIManager.updateOffer(TradeOffer)
+  nameWithType: UIManager.updateOffer(TradeOffer)
+- uid: Global.UIManager.updateOffer*
+  name: updateOffer
+  href: api/Global.UIManager.html#Global_UIManager_updateOffer_
+  commentId: Overload:Global.UIManager.updateOffer
+  isSpec: "True"
+  fullName: UIManager.updateOffer
+  nameWithType: UIManager.updateOffer
 - uid: Global.UIManager.windowPrefab
   name: windowPrefab
   href: api/Global.UIManager.html#Global_UIManager_windowPrefab
@@ -3268,6 +3528,19 @@ references:
   isSpec: "True"
   fullName: WindowSettings.animateIn
   nameWithType: WindowSettings.animateIn
+- uid: Global.WindowSettings.animateOut
+  name: animateOut()
+  href: api/Global.WindowSettings.html#Global_WindowSettings_animateOut
+  commentId: M:Global.WindowSettings.animateOut
+  fullName: WindowSettings.animateOut()
+  nameWithType: WindowSettings.animateOut()
+- uid: Global.WindowSettings.animateOut*
+  name: animateOut
+  href: api/Global.WindowSettings.html#Global_WindowSettings_animateOut_
+  commentId: Overload:Global.WindowSettings.animateOut
+  isSpec: "True"
+  fullName: WindowSettings.animateOut
+  nameWithType: WindowSettings.animateOut
 - uid: Global.WindowSettings.assetManagerSprites
   name: assetManagerSprites
   href: api/Global.WindowSettings.html#Global_WindowSettings_assetManagerSprites
