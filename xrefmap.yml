@@ -405,82 +405,6 @@ references:
   commentId: T:Global.BoardManagerV2
   fullName: BoardManagerV2
   nameWithType: BoardManagerV2
-- uid: Global.BoardStatus
-  name: BoardStatus
-  href: api/Global.BoardStatus.html
-  commentId: T:Global.BoardStatus
-  fullName: BoardStatus
-  nameWithType: BoardStatus
-- uid: Global.BoardStatus.#ctor
-  name: BoardStatus()
-  href: api/Global.BoardStatus.html#Global_BoardStatus__ctor
-  commentId: M:Global.BoardStatus.#ctor
-  fullName: BoardStatus.BoardStatus()
-  nameWithType: BoardStatus.BoardStatus()
-- uid: Global.BoardStatus.#ctor*
-  name: BoardStatus
-  href: api/Global.BoardStatus.html#Global_BoardStatus__ctor_
-  commentId: Overload:Global.BoardStatus.#ctor
-  isSpec: "True"
-  fullName: BoardStatus.BoardStatus
-  nameWithType: BoardStatus.BoardStatus
-- uid: Global.BoardStatus.addPopCenter(PopulationCenter)
-  name: addPopCenter(PopulationCenter)
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addPopCenter_PopulationCenter_
-  commentId: M:Global.BoardStatus.addPopCenter(PopulationCenter)
-  fullName: BoardStatus.addPopCenter(PopulationCenter)
-  nameWithType: BoardStatus.addPopCenter(PopulationCenter)
-- uid: Global.BoardStatus.addPopCenter*
-  name: addPopCenter
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addPopCenter_
-  commentId: Overload:Global.BoardStatus.addPopCenter
-  isSpec: "True"
-  fullName: BoardStatus.addPopCenter
-  nameWithType: BoardStatus.addPopCenter
-- uid: Global.BoardStatus.addResource(Resource)
-  name: addResource(Resource)
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addResource_Resource_
-  commentId: M:Global.BoardStatus.addResource(Resource)
-  fullName: BoardStatus.addResource(Resource)
-  nameWithType: BoardStatus.addResource(Resource)
-- uid: Global.BoardStatus.addResource*
-  name: addResource
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addResource_
-  commentId: Overload:Global.BoardStatus.addResource
-  isSpec: "True"
-  fullName: BoardStatus.addResource
-  nameWithType: BoardStatus.addResource
-- uid: Global.BoardStatus.addRoad(Road)
-  name: addRoad(Road)
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addRoad_Road_
-  commentId: M:Global.BoardStatus.addRoad(Road)
-  fullName: BoardStatus.addRoad(Road)
-  nameWithType: BoardStatus.addRoad(Road)
-- uid: Global.BoardStatus.addRoad*
-  name: addRoad
-  href: api/Global.BoardStatus.html#Global_BoardStatus_addRoad_
-  commentId: Overload:Global.BoardStatus.addRoad
-  isSpec: "True"
-  fullName: BoardStatus.addRoad
-  nameWithType: BoardStatus.addRoad
-- uid: Global.BoardStatus.boardPopCenters
-  name: boardPopCenters
-  href: api/Global.BoardStatus.html#Global_BoardStatus_boardPopCenters
-  commentId: F:Global.BoardStatus.boardPopCenters
-  fullName: BoardStatus.boardPopCenters
-  nameWithType: BoardStatus.boardPopCenters
-- uid: Global.BoardStatus.boardRoads
-  name: boardRoads
-  href: api/Global.BoardStatus.html#Global_BoardStatus_boardRoads
-  commentId: F:Global.BoardStatus.boardRoads
-  fullName: BoardStatus.boardRoads
-  nameWithType: BoardStatus.boardRoads
-- uid: Global.BoardStatus.boardTiles
-  name: boardTiles
-  href: api/Global.BoardStatus.html#Global_BoardStatus_boardTiles
-  commentId: F:Global.BoardStatus.boardTiles
-  fullName: BoardStatus.boardTiles
-  nameWithType: BoardStatus.boardTiles
 - uid: Global.BuildingIconSettings
   name: BuildingIconSettings
   href: api/Global.BuildingIconSettings.html
@@ -1234,54 +1158,6 @@ references:
   isSpec: "True"
   fullName: EventEntrySettings.setEventText
   nameWithType: EventEntrySettings.setEventText
-- uid: Global.EventManager
-  name: EventManager
-  href: api/Global.EventManager.html
-  commentId: T:Global.EventManager
-  fullName: EventManager
-  nameWithType: EventManager
-- uid: Global.EventManager.boardCreated
-  name: boardCreated
-  href: api/Global.EventManager.html#Global_EventManager_boardCreated
-  commentId: E:Global.EventManager.boardCreated
-  fullName: EventManager.boardCreated
-  nameWithType: EventManager.boardCreated
-- uid: Global.EventManager.boardStatusEvents
-  name: EventManager.boardStatusEvents
-  href: api/Global.EventManager.boardStatusEvents.html
-  commentId: T:Global.EventManager.boardStatusEvents
-  fullName: EventManager.boardStatusEvents
-  nameWithType: EventManager.boardStatusEvents
-- uid: Global.EventManager.cityCreated
-  name: cityCreated
-  href: api/Global.EventManager.html#Global_EventManager_cityCreated
-  commentId: E:Global.EventManager.cityCreated
-  fullName: EventManager.cityCreated
-  nameWithType: EventManager.cityCreated
-- uid: Global.EventManager.popCenterEvents
-  name: EventManager.popCenterEvents
-  href: api/Global.EventManager.popCenterEvents.html
-  commentId: T:Global.EventManager.popCenterEvents
-  fullName: EventManager.popCenterEvents
-  nameWithType: EventManager.popCenterEvents
-- uid: Global.EventManager.roadCreated
-  name: roadCreated
-  href: api/Global.EventManager.html#Global_EventManager_roadCreated
-  commentId: E:Global.EventManager.roadCreated
-  fullName: EventManager.roadCreated
-  nameWithType: EventManager.roadCreated
-- uid: Global.EventManager.roadEvents
-  name: EventManager.roadEvents
-  href: api/Global.EventManager.roadEvents.html
-  commentId: T:Global.EventManager.roadEvents
-  fullName: EventManager.roadEvents
-  nameWithType: EventManager.roadEvents
-- uid: Global.EventManager.settlmentCreated
-  name: settlmentCreated
-  href: api/Global.EventManager.html#Global_EventManager_settlmentCreated
-  commentId: E:Global.EventManager.settlmentCreated
-  fullName: EventManager.settlmentCreated
-  nameWithType: EventManager.settlmentCreated
 - uid: Global.EventParser
   name: EventParser
   href: api/Global.EventParser.html
@@ -1522,6 +1398,19 @@ references:
   isSpec: "True"
   fullName: HexMath.GetNeighboringVertices
   nameWithType: HexMath.GetNeighboringVertices
+- uid: Global.HexMath.roadOffset(EdgeCoordinates)
+  name: roadOffset(EdgeCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_roadOffset_EdgeCoordinates_
+  commentId: M:Global.HexMath.roadOffset(EdgeCoordinates)
+  fullName: HexMath.roadOffset(EdgeCoordinates)
+  nameWithType: HexMath.roadOffset(EdgeCoordinates)
+- uid: Global.HexMath.roadOffset*
+  name: roadOffset
+  href: api/Global.HexMath.html#Global_HexMath_roadOffset_
+  commentId: Overload:Global.HexMath.roadOffset
+  isSpec: "True"
+  fullName: HexMath.roadOffset
+  nameWithType: HexMath.roadOffset
 - uid: Global.Hourglass
   name: Hourglass
   href: api/Global.Hourglass.html
@@ -2765,51 +2654,6 @@ references:
   isSpec: "True"
   fullName: ResourceTile.toggleStyle
   nameWithType: ResourceTile.toggleStyle
-- uid: Global.Road
-  name: Road
-  href: api/Global.Road.html
-  commentId: T:Global.Road
-  fullName: Road
-  nameWithType: Road
-- uid: Global.Road.edgeCoordinate
-  name: edgeCoordinate
-  href: api/Global.Road.html#Global_Road_edgeCoordinate
-  commentId: P:Global.Road.edgeCoordinate
-  fullName: Road.edgeCoordinate
-  nameWithType: Road.edgeCoordinate
-- uid: Global.Road.edgeCoordinate*
-  name: edgeCoordinate
-  href: api/Global.Road.html#Global_Road_edgeCoordinate_
-  commentId: Overload:Global.Road.edgeCoordinate
-  isSpec: "True"
-  fullName: Road.edgeCoordinate
-  nameWithType: Road.edgeCoordinate
-- uid: Global.Road.XPosition
-  name: XPosition
-  href: api/Global.Road.html#Global_Road_XPosition
-  commentId: P:Global.Road.XPosition
-  fullName: Road.XPosition
-  nameWithType: Road.XPosition
-- uid: Global.Road.XPosition*
-  name: XPosition
-  href: api/Global.Road.html#Global_Road_XPosition_
-  commentId: Overload:Global.Road.XPosition
-  isSpec: "True"
-  fullName: Road.XPosition
-  nameWithType: Road.XPosition
-- uid: Global.Road.YPosition
-  name: YPosition
-  href: api/Global.Road.html#Global_Road_YPosition
-  commentId: P:Global.Road.YPosition
-  fullName: Road.YPosition
-  nameWithType: Road.YPosition
-- uid: Global.Road.YPosition*
-  name: YPosition
-  href: api/Global.Road.html#Global_Road_YPosition_
-  commentId: Overload:Global.Road.YPosition
-  isSpec: "True"
-  fullName: Road.YPosition
-  nameWithType: Road.YPosition
 - uid: Global.RoadSettings
   name: RoadSettings
   href: api/Global.RoadSettings.html
@@ -3691,6 +3535,19 @@ references:
   commentId: T:Model.EdgeCoordinates
   fullName: Model.EdgeCoordinates
   nameWithType: EdgeCoordinates
+- uid: Model.EdgeCoordinates.arrayConversion
+  name: arrayConversion()
+  href: api/Model.EdgeCoordinates.html#Model_EdgeCoordinates_arrayConversion
+  commentId: M:Model.EdgeCoordinates.arrayConversion
+  fullName: Model.EdgeCoordinates.arrayConversion()
+  nameWithType: EdgeCoordinates.arrayConversion()
+- uid: Model.EdgeCoordinates.arrayConversion*
+  name: arrayConversion
+  href: api/Model.EdgeCoordinates.html#Model_EdgeCoordinates_arrayConversion_
+  commentId: Overload:Model.EdgeCoordinates.arrayConversion
+  isSpec: "True"
+  fullName: Model.EdgeCoordinates.arrayConversion
+  nameWithType: EdgeCoordinates.arrayConversion
 - uid: Model.EdgeCoordinates.Equals(Model.EdgeCoordinates)
   name: Equals(EdgeCoordinates)
   href: api/Model.EdgeCoordinates.html#Model_EdgeCoordinates_Equals_Model_EdgeCoordinates_
