@@ -1195,6 +1195,12 @@ references:
   commentId: E:Global.EventStream.OnPlayerRollEvent
   fullName: EventStream.OnPlayerRollEvent
   nameWithType: EventStream.OnPlayerRollEvent
+- uid: Global.EventStream.OnRoadPlacedEvent
+  name: OnRoadPlacedEvent
+  href: api/Global.EventStream.html#Global_EventStream_OnRoadPlacedEvent
+  commentId: E:Global.EventStream.OnRoadPlacedEvent
+  fullName: EventStream.OnRoadPlacedEvent
+  nameWithType: EventStream.OnRoadPlacedEvent
 - uid: Global.EventStream.PushEvent(Model.Event.GameEvent)
   name: PushEvent(GameEvent)
   href: api/Global.EventStream.html#Global_EventStream_PushEvent_Model_Event_GameEvent_
@@ -3746,6 +3752,25 @@ references:
   commentId: F:Model.Event.PlayerRollEvent.RollValues
   fullName: Model.Event.PlayerRollEvent.RollValues
   nameWithType: PlayerRollEvent.RollValues
+- uid: Model.Event.RoadPlacedEvent
+  name: RoadPlacedEvent
+  href: api/Model.Event.RoadPlacedEvent.html
+  commentId: T:Model.Event.RoadPlacedEvent
+  fullName: Model.Event.RoadPlacedEvent
+  nameWithType: RoadPlacedEvent
+- uid: Model.Event.RoadPlacedEvent.roads
+  name: roads
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_roads
+  commentId: P:Model.Event.RoadPlacedEvent.roads
+  fullName: Model.Event.RoadPlacedEvent.roads
+  nameWithType: RoadPlacedEvent.roads
+- uid: Model.Event.RoadPlacedEvent.roads*
+  name: roads
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_roads_
+  commentId: Overload:Model.Event.RoadPlacedEvent.roads
+  isSpec: "True"
+  fullName: Model.Event.RoadPlacedEvent.roads
+  nameWithType: RoadPlacedEvent.roads
 - uid: Model.Player
   name: Player
   href: api/Model.Player.html
