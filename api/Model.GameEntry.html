@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RollValue
+    <title>Class GameEntry
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RollValue
+    <meta name="title" content="Class GameEntry
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -230,8 +230,8 @@
                           <li class="">
                             <a href="Global.RoadSettings.html" title="RoadSettings" class="">RoadSettings</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.RollValue.html" title="RollValue" class="active">RollValue</a>
+                          <li class="">
+                            <a href="Global.RollValue.html" title="RollValue" class="">RollValue</a>
                           </li>
                           <li class="">
                             <a href="Global.Timer.html" title="Timer" class="">Timer</a>
@@ -263,8 +263,8 @@
                           <li class="">
                             <a href="Model.EdgeCoordinates.html" title="EdgeCoordinates" class="">EdgeCoordinates</a>
                           </li>
-                          <li class="">
-                            <a href="Model.GameEntry.html" title="GameEntry" class="">GameEntry</a>
+                          <li class="active">
+                            <a href="Model.GameEntry.html" title="GameEntry" class="active">GameEntry</a>
                           </li>
                           <li class="">
                             <a href="Model.Player.html" title="Player" class="">Player</a>
@@ -316,36 +316,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.RollValue">
+            <article class="content wrap" id="_content" data-uid="Model.GameEntry">
   
   
-  <h1 id="Global_RollValue" data-uid="Global.RollValue" class="text-break">Class RollValue
+  <h1 id="Model_GameEntry" data-uid="Model.GameEntry" class="text-break">Class GameEntry
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Contains all information about a player.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RollValue</span></div>
+    <div class="level1"><span class="xref">GameEntry</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_RollValue_syntax">Syntax</h5>
+  <h5 id="Model_GameEntry_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RollValue : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameEntry</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Global_RollValue_assetManagerSprites" data-uid="Global.RollValue.assetManagerSprites">assetManagerSprites</h4>
+  <a id="Model_GameEntry_GameSettings_" data-uid="Model.GameEntry.GameSettings*"></a>
+  <h4 id="Model_GameEntry_GameSettings" data-uid="Model.GameEntry.GameSettings">GameSettings</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; GameSettings { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -355,21 +381,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
-        <td></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Dictionary of custom game settings</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_RollValue_valueAnimator" data-uid="Global.RollValue.valueAnimator">valueAnimator</h4>
+  <a id="Model_GameEntry_ID_" data-uid="Model.GameEntry.ID*"></a>
+  <h4 id="Model_GameEntry_ID" data-uid="Model.GameEntry.ID">ID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator valueAnimator</code></pre>
+    <pre><code class="lang-csharp hljs">public string ID { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -379,88 +407,139 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Animator</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Unique identifier for this game.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_RollValue_valueSprite" data-uid="Global.RollValue.valueSprite">valueSprite</h4>
+  <a id="Model_GameEntry_IsCustomGame_" data-uid="Model.GameEntry.IsCustomGame*"></a>
+  <h4 id="Model_GameEntry_IsCustomGame" data-uid="Model.GameEntry.IsCustomGame">IsCustomGame</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer valueSprite</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsCustomGame { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Global_RollValue_setActive_" data-uid="Global.RollValue.setActive*"></a>
-  <h4 id="Global_RollValue_setActive_System_Boolean_" data-uid="Global.RollValue.setActive(System.Boolean)">setActive(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setActive(bool isActive)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isActive</span></td>
-        <td></td>
+        <td><p>Is the game custom</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_RollValue_setValue_" data-uid="Global.RollValue.setValue*"></a>
-  <h4 id="Global_RollValue_setValue_System_Int32_" data-uid="Global.RollValue.setValue(System.Int32)">setValue(Int32)</h4>
+  <a id="Model_GameEntry_Name_" data-uid="Model.GameEntry.Name*"></a>
+  <h4 id="Model_GameEntry_Name" data-uid="Model.GameEntry.Name">Name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setValue(int value)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The game's name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameEntry_Password_" data-uid="Model.GameEntry.Password*"></a>
+  <h4 id="Model_GameEntry_Password" data-uid="Model.GameEntry.Password">Password</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Password { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Password for the game</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameEntry_Players_" data-uid="Model.GameEntry.Players*"></a>
+  <h4 id="Model_GameEntry_Players" data-uid="Model.GameEntry.Players">Players</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; Players { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Model.Player.html">Player</a>&gt;</td>
+        <td><p>List of players in the lobby</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameEntry_ThumbIndex_" data-uid="Model.GameEntry.ThumbIndex*"></a>
+  <h4 id="Model_GameEntry_ThumbIndex" data-uid="Model.GameEntry.ThumbIndex">ThumbIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ThumbIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The index of the game's thumbnail image</p>
+</td>
       </tr>
     </tbody>
   </table>

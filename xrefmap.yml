@@ -405,6 +405,91 @@ references:
   commentId: T:Global.BoardManagerV2
   fullName: BoardManagerV2
   nameWithType: BoardManagerV2
+- uid: Global.BrowserGameCard
+  name: BrowserGameCard
+  href: api/Global.BrowserGameCard.html
+  commentId: T:Global.BrowserGameCard
+  fullName: BrowserGameCard
+  nameWithType: BrowserGameCard
+- uid: Global.BrowserGameCard.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_assetManagerSprites
+  commentId: F:Global.BrowserGameCard.assetManagerSprites
+  fullName: BrowserGameCard.assetManagerSprites
+  nameWithType: BrowserGameCard.assetManagerSprites
+- uid: Global.BrowserGameCard.gameName
+  name: gameName
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_gameName
+  commentId: F:Global.BrowserGameCard.gameName
+  fullName: BrowserGameCard.gameName
+  nameWithType: BrowserGameCard.gameName
+- uid: Global.BrowserGameCard.gameSettingsList
+  name: gameSettingsList
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_gameSettingsList
+  commentId: F:Global.BrowserGameCard.gameSettingsList
+  fullName: BrowserGameCard.gameSettingsList
+  nameWithType: BrowserGameCard.gameSettingsList
+- uid: Global.BrowserGameCard.gameSetup
+  name: gameSetup
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_gameSetup
+  commentId: F:Global.BrowserGameCard.gameSetup
+  fullName: BrowserGameCard.gameSetup
+  nameWithType: BrowserGameCard.gameSetup
+- uid: Global.BrowserGameCard.gameThumb
+  name: gameThumb
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_gameThumb
+  commentId: F:Global.BrowserGameCard.gameThumb
+  fullName: BrowserGameCard.gameThumb
+  nameWithType: BrowserGameCard.gameThumb
+- uid: Global.BrowserGameCard.joinButtonSprite
+  name: joinButtonSprite
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_joinButtonSprite
+  commentId: F:Global.BrowserGameCard.joinButtonSprite
+  fullName: BrowserGameCard.joinButtonSprite
+  nameWithType: BrowserGameCard.joinButtonSprite
+- uid: Global.BrowserGameCard.joinGameButton
+  name: joinGameButton
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_joinGameButton
+  commentId: F:Global.BrowserGameCard.joinGameButton
+  fullName: BrowserGameCard.joinGameButton
+  nameWithType: BrowserGameCard.joinGameButton
+- uid: Global.BrowserGameCard.joinIcon
+  name: joinIcon
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_joinIcon
+  commentId: F:Global.BrowserGameCard.joinIcon
+  fullName: BrowserGameCard.joinIcon
+  nameWithType: BrowserGameCard.joinIcon
+- uid: Global.BrowserGameCard.passwordIcon
+  name: passwordIcon
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_passwordIcon
+  commentId: F:Global.BrowserGameCard.passwordIcon
+  fullName: BrowserGameCard.passwordIcon
+  nameWithType: BrowserGameCard.passwordIcon
+- uid: Global.BrowserGameCard.passwordProtectedIcon
+  name: passwordProtectedIcon
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_passwordProtectedIcon
+  commentId: F:Global.BrowserGameCard.passwordProtectedIcon
+  fullName: BrowserGameCard.passwordProtectedIcon
+  nameWithType: BrowserGameCard.passwordProtectedIcon
+- uid: Global.BrowserGameCard.playerCount
+  name: playerCount
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_playerCount
+  commentId: F:Global.BrowserGameCard.playerCount
+  fullName: BrowserGameCard.playerCount
+  nameWithType: BrowserGameCard.playerCount
+- uid: Global.BrowserGameCard.setGame(GameEntry)
+  name: setGame(GameEntry)
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_setGame_GameEntry_
+  commentId: M:Global.BrowserGameCard.setGame(GameEntry)
+  fullName: BrowserGameCard.setGame(GameEntry)
+  nameWithType: BrowserGameCard.setGame(GameEntry)
+- uid: Global.BrowserGameCard.setGame*
+  name: setGame
+  href: api/Global.BrowserGameCard.html#Global_BrowserGameCard_setGame_
+  commentId: Overload:Global.BrowserGameCard.setGame
+  isSpec: "True"
+  fullName: BrowserGameCard.setGame
+  nameWithType: BrowserGameCard.setGame
 - uid: Global.BuildingIconSettings
   name: BuildingIconSettings
   href: api/Global.BuildingIconSettings.html
@@ -1250,11 +1335,11 @@ references:
   commentId: E:Global.EventStream.OnRoadPlacedEvent
   fullName: EventStream.OnRoadPlacedEvent
   nameWithType: EventStream.OnRoadPlacedEvent
-- uid: Global.EventStream.PushEvent(Model.Event.GameEvent)
+- uid: Global.EventStream.PushEvent(GameEvent)
   name: PushEvent(GameEvent)
-  href: api/Global.EventStream.html#Global_EventStream_PushEvent_Model_Event_GameEvent_
-  commentId: M:Global.EventStream.PushEvent(Model.Event.GameEvent)
-  fullName: EventStream.PushEvent(Model.Event.GameEvent)
+  href: api/Global.EventStream.html#Global_EventStream_PushEvent_GameEvent_
+  commentId: M:Global.EventStream.PushEvent(GameEvent)
+  fullName: EventStream.PushEvent(GameEvent)
   nameWithType: EventStream.PushEvent(GameEvent)
 - uid: Global.EventStream.PushEvent*
   name: PushEvent
@@ -1591,6 +1676,24 @@ references:
   isSpec: "True"
   fullName: IconContainerSettings.setIconCount
   nameWithType: IconContainerSettings.setIconCount
+- uid: Global.JoinButton
+  name: JoinButton
+  href: api/Global.JoinButton.html
+  commentId: T:Global.JoinButton
+  fullName: JoinButton
+  nameWithType: JoinButton
+- uid: Global.JoinButton.buttonIcon
+  name: buttonIcon
+  href: api/Global.JoinButton.html#Global_JoinButton_buttonIcon
+  commentId: F:Global.JoinButton.buttonIcon
+  fullName: JoinButton.buttonIcon
+  nameWithType: JoinButton.buttonIcon
+- uid: Global.JoinButton.buttonImageIcon
+  name: buttonImageIcon
+  href: api/Global.JoinButton.html#Global_JoinButton_buttonImageIcon
+  commentId: F:Global.JoinButton.buttonImageIcon
+  fullName: JoinButton.buttonImageIcon
+  nameWithType: JoinButton.buttonImageIcon
 - uid: Global.LocalPlayerStats
   name: LocalPlayerStats
   href: api/Global.LocalPlayerStats.html
@@ -3900,6 +4003,103 @@ references:
   isSpec: "True"
   fullName: Model.Event.RoadPlacedEvent.roads
   nameWithType: RoadPlacedEvent.roads
+- uid: Model.GameEntry
+  name: GameEntry
+  href: api/Model.GameEntry.html
+  commentId: T:Model.GameEntry
+  fullName: Model.GameEntry
+  nameWithType: GameEntry
+- uid: Model.GameEntry.GameSettings
+  name: GameSettings
+  href: api/Model.GameEntry.html#Model_GameEntry_GameSettings
+  commentId: P:Model.GameEntry.GameSettings
+  fullName: Model.GameEntry.GameSettings
+  nameWithType: GameEntry.GameSettings
+- uid: Model.GameEntry.GameSettings*
+  name: GameSettings
+  href: api/Model.GameEntry.html#Model_GameEntry_GameSettings_
+  commentId: Overload:Model.GameEntry.GameSettings
+  isSpec: "True"
+  fullName: Model.GameEntry.GameSettings
+  nameWithType: GameEntry.GameSettings
+- uid: Model.GameEntry.ID
+  name: ID
+  href: api/Model.GameEntry.html#Model_GameEntry_ID
+  commentId: P:Model.GameEntry.ID
+  fullName: Model.GameEntry.ID
+  nameWithType: GameEntry.ID
+- uid: Model.GameEntry.ID*
+  name: ID
+  href: api/Model.GameEntry.html#Model_GameEntry_ID_
+  commentId: Overload:Model.GameEntry.ID
+  isSpec: "True"
+  fullName: Model.GameEntry.ID
+  nameWithType: GameEntry.ID
+- uid: Model.GameEntry.IsCustomGame
+  name: IsCustomGame
+  href: api/Model.GameEntry.html#Model_GameEntry_IsCustomGame
+  commentId: P:Model.GameEntry.IsCustomGame
+  fullName: Model.GameEntry.IsCustomGame
+  nameWithType: GameEntry.IsCustomGame
+- uid: Model.GameEntry.IsCustomGame*
+  name: IsCustomGame
+  href: api/Model.GameEntry.html#Model_GameEntry_IsCustomGame_
+  commentId: Overload:Model.GameEntry.IsCustomGame
+  isSpec: "True"
+  fullName: Model.GameEntry.IsCustomGame
+  nameWithType: GameEntry.IsCustomGame
+- uid: Model.GameEntry.Name
+  name: Name
+  href: api/Model.GameEntry.html#Model_GameEntry_Name
+  commentId: P:Model.GameEntry.Name
+  fullName: Model.GameEntry.Name
+  nameWithType: GameEntry.Name
+- uid: Model.GameEntry.Name*
+  name: Name
+  href: api/Model.GameEntry.html#Model_GameEntry_Name_
+  commentId: Overload:Model.GameEntry.Name
+  isSpec: "True"
+  fullName: Model.GameEntry.Name
+  nameWithType: GameEntry.Name
+- uid: Model.GameEntry.Password
+  name: Password
+  href: api/Model.GameEntry.html#Model_GameEntry_Password
+  commentId: P:Model.GameEntry.Password
+  fullName: Model.GameEntry.Password
+  nameWithType: GameEntry.Password
+- uid: Model.GameEntry.Password*
+  name: Password
+  href: api/Model.GameEntry.html#Model_GameEntry_Password_
+  commentId: Overload:Model.GameEntry.Password
+  isSpec: "True"
+  fullName: Model.GameEntry.Password
+  nameWithType: GameEntry.Password
+- uid: Model.GameEntry.Players
+  name: Players
+  href: api/Model.GameEntry.html#Model_GameEntry_Players
+  commentId: P:Model.GameEntry.Players
+  fullName: Model.GameEntry.Players
+  nameWithType: GameEntry.Players
+- uid: Model.GameEntry.Players*
+  name: Players
+  href: api/Model.GameEntry.html#Model_GameEntry_Players_
+  commentId: Overload:Model.GameEntry.Players
+  isSpec: "True"
+  fullName: Model.GameEntry.Players
+  nameWithType: GameEntry.Players
+- uid: Model.GameEntry.ThumbIndex
+  name: ThumbIndex
+  href: api/Model.GameEntry.html#Model_GameEntry_ThumbIndex
+  commentId: P:Model.GameEntry.ThumbIndex
+  fullName: Model.GameEntry.ThumbIndex
+  nameWithType: GameEntry.ThumbIndex
+- uid: Model.GameEntry.ThumbIndex*
+  name: ThumbIndex
+  href: api/Model.GameEntry.html#Model_GameEntry_ThumbIndex_
+  commentId: Overload:Model.GameEntry.ThumbIndex
+  isSpec: "True"
+  fullName: Model.GameEntry.ThumbIndex
+  nameWithType: GameEntry.ThumbIndex
 - uid: Model.Player
   name: Player
   href: api/Model.Player.html

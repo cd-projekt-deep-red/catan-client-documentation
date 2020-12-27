@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RollValue
+    <title>Class BrowserGameCard
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RollValue
+    <meta name="title" content="Class BrowserGameCard
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -101,8 +101,8 @@
                           <li class="">
                             <a href="Global.BoardManagerV2.html" title="BoardManagerV2" class="">BoardManagerV2</a>
                           </li>
-                          <li class="">
-                            <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="">BrowserGameCard</a>
+                          <li class="active">
+                            <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="active">BrowserGameCard</a>
                           </li>
                           <li class="">
                             <a href="Global.BuildingIconSettings.html" title="BuildingIconSettings" class="">BuildingIconSettings</a>
@@ -230,8 +230,8 @@
                           <li class="">
                             <a href="Global.RoadSettings.html" title="RoadSettings" class="">RoadSettings</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.RollValue.html" title="RollValue" class="active">RollValue</a>
+                          <li class="">
+                            <a href="Global.RollValue.html" title="RollValue" class="">RollValue</a>
                           </li>
                           <li class="">
                             <a href="Global.Timer.html" title="Timer" class="">Timer</a>
@@ -316,29 +316,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.RollValue">
+            <article class="content wrap" id="_content" data-uid="Global.BrowserGameCard">
   
   
-  <h1 id="Global_RollValue" data-uid="Global.RollValue" class="text-break">Class RollValue
+  <h1 id="Global_BrowserGameCard" data-uid="Global.BrowserGameCard" class="text-break">Class BrowserGameCard
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RollValue</span></div>
+    <div class="level1"><span class="xref">BrowserGameCard</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_RollValue_syntax">Syntax</h5>
+  <h5 id="Global_BrowserGameCard_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RollValue : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class BrowserGameCard : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_RollValue_assetManagerSprites" data-uid="Global.RollValue.assetManagerSprites">assetManagerSprites</h4>
+  <h4 id="Global_BrowserGameCard_assetManagerSprites" data-uid="Global.BrowserGameCard.assetManagerSprites">assetManagerSprites</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -362,12 +362,12 @@
   </table>
   
   
-  <h4 id="Global_RollValue_valueAnimator" data-uid="Global.RollValue.valueAnimator">valueAnimator</h4>
+  <h4 id="Global_BrowserGameCard_gameName" data-uid="Global.BrowserGameCard.gameName">gameName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Animator valueAnimator</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI gameName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -379,19 +379,163 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Animator</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_RollValue_valueSprite" data-uid="Global.RollValue.valueSprite">valueSprite</h4>
+  <h4 id="Global_BrowserGameCard_gameSettingsList" data-uid="Global.BrowserGameCard.gameSettingsList">gameSettingsList</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer valueSprite</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject gameSettingsList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_gameSetup" data-uid="Global.BrowserGameCard.gameSetup">gameSetup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI gameSetup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_gameThumb" data-uid="Global.BrowserGameCard.gameThumb">gameThumb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image gameThumb</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_joinButtonSprite" data-uid="Global.BrowserGameCard.joinButtonSprite">joinButtonSprite</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image joinButtonSprite</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_joinGameButton" data-uid="Global.BrowserGameCard.joinGameButton">joinGameButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button joinGameButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_joinIcon" data-uid="Global.BrowserGameCard.joinIcon">joinIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image joinIcon</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_BrowserGameCard_passwordIcon" data-uid="Global.BrowserGameCard.passwordIcon">passwordIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteRenderer passwordIcon</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,44 +552,65 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_RollValue_setActive_" data-uid="Global.RollValue.setActive*"></a>
-  <h4 id="Global_RollValue_setActive_System_Boolean_" data-uid="Global.RollValue.setActive(System.Boolean)">setActive(Boolean)</h4>
+  <h4 id="Global_BrowserGameCard_passwordProtectedIcon" data-uid="Global.BrowserGameCard.passwordProtectedIcon">passwordProtectedIcon</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setActive(bool isActive)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject passwordProtectedIcon</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isActive</span></td>
+        <td><span class="xref">GameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_RollValue_setValue_" data-uid="Global.RollValue.setValue*"></a>
-  <h4 id="Global_RollValue_setValue_System_Int32_" data-uid="Global.RollValue.setValue(System.Int32)">setValue(Int32)</h4>
+  <h4 id="Global_BrowserGameCard_playerCount" data-uid="Global.BrowserGameCard.playerCount">playerCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setValue(int value)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI playerCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_BrowserGameCard_setGame_" data-uid="Global.BrowserGameCard.setGame*"></a>
+  <h4 id="Global_BrowserGameCard_setGame_GameEntry_" data-uid="Global.BrowserGameCard.setGame(GameEntry)">setGame(GameEntry)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setGame(GameEntry game)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -458,8 +623,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">GameEntry</span></td>
+        <td><span class="parametername">game</span></td>
         <td></td>
       </tr>
     </tbody>
