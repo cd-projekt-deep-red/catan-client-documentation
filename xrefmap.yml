@@ -665,55 +665,104 @@ references:
   isSpec: "True"
   fullName: BuildRoadSettings.toggleVisibility
   nameWithType: BuildRoadSettings.toggleVisibility
-- uid: Global.ButtonSettings
-  name: ButtonSettings
-  href: api/Global.ButtonSettings.html
-  commentId: T:Global.ButtonSettings
-  fullName: ButtonSettings
-  nameWithType: ButtonSettings
-- uid: Global.ButtonSettings.assetManagerSprites
+- uid: Global.ButtonPrimarySettings
+  name: ButtonPrimarySettings
+  href: api/Global.ButtonPrimarySettings.html
+  commentId: T:Global.ButtonPrimarySettings
+  fullName: ButtonPrimarySettings
+  nameWithType: ButtonPrimarySettings
+- uid: Global.ButtonPrimarySettings.assetManagerSprites
   name: assetManagerSprites
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_assetManagerSprites
-  commentId: F:Global.ButtonSettings.assetManagerSprites
-  fullName: ButtonSettings.assetManagerSprites
-  nameWithType: ButtonSettings.assetManagerSprites
-- uid: Global.ButtonSettings.button
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_assetManagerSprites
+  commentId: F:Global.ButtonPrimarySettings.assetManagerSprites
+  fullName: ButtonPrimarySettings.assetManagerSprites
+  nameWithType: ButtonPrimarySettings.assetManagerSprites
+- uid: Global.ButtonPrimarySettings.button
   name: button
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_button
-  commentId: F:Global.ButtonSettings.button
-  fullName: ButtonSettings.button
-  nameWithType: ButtonSettings.button
-- uid: Global.ButtonSettings.buttonBackground
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_button
+  commentId: F:Global.ButtonPrimarySettings.button
+  fullName: ButtonPrimarySettings.button
+  nameWithType: ButtonPrimarySettings.button
+- uid: Global.ButtonPrimarySettings.buttonBackground
   name: buttonBackground
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonBackground
-  commentId: F:Global.ButtonSettings.buttonBackground
-  fullName: ButtonSettings.buttonBackground
-  nameWithType: ButtonSettings.buttonBackground
-- uid: Global.ButtonSettings.buttonText
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_buttonBackground
+  commentId: F:Global.ButtonPrimarySettings.buttonBackground
+  fullName: ButtonPrimarySettings.buttonBackground
+  nameWithType: ButtonPrimarySettings.buttonBackground
+- uid: Global.ButtonPrimarySettings.buttonText
   name: buttonText
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonText
-  commentId: F:Global.ButtonSettings.buttonText
-  fullName: ButtonSettings.buttonText
-  nameWithType: ButtonSettings.buttonText
-- uid: Global.ButtonSettings.buttonUI
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_buttonText
+  commentId: F:Global.ButtonPrimarySettings.buttonText
+  fullName: ButtonPrimarySettings.buttonText
+  nameWithType: ButtonPrimarySettings.buttonText
+- uid: Global.ButtonPrimarySettings.buttonUI
   name: buttonUI
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_buttonUI
-  commentId: F:Global.ButtonSettings.buttonUI
-  fullName: ButtonSettings.buttonUI
-  nameWithType: ButtonSettings.buttonUI
-- uid: Global.ButtonSettings.setButton(System.Int32,System.Int32,System.String)
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_buttonUI
+  commentId: F:Global.ButtonPrimarySettings.buttonUI
+  fullName: ButtonPrimarySettings.buttonUI
+  nameWithType: ButtonPrimarySettings.buttonUI
+- uid: Global.ButtonPrimarySettings.setButton(System.Int32,System.Int32,System.String)
   name: setButton(Int32, Int32, String)
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_setButton_System_Int32_System_Int32_System_String_
-  commentId: M:Global.ButtonSettings.setButton(System.Int32,System.Int32,System.String)
-  fullName: ButtonSettings.setButton(System.Int32, System.Int32, System.String)
-  nameWithType: ButtonSettings.setButton(Int32, Int32, String)
-- uid: Global.ButtonSettings.setButton*
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_setButton_System_Int32_System_Int32_System_String_
+  commentId: M:Global.ButtonPrimarySettings.setButton(System.Int32,System.Int32,System.String)
+  fullName: ButtonPrimarySettings.setButton(System.Int32, System.Int32, System.String)
+  nameWithType: ButtonPrimarySettings.setButton(Int32, Int32, String)
+- uid: Global.ButtonPrimarySettings.setButton*
   name: setButton
-  href: api/Global.ButtonSettings.html#Global_ButtonSettings_setButton_
-  commentId: Overload:Global.ButtonSettings.setButton
+  href: api/Global.ButtonPrimarySettings.html#Global_ButtonPrimarySettings_setButton_
+  commentId: Overload:Global.ButtonPrimarySettings.setButton
   isSpec: "True"
-  fullName: ButtonSettings.setButton
-  nameWithType: ButtonSettings.setButton
+  fullName: ButtonPrimarySettings.setButton
+  nameWithType: ButtonPrimarySettings.setButton
+- uid: Global.ButtonSecondarySettings
+  name: ButtonSecondarySettings
+  href: api/Global.ButtonSecondarySettings.html
+  commentId: T:Global.ButtonSecondarySettings
+  fullName: ButtonSecondarySettings
+  nameWithType: ButtonSecondarySettings
+- uid: Global.ButtonSecondarySettings.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_assetManagerSprites
+  commentId: F:Global.ButtonSecondarySettings.assetManagerSprites
+  fullName: ButtonSecondarySettings.assetManagerSprites
+  nameWithType: ButtonSecondarySettings.assetManagerSprites
+- uid: Global.ButtonSecondarySettings.button
+  name: button
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_button
+  commentId: F:Global.ButtonSecondarySettings.button
+  fullName: ButtonSecondarySettings.button
+  nameWithType: ButtonSecondarySettings.button
+- uid: Global.ButtonSecondarySettings.buttonBackground
+  name: buttonBackground
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_buttonBackground
+  commentId: F:Global.ButtonSecondarySettings.buttonBackground
+  fullName: ButtonSecondarySettings.buttonBackground
+  nameWithType: ButtonSecondarySettings.buttonBackground
+- uid: Global.ButtonSecondarySettings.buttonText
+  name: buttonText
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_buttonText
+  commentId: F:Global.ButtonSecondarySettings.buttonText
+  fullName: ButtonSecondarySettings.buttonText
+  nameWithType: ButtonSecondarySettings.buttonText
+- uid: Global.ButtonSecondarySettings.buttonUI
+  name: buttonUI
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_buttonUI
+  commentId: F:Global.ButtonSecondarySettings.buttonUI
+  fullName: ButtonSecondarySettings.buttonUI
+  nameWithType: ButtonSecondarySettings.buttonUI
+- uid: Global.ButtonSecondarySettings.setButton(System.Int32,System.Int32,System.String)
+  name: setButton(Int32, Int32, String)
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_setButton_System_Int32_System_Int32_System_String_
+  commentId: M:Global.ButtonSecondarySettings.setButton(System.Int32,System.Int32,System.String)
+  fullName: ButtonSecondarySettings.setButton(System.Int32, System.Int32, System.String)
+  nameWithType: ButtonSecondarySettings.setButton(Int32, Int32, String)
+- uid: Global.ButtonSecondarySettings.setButton*
+  name: setButton
+  href: api/Global.ButtonSecondarySettings.html#Global_ButtonSecondarySettings_setButton_
+  commentId: Overload:Global.ButtonSecondarySettings.setButton
+  isSpec: "True"
+  fullName: ButtonSecondarySettings.setButton
+  nameWithType: ButtonSecondarySettings.setButton
 - uid: Global.ConnectionSettings
   name: ConnectionSettings
   href: api/Global.ConnectionSettings.html
@@ -1702,6 +1751,49 @@ references:
   isSpec: "True"
   fullName: MaritimeTrades.refreshPorts
   nameWithType: MaritimeTrades.refreshPorts
+- uid: Global.MenuManager
+  name: MenuManager
+  href: api/Global.MenuManager.html
+  commentId: T:Global.MenuManager
+  fullName: MenuManager
+  nameWithType: MenuManager
+- uid: Global.MenuManager.browseGameButton
+  name: browseGameButton
+  href: api/Global.MenuManager.html#Global_MenuManager_browseGameButton
+  commentId: F:Global.MenuManager.browseGameButton
+  fullName: MenuManager.browseGameButton
+  nameWithType: MenuManager.browseGameButton
+- uid: Global.MenuManager.closeBrowserButton
+  name: closeBrowserButton
+  href: api/Global.MenuManager.html#Global_MenuManager_closeBrowserButton
+  commentId: F:Global.MenuManager.closeBrowserButton
+  fullName: MenuManager.closeBrowserButton
+  nameWithType: MenuManager.closeBrowserButton
+- uid: Global.MenuManager.menuNavWrapper
+  name: menuNavWrapper
+  href: api/Global.MenuManager.html#Global_MenuManager_menuNavWrapper
+  commentId: F:Global.MenuManager.menuNavWrapper
+  fullName: MenuManager.menuNavWrapper
+  nameWithType: MenuManager.menuNavWrapper
+- uid: Global.MenuManager.navigateTo(System.String)
+  name: navigateTo(String)
+  href: api/Global.MenuManager.html#Global_MenuManager_navigateTo_System_String_
+  commentId: M:Global.MenuManager.navigateTo(System.String)
+  fullName: MenuManager.navigateTo(System.String)
+  nameWithType: MenuManager.navigateTo(String)
+- uid: Global.MenuManager.navigateTo*
+  name: navigateTo
+  href: api/Global.MenuManager.html#Global_MenuManager_navigateTo_
+  commentId: Overload:Global.MenuManager.navigateTo
+  isSpec: "True"
+  fullName: MenuManager.navigateTo
+  nameWithType: MenuManager.navigateTo
+- uid: Global.MenuManager.startGameButton
+  name: startGameButton
+  href: api/Global.MenuManager.html#Global_MenuManager_startGameButton
+  commentId: F:Global.MenuManager.startGameButton
+  fullName: MenuManager.startGameButton
+  nameWithType: MenuManager.startGameButton
 - uid: Global.MockNetworkManager
   name: MockNetworkManager
   href: api/Global.MockNetworkManager.html
@@ -2303,6 +2395,43 @@ references:
   commentId: F:Global.PortTradeSettings.tradeIcon
   fullName: PortTradeSettings.tradeIcon
   nameWithType: PortTradeSettings.tradeIcon
+- uid: Global.QuickJoinButton
+  name: QuickJoinButton
+  href: api/Global.QuickJoinButton.html
+  commentId: T:Global.QuickJoinButton
+  fullName: QuickJoinButton
+  nameWithType: QuickJoinButton
+- uid: Global.QuickJoinButton.canActivate(System.String)
+  name: canActivate(String)
+  href: api/Global.QuickJoinButton.html#Global_QuickJoinButton_canActivate_System_String_
+  commentId: M:Global.QuickJoinButton.canActivate(System.String)
+  fullName: QuickJoinButton.canActivate(System.String)
+  nameWithType: QuickJoinButton.canActivate(String)
+- uid: Global.QuickJoinButton.canActivate*
+  name: canActivate
+  href: api/Global.QuickJoinButton.html#Global_QuickJoinButton_canActivate_
+  commentId: Overload:Global.QuickJoinButton.canActivate
+  isSpec: "True"
+  fullName: QuickJoinButton.canActivate
+  nameWithType: QuickJoinButton.canActivate
+- uid: Global.QuickJoinButton.joinCode
+  name: joinCode
+  href: api/Global.QuickJoinButton.html#Global_QuickJoinButton_joinCode
+  commentId: F:Global.QuickJoinButton.joinCode
+  fullName: QuickJoinButton.joinCode
+  nameWithType: QuickJoinButton.joinCode
+- uid: Global.QuickJoinButton.joinText
+  name: joinText
+  href: api/Global.QuickJoinButton.html#Global_QuickJoinButton_joinText
+  commentId: F:Global.QuickJoinButton.joinText
+  fullName: QuickJoinButton.joinText
+  nameWithType: QuickJoinButton.joinText
+- uid: Global.QuickJoinButton.quickJoinButton
+  name: quickJoinButton
+  href: api/Global.QuickJoinButton.html#Global_QuickJoinButton_quickJoinButton
+  commentId: F:Global.QuickJoinButton.quickJoinButton
+  fullName: QuickJoinButton.quickJoinButton
+  nameWithType: QuickJoinButton.quickJoinButton
 - uid: Global.RectTransformExtensions
   name: RectTransformExtensions
   href: api/Global.RectTransformExtensions.html
