@@ -4524,6 +4524,12 @@ references:
   commentId: T:Model.Event.RoadPlacedEvent
   fullName: Model.Event.RoadPlacedEvent
   nameWithType: RoadPlacedEvent
+- uid: Model.Event.RoadPlacedEvent.PlayerID
+  name: PlayerID
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_PlayerID
+  commentId: F:Model.Event.RoadPlacedEvent.PlayerID
+  fullName: Model.Event.RoadPlacedEvent.PlayerID
+  nameWithType: RoadPlacedEvent.PlayerID
 - uid: Model.Event.RoadPlacedEvent.roads
   name: roads
   href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_roads
