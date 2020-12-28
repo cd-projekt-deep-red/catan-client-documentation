@@ -376,13 +376,13 @@
   
   
   <a id="Model_GameEntry__ctor_" data-uid="Model.GameEntry.#ctor*"></a>
-  <h4 id="Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_" data-uid="Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)">GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)</h4>
+  <h4 id="Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_System_String_" data-uid="Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings,System.String)">GameEntry(String, Int32, String, Player, Boolean, String, GameSettings, String)</h4>
   <div class="markdown level1 summary"><p>Consturctor for a new game entry.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameEntry(string id, int thumbIndex, string name, Player creator, bool custom, string password, GameSettings gameSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameEntry(string id, int thumbIndex, string name, Player creator, bool custom, string password, GameSettings gameSettings, string joinCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -435,6 +435,12 @@
         <td><span class="parametername">gameSettings</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">joinCode</span></td>
+        <td><p>the code used for quick join</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -460,7 +466,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Model.GameSettings.html">GameSettings</a></td>
-        <td><p>Dictionary of custom game settings</p>
+        <td><p>The game's settings</p>
 </td>
       </tr>
     </tbody>
@@ -513,6 +519,32 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>Is the game custom</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameEntry_JoinCode_" data-uid="Model.GameEntry.JoinCode*"></a>
+  <h4 id="Model_GameEntry_JoinCode" data-uid="Model.GameEntry.JoinCode">JoinCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string JoinCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The quick join code for the game</p>
 </td>
       </tr>
     </tbody>

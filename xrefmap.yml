@@ -1970,6 +1970,32 @@ references:
   commentId: F:Global.MenuManager.closeBrowserButton
   fullName: MenuManager.closeBrowserButton
   nameWithType: MenuManager.closeBrowserButton
+- uid: Global.MenuManager.createWindow(GameObject,System.Int32,System.Int32,System.String,System.String)
+  name: createWindow(GameObject, Int32, Int32, String, String)
+  href: api/Global.MenuManager.html#Global_MenuManager_createWindow_GameObject_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:Global.MenuManager.createWindow(GameObject,System.Int32,System.Int32,System.String,System.String)
+  fullName: MenuManager.createWindow(GameObject, System.Int32, System.Int32, System.String, System.String)
+  nameWithType: MenuManager.createWindow(GameObject, Int32, Int32, String, String)
+- uid: Global.MenuManager.createWindow*
+  name: createWindow
+  href: api/Global.MenuManager.html#Global_MenuManager_createWindow_
+  commentId: Overload:Global.MenuManager.createWindow
+  isSpec: "True"
+  fullName: MenuManager.createWindow
+  nameWithType: MenuManager.createWindow
+- uid: Global.MenuManager.displayConnectingMessage
+  name: displayConnectingMessage()
+  href: api/Global.MenuManager.html#Global_MenuManager_displayConnectingMessage
+  commentId: M:Global.MenuManager.displayConnectingMessage
+  fullName: MenuManager.displayConnectingMessage()
+  nameWithType: MenuManager.displayConnectingMessage()
+- uid: Global.MenuManager.displayConnectingMessage*
+  name: displayConnectingMessage
+  href: api/Global.MenuManager.html#Global_MenuManager_displayConnectingMessage_
+  commentId: Overload:Global.MenuManager.displayConnectingMessage
+  isSpec: "True"
+  fullName: MenuManager.displayConnectingMessage
+  nameWithType: MenuManager.displayConnectingMessage
 - uid: Global.MenuManager.menuNavWrapper
   name: menuNavWrapper
   href: api/Global.MenuManager.html#Global_MenuManager_menuNavWrapper
@@ -1989,6 +2015,12 @@ references:
   isSpec: "True"
   fullName: MenuManager.navigateTo
   nameWithType: MenuManager.navigateTo
+- uid: Global.MenuManager.scrimPrefab
+  name: scrimPrefab
+  href: api/Global.MenuManager.html#Global_MenuManager_scrimPrefab
+  commentId: F:Global.MenuManager.scrimPrefab
+  fullName: MenuManager.scrimPrefab
+  nameWithType: MenuManager.scrimPrefab
 - uid: Global.MenuManager.startGameButton
   name: startGameButton
   href: api/Global.MenuManager.html#Global_MenuManager_startGameButton
@@ -2008,6 +2040,12 @@ references:
   isSpec: "True"
   fullName: MenuManager.updateGames
   nameWithType: MenuManager.updateGames
+- uid: Global.MenuManager.windowPrefab
+  name: windowPrefab
+  href: api/Global.MenuManager.html#Global_MenuManager_windowPrefab
+  commentId: F:Global.MenuManager.windowPrefab
+  fullName: MenuManager.windowPrefab
+  nameWithType: MenuManager.windowPrefab
 - uid: Global.MockNetworkManager
   name: MockNetworkManager
   href: api/Global.MockNetworkManager.html
@@ -4120,12 +4158,12 @@ references:
   commentId: T:Model.GameEntry
   fullName: Model.GameEntry
   nameWithType: GameEntry
-- uid: Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)
-  name: GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)
-  href: api/Model.GameEntry.html#Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_
-  commentId: M:Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)
-  fullName: Model.GameEntry.GameEntry(System.String, System.Int32, System.String, Model.Player, System.Boolean, System.String, Model.GameSettings)
-  nameWithType: GameEntry.GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)
+- uid: Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings,System.String)
+  name: GameEntry(String, Int32, String, Player, Boolean, String, GameSettings, String)
+  href: api/Model.GameEntry.html#Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_System_String_
+  commentId: M:Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings,System.String)
+  fullName: Model.GameEntry.GameEntry(System.String, System.Int32, System.String, Model.Player, System.Boolean, System.String, Model.GameSettings, System.String)
+  nameWithType: GameEntry.GameEntry(String, Int32, String, Player, Boolean, String, GameSettings, String)
 - uid: Model.GameEntry.#ctor*
   name: GameEntry
   href: api/Model.GameEntry.html#Model_GameEntry__ctor_
@@ -4172,6 +4210,19 @@ references:
   isSpec: "True"
   fullName: Model.GameEntry.IsCustomGame
   nameWithType: GameEntry.IsCustomGame
+- uid: Model.GameEntry.JoinCode
+  name: JoinCode
+  href: api/Model.GameEntry.html#Model_GameEntry_JoinCode
+  commentId: P:Model.GameEntry.JoinCode
+  fullName: Model.GameEntry.JoinCode
+  nameWithType: GameEntry.JoinCode
+- uid: Model.GameEntry.JoinCode*
+  name: JoinCode
+  href: api/Model.GameEntry.html#Model_GameEntry_JoinCode_
+  commentId: Overload:Model.GameEntry.JoinCode
+  isSpec: "True"
+  fullName: Model.GameEntry.JoinCode
+  nameWithType: GameEntry.JoinCode
 - uid: Model.GameEntry.Name
   name: Name
   href: api/Model.GameEntry.html#Model_GameEntry_Name
