@@ -1366,6 +1366,12 @@ references:
   commentId: T:Global.GameMetaData
   fullName: GameMetaData
   nameWithType: GameMetaData
+- uid: Global.GameMetaData.clientName
+  name: clientName
+  href: api/Global.GameMetaData.html#Global_GameMetaData_clientName
+  commentId: F:Global.GameMetaData.clientName
+  fullName: GameMetaData.clientName
+  nameWithType: GameMetaData.clientName
 - uid: Global.GameStatus
   name: GameStatus
   href: api/Global.GameStatus.html
@@ -1385,6 +1391,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.board
   nameWithType: GameStatus.board
+- uid: Global.GameStatus.eventID
+  name: eventID
+  href: api/Global.GameStatus.html#Global_GameStatus_eventID
+  commentId: P:Global.GameStatus.eventID
+  fullName: GameStatus.eventID
+  nameWithType: GameStatus.eventID
+- uid: Global.GameStatus.eventID*
+  name: eventID
+  href: api/Global.GameStatus.html#Global_GameStatus_eventID_
+  commentId: Overload:Global.GameStatus.eventID
+  isSpec: "True"
+  fullName: GameStatus.eventID
+  nameWithType: GameStatus.eventID
 - uid: Global.GameStatus.exsistingPopCenters
   name: exsistingPopCenters
   href: api/Global.GameStatus.html#Global_GameStatus_exsistingPopCenters
@@ -1424,6 +1443,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.gameMeta
   nameWithType: GameStatus.gameMeta
+- uid: Global.GameStatus.players
+  name: players
+  href: api/Global.GameStatus.html#Global_GameStatus_players
+  commentId: P:Global.GameStatus.players
+  fullName: GameStatus.players
+  nameWithType: GameStatus.players
+- uid: Global.GameStatus.players*
+  name: players
+  href: api/Global.GameStatus.html#Global_GameStatus_players_
+  commentId: Overload:Global.GameStatus.players
+  isSpec: "True"
+  fullName: GameStatus.players
+  nameWithType: GameStatus.players
 - uid: Global.GhostAnnouncement
   name: GhostAnnouncement
   href: api/Global.GhostAnnouncement.html
@@ -1804,6 +1836,38 @@ references:
   commentId: F:Global.LocalPlayerStats.vpSprite
   fullName: LocalPlayerStats.vpSprite
   nameWithType: LocalPlayerStats.vpSprite
+- uid: Global.MangerUtlities
+  name: MangerUtlities
+  href: api/Global.MangerUtlities.html
+  commentId: T:Global.MangerUtlities
+  fullName: MangerUtlities
+  nameWithType: MangerUtlities
+- uid: Global.MangerUtlities.calcBuildRoad(GameStatus,Team)
+  name: calcBuildRoad(GameStatus, Team)
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_calcBuildRoad_GameStatus_Team_
+  commentId: M:Global.MangerUtlities.calcBuildRoad(GameStatus,Team)
+  fullName: MangerUtlities.calcBuildRoad(GameStatus, Team)
+  nameWithType: MangerUtlities.calcBuildRoad(GameStatus, Team)
+- uid: Global.MangerUtlities.calcBuildRoad*
+  name: calcBuildRoad
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_calcBuildRoad_
+  commentId: Overload:Global.MangerUtlities.calcBuildRoad
+  isSpec: "True"
+  fullName: MangerUtlities.calcBuildRoad
+  nameWithType: MangerUtlities.calcBuildRoad
+- uid: Global.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
+  name: eventSyncCheck(Int32, Int32)
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_eventSyncCheck_System_Int32_System_Int32_
+  commentId: M:Global.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
+  fullName: MangerUtlities.eventSyncCheck(System.Int32, System.Int32)
+  nameWithType: MangerUtlities.eventSyncCheck(Int32, Int32)
+- uid: Global.MangerUtlities.eventSyncCheck*
+  name: eventSyncCheck
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_eventSyncCheck_
+  commentId: Overload:Global.MangerUtlities.eventSyncCheck
+  isSpec: "True"
+  fullName: MangerUtlities.eventSyncCheck
+  nameWithType: MangerUtlities.eventSyncCheck
 - uid: Global.MaritimeTrades
   name: MaritimeTrades
   href: api/Global.MaritimeTrades.html
