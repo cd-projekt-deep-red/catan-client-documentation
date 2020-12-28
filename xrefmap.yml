@@ -4327,19 +4327,19 @@ references:
   isSpec: "True"
   fullName: Model.Player.Player
   nameWithType: Player.Player
-- uid: Model.Player.Id
-  name: Id
-  href: api/Model.Player.html#Model_Player_Id
-  commentId: P:Model.Player.Id
-  fullName: Model.Player.Id
-  nameWithType: Player.Id
-- uid: Model.Player.Id*
-  name: Id
-  href: api/Model.Player.html#Model_Player_Id_
-  commentId: Overload:Model.Player.Id
+- uid: Model.Player.ID
+  name: ID
+  href: api/Model.Player.html#Model_Player_ID
+  commentId: P:Model.Player.ID
+  fullName: Model.Player.ID
+  nameWithType: Player.ID
+- uid: Model.Player.ID*
+  name: ID
+  href: api/Model.Player.html#Model_Player_ID_
+  commentId: Overload:Model.Player.ID
   isSpec: "True"
-  fullName: Model.Player.Id
-  nameWithType: Player.Id
+  fullName: Model.Player.ID
+  nameWithType: Player.ID
 - uid: Model.Player.Name
   name: Name
   href: api/Model.Player.html#Model_Player_Name
