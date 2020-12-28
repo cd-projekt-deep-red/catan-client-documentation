@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AssetManager
+    <title>Class RuleSettings
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AssetManager
+    <meta name="title" content="Class RuleSettings
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -89,8 +89,8 @@
                           <li class="">
                             <a href="Global.Announcement.html" title="Announcement" class="">Announcement</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.AssetManager.html" title="AssetManager" class="active">AssetManager</a>
+                          <li class="">
+                            <a href="Global.AssetManager.html" title="AssetManager" class="">AssetManager</a>
                           </li>
                           <li class="">
                             <a href="Global.BadgeAnimator.html" title="BadgeAnimator" class="">BadgeAnimator</a>
@@ -251,8 +251,8 @@
                           <li class="">
                             <a href="Global.RollValue.html" title="RollValue" class="">RollValue</a>
                           </li>
-                          <li class="">
-                            <a href="Global.RuleSettings.html" title="RuleSettings" class="">RuleSettings</a>
+                          <li class="active">
+                            <a href="Global.RuleSettings.html" title="RuleSettings" class="active">RuleSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.Timer.html" title="Timer" class="">Timer</a>
@@ -343,34 +343,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.AssetManager">
+            <article class="content wrap" id="_content" data-uid="Global.RuleSettings">
   
   
-  <h1 id="Global_AssetManager" data-uid="Global.AssetManager" class="text-break">Class AssetManager
+  <h1 id="Global_RuleSettings" data-uid="Global.RuleSettings" class="text-break">Class RuleSettings
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">AssetManager</span></div>
+    <div class="level1"><span class="xref">RuleSettings</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_AssetManager_syntax">Syntax</h5>
+  <h5 id="Global_RuleSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AssetManager : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class RuleSettings : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_AssetManager_colorDict" data-uid="Global.AssetManager.colorDict">colorDict</h4>
+  <h4 id="Global_RuleSettings_checkboxPrefab" data-uid="Global.RuleSettings.checkboxPrefab">checkboxPrefab</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Color32&gt; colorDict</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject checkboxPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -382,19 +382,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Color32</span>&gt;</td>
+        <td><span class="xref">GameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_AssetManager_soundDict" data-uid="Global.AssetManager.soundDict">soundDict</h4>
+  <h4 id="Global_RuleSettings_ruleLabel" data-uid="Global.RuleSettings.ruleLabel">ruleLabel</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, AudioClip&gt; soundDict</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI ruleLabel</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -406,19 +406,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">AudioClip</span>&gt;</td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_AssetManager_spriteDict" data-uid="Global.AssetManager.spriteDict">spriteDict</h4>
+  <h4 id="Global_RuleSettings_ruleLine" data-uid="Global.RuleSettings.ruleLine">ruleLine</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Sprite&gt; spriteDict</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject ruleLine</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -430,7 +430,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Sprite</span>&gt;</td>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_RuleSettings_ruleText" data-uid="Global.RuleSettings.ruleText">ruleText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI ruleText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -439,23 +463,13 @@
   </h3>
   
   
-  <a id="Global_AssetManager_OnEnable_" data-uid="Global.AssetManager.OnEnable*"></a>
-  <h4 id="Global_AssetManager_OnEnable" data-uid="Global.AssetManager.OnEnable">OnEnable()</h4>
+  <a id="Global_RuleSettings_setRule_" data-uid="Global.RuleSettings.setRule*"></a>
+  <h4 id="Global_RuleSettings_setRule_System_String_System_String_" data-uid="Global.RuleSettings.setRule(System.String,System.String)">setRule(String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnEnable()</code></pre>
-  </div>
-  
-  
-  <a id="Global_AssetManager_RetriveColor_" data-uid="Global.AssetManager.RetriveColor*"></a>
-  <h4 id="Global_AssetManager_RetriveColor_System_String_" data-uid="Global.AssetManager.RetriveColor(System.String)">RetriveColor(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color32 RetriveColor(string colorReference)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setRule(string labelText, string ruleString)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -469,106 +483,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">colorReference</span></td>
+        <td><span class="parametername">labelText</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_AssetManager_RetriveSound_" data-uid="Global.AssetManager.RetriveSound*"></a>
-  <h4 id="Global_AssetManager_RetriveSound_System_String_" data-uid="Global.AssetManager.RetriveSound(System.String)">RetriveSound(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioClip RetriveSound(string soundname)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">soundname</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AudioClip</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_AssetManager_RetriveSprite_" data-uid="Global.AssetManager.RetriveSprite*"></a>
-  <h4 id="Global_AssetManager_RetriveSprite_System_String_" data-uid="Global.AssetManager.RetriveSprite(System.String)">RetriveSprite(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite RetriveSprite(string spritename)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">spritename</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
+        <td><span class="parametername">ruleString</span></td>
         <td></td>
       </tr>
     </tbody>

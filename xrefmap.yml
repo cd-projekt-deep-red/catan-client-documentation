@@ -848,6 +848,87 @@ references:
   isSpec: "True"
   fullName: ButtonSecondarySettings.setButton
   nameWithType: ButtonSecondarySettings.setButton
+- uid: Global.CheckboxDisplaySettings
+  name: CheckboxDisplaySettings
+  href: api/Global.CheckboxDisplaySettings.html
+  commentId: T:Global.CheckboxDisplaySettings
+  fullName: CheckboxDisplaySettings
+  nameWithType: CheckboxDisplaySettings
+- uid: Global.CheckboxDisplaySettings.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_assetManagerSprites
+  commentId: F:Global.CheckboxDisplaySettings.assetManagerSprites
+  fullName: CheckboxDisplaySettings.assetManagerSprites
+  nameWithType: CheckboxDisplaySettings.assetManagerSprites
+- uid: Global.CheckboxDisplaySettings.background
+  name: background
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_background
+  commentId: F:Global.CheckboxDisplaySettings.background
+  fullName: CheckboxDisplaySettings.background
+  nameWithType: CheckboxDisplaySettings.background
+- uid: Global.CheckboxDisplaySettings.checkmark
+  name: checkmark
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_checkmark
+  commentId: F:Global.CheckboxDisplaySettings.checkmark
+  fullName: CheckboxDisplaySettings.checkmark
+  nameWithType: CheckboxDisplaySettings.checkmark
+- uid: Global.CheckboxDisplaySettings.setCheckbox(System.Boolean)
+  name: setCheckbox(Boolean)
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_setCheckbox_System_Boolean_
+  commentId: M:Global.CheckboxDisplaySettings.setCheckbox(System.Boolean)
+  fullName: CheckboxDisplaySettings.setCheckbox(System.Boolean)
+  nameWithType: CheckboxDisplaySettings.setCheckbox(Boolean)
+- uid: Global.CheckboxDisplaySettings.setCheckbox*
+  name: setCheckbox
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_setCheckbox_
+  commentId: Overload:Global.CheckboxDisplaySettings.setCheckbox
+  isSpec: "True"
+  fullName: CheckboxDisplaySettings.setCheckbox
+  nameWithType: CheckboxDisplaySettings.setCheckbox
+- uid: Global.CheckboxDisplaySettings.setCheckmarkSprites
+  name: setCheckmarkSprites()
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_setCheckmarkSprites
+  commentId: M:Global.CheckboxDisplaySettings.setCheckmarkSprites
+  fullName: CheckboxDisplaySettings.setCheckmarkSprites()
+  nameWithType: CheckboxDisplaySettings.setCheckmarkSprites()
+- uid: Global.CheckboxDisplaySettings.setCheckmarkSprites*
+  name: setCheckmarkSprites
+  href: api/Global.CheckboxDisplaySettings.html#Global_CheckboxDisplaySettings_setCheckmarkSprites_
+  commentId: Overload:Global.CheckboxDisplaySettings.setCheckmarkSprites
+  isSpec: "True"
+  fullName: CheckboxDisplaySettings.setCheckmarkSprites
+  nameWithType: CheckboxDisplaySettings.setCheckmarkSprites
+- uid: Global.ConnectionLoading
+  name: ConnectionLoading
+  href: api/Global.ConnectionLoading.html
+  commentId: T:Global.ConnectionLoading
+  fullName: ConnectionLoading
+  nameWithType: ConnectionLoading
+- uid: Global.ConnectionLoading.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.ConnectionLoading.html#Global_ConnectionLoading_assetManagerSprites
+  commentId: F:Global.ConnectionLoading.assetManagerSprites
+  fullName: ConnectionLoading.assetManagerSprites
+  nameWithType: ConnectionLoading.assetManagerSprites
+- uid: Global.ConnectionLoading.loaderWheel
+  name: loaderWheel
+  href: api/Global.ConnectionLoading.html#Global_ConnectionLoading_loaderWheel
+  commentId: F:Global.ConnectionLoading.loaderWheel
+  fullName: ConnectionLoading.loaderWheel
+  nameWithType: ConnectionLoading.loaderWheel
+- uid: Global.ConnectionLoading.setLoaderSprite(System.Int32)
+  name: setLoaderSprite(Int32)
+  href: api/Global.ConnectionLoading.html#Global_ConnectionLoading_setLoaderSprite_System_Int32_
+  commentId: M:Global.ConnectionLoading.setLoaderSprite(System.Int32)
+  fullName: ConnectionLoading.setLoaderSprite(System.Int32)
+  nameWithType: ConnectionLoading.setLoaderSprite(Int32)
+- uid: Global.ConnectionLoading.setLoaderSprite*
+  name: setLoaderSprite
+  href: api/Global.ConnectionLoading.html#Global_ConnectionLoading_setLoaderSprite_
+  commentId: Overload:Global.ConnectionLoading.setLoaderSprite
+  isSpec: "True"
+  fullName: ConnectionLoading.setLoaderSprite
+  nameWithType: ConnectionLoading.setLoaderSprite
 - uid: Global.ConnectionSettings
   name: ConnectionSettings
   href: api/Global.ConnectionSettings.html
@@ -1394,6 +1475,132 @@ references:
   isSpec: "True"
   fullName: GameBrowser.updateGames
   nameWithType: GameBrowser.updateGames
+- uid: Global.GameLobby
+  name: GameLobby
+  href: api/Global.GameLobby.html
+  commentId: T:Global.GameLobby
+  fullName: GameLobby
+  nameWithType: GameLobby
+- uid: Global.GameLobby.copyQuickJoinCodeButton
+  name: copyQuickJoinCodeButton
+  href: api/Global.GameLobby.html#Global_GameLobby_copyQuickJoinCodeButton
+  commentId: F:Global.GameLobby.copyQuickJoinCodeButton
+  fullName: GameLobby.copyQuickJoinCodeButton
+  nameWithType: GameLobby.copyQuickJoinCodeButton
+- uid: Global.GameLobby.CopyToClipboard(System.String)
+  name: CopyToClipboard(String)
+  href: api/Global.GameLobby.html#Global_GameLobby_CopyToClipboard_System_String_
+  commentId: M:Global.GameLobby.CopyToClipboard(System.String)
+  fullName: GameLobby.CopyToClipboard(System.String)
+  nameWithType: GameLobby.CopyToClipboard(String)
+- uid: Global.GameLobby.CopyToClipboard*
+  name: CopyToClipboard
+  href: api/Global.GameLobby.html#Global_GameLobby_CopyToClipboard_
+  commentId: Overload:Global.GameLobby.CopyToClipboard
+  isSpec: "True"
+  fullName: GameLobby.CopyToClipboard
+  nameWithType: GameLobby.CopyToClipboard
+- uid: Global.GameLobby.gameID
+  name: gameID
+  href: api/Global.GameLobby.html#Global_GameLobby_gameID
+  commentId: F:Global.GameLobby.gameID
+  fullName: GameLobby.gameID
+  nameWithType: GameLobby.gameID
+- uid: Global.GameLobby.gameSeed
+  name: gameSeed
+  href: api/Global.GameLobby.html#Global_GameLobby_gameSeed
+  commentId: F:Global.GameLobby.gameSeed
+  fullName: GameLobby.gameSeed
+  nameWithType: GameLobby.gameSeed
+- uid: Global.GameLobby.joinCode
+  name: joinCode
+  href: api/Global.GameLobby.html#Global_GameLobby_joinCode
+  commentId: F:Global.GameLobby.joinCode
+  fullName: GameLobby.joinCode
+  nameWithType: GameLobby.joinCode
+- uid: Global.GameLobby.lobbyOwnerCardScript
+  name: lobbyOwnerCardScript
+  href: api/Global.GameLobby.html#Global_GameLobby_lobbyOwnerCardScript
+  commentId: F:Global.GameLobby.lobbyOwnerCardScript
+  fullName: GameLobby.lobbyOwnerCardScript
+  nameWithType: GameLobby.lobbyOwnerCardScript
+- uid: Global.GameLobby.lobbyPlayerCardPrefab
+  name: lobbyPlayerCardPrefab
+  href: api/Global.GameLobby.html#Global_GameLobby_lobbyPlayerCardPrefab
+  commentId: F:Global.GameLobby.lobbyPlayerCardPrefab
+  fullName: GameLobby.lobbyPlayerCardPrefab
+  nameWithType: GameLobby.lobbyPlayerCardPrefab
+- uid: Global.GameLobby.lobbyTitle
+  name: lobbyTitle
+  href: api/Global.GameLobby.html#Global_GameLobby_lobbyTitle
+  commentId: F:Global.GameLobby.lobbyTitle
+  fullName: GameLobby.lobbyTitle
+  nameWithType: GameLobby.lobbyTitle
+- uid: Global.GameLobby.playerCardScriptsArray
+  name: playerCardScriptsArray
+  href: api/Global.GameLobby.html#Global_GameLobby_playerCardScriptsArray
+  commentId: F:Global.GameLobby.playerCardScriptsArray
+  fullName: GameLobby.playerCardScriptsArray
+  nameWithType: GameLobby.playerCardScriptsArray
+- uid: Global.GameLobby.ruleLinePrefab
+  name: ruleLinePrefab
+  href: api/Global.GameLobby.html#Global_GameLobby_ruleLinePrefab
+  commentId: F:Global.GameLobby.ruleLinePrefab
+  fullName: GameLobby.ruleLinePrefab
+  nameWithType: GameLobby.ruleLinePrefab
+- uid: Global.GameLobby.rulesWrapper
+  name: rulesWrapper
+  href: api/Global.GameLobby.html#Global_GameLobby_rulesWrapper
+  commentId: F:Global.GameLobby.rulesWrapper
+  fullName: GameLobby.rulesWrapper
+  nameWithType: GameLobby.rulesWrapper
+- uid: Global.GameLobby.setLobby(GameEntry)
+  name: setLobby(GameEntry)
+  href: api/Global.GameLobby.html#Global_GameLobby_setLobby_GameEntry_
+  commentId: M:Global.GameLobby.setLobby(GameEntry)
+  fullName: GameLobby.setLobby(GameEntry)
+  nameWithType: GameLobby.setLobby(GameEntry)
+- uid: Global.GameLobby.setLobby*
+  name: setLobby
+  href: api/Global.GameLobby.html#Global_GameLobby_setLobby_
+  commentId: Overload:Global.GameLobby.setLobby
+  isSpec: "True"
+  fullName: GameLobby.setLobby
+  nameWithType: GameLobby.setLobby
+- uid: Global.GameLobby.startLobbyGameButton
+  name: startLobbyGameButton
+  href: api/Global.GameLobby.html#Global_GameLobby_startLobbyGameButton
+  commentId: F:Global.GameLobby.startLobbyGameButton
+  fullName: GameLobby.startLobbyGameButton
+  nameWithType: GameLobby.startLobbyGameButton
+- uid: Global.GameLobby.turnTime
+  name: turnTime
+  href: api/Global.GameLobby.html#Global_GameLobby_turnTime
+  commentId: F:Global.GameLobby.turnTime
+  fullName: GameLobby.turnTime
+  nameWithType: GameLobby.turnTime
+- uid: Global.GameLobby.updateLobbyPlayers(System.Collections.Generic.List{Player})
+  name: updateLobbyPlayers(List<Player>)
+  href: api/Global.GameLobby.html#Global_GameLobby_updateLobbyPlayers_System_Collections_Generic_List_Player__
+  commentId: M:Global.GameLobby.updateLobbyPlayers(System.Collections.Generic.List{Player})
+  name.vb: updateLobbyPlayers(List(Of Player))
+  fullName: GameLobby.updateLobbyPlayers(System.Collections.Generic.List<Player>)
+  fullName.vb: GameLobby.updateLobbyPlayers(System.Collections.Generic.List(Of Player))
+  nameWithType: GameLobby.updateLobbyPlayers(List<Player>)
+  nameWithType.vb: GameLobby.updateLobbyPlayers(List(Of Player))
+- uid: Global.GameLobby.updateLobbyPlayers*
+  name: updateLobbyPlayers
+  href: api/Global.GameLobby.html#Global_GameLobby_updateLobbyPlayers_
+  commentId: Overload:Global.GameLobby.updateLobbyPlayers
+  isSpec: "True"
+  fullName: GameLobby.updateLobbyPlayers
+  nameWithType: GameLobby.updateLobbyPlayers
+- uid: Global.GameLobby.winCondition
+  name: winCondition
+  href: api/Global.GameLobby.html#Global_GameLobby_winCondition
+  commentId: F:Global.GameLobby.winCondition
+  fullName: GameLobby.winCondition
+  nameWithType: GameLobby.winCondition
 - uid: Global.GameMetaData
   name: GameMetaData
   href: api/Global.GameMetaData.html
@@ -1970,6 +2177,18 @@ references:
   commentId: F:Global.MenuManager.closeBrowserButton
   fullName: MenuManager.closeBrowserButton
   nameWithType: MenuManager.closeBrowserButton
+- uid: Global.MenuManager.closeGameLobbyButton
+  name: closeGameLobbyButton
+  href: api/Global.MenuManager.html#Global_MenuManager_closeGameLobbyButton
+  commentId: F:Global.MenuManager.closeGameLobbyButton
+  fullName: MenuManager.closeGameLobbyButton
+  nameWithType: MenuManager.closeGameLobbyButton
+- uid: Global.MenuManager.connectionLoaderContentPrefab
+  name: connectionLoaderContentPrefab
+  href: api/Global.MenuManager.html#Global_MenuManager_connectionLoaderContentPrefab
+  commentId: F:Global.MenuManager.connectionLoaderContentPrefab
+  fullName: MenuManager.connectionLoaderContentPrefab
+  nameWithType: MenuManager.connectionLoaderContentPrefab
 - uid: Global.MenuManager.createWindow(GameObject,System.Int32,System.Int32,System.String,System.String)
   name: createWindow(GameObject, Int32, Int32, String, String)
   href: api/Global.MenuManager.html#Global_MenuManager_createWindow_GameObject_System_Int32_System_Int32_System_String_System_String_
@@ -2040,6 +2259,19 @@ references:
   isSpec: "True"
   fullName: MenuManager.updateGames
   nameWithType: MenuManager.updateGames
+- uid: Global.MenuManager.updateLobby(System.Boolean,GameEntry)
+  name: updateLobby(Boolean, GameEntry)
+  href: api/Global.MenuManager.html#Global_MenuManager_updateLobby_System_Boolean_GameEntry_
+  commentId: M:Global.MenuManager.updateLobby(System.Boolean,GameEntry)
+  fullName: MenuManager.updateLobby(System.Boolean, GameEntry)
+  nameWithType: MenuManager.updateLobby(Boolean, GameEntry)
+- uid: Global.MenuManager.updateLobby*
+  name: updateLobby
+  href: api/Global.MenuManager.html#Global_MenuManager_updateLobby_
+  commentId: Overload:Global.MenuManager.updateLobby
+  isSpec: "True"
+  fullName: MenuManager.updateLobby
+  nameWithType: MenuManager.updateLobby
 - uid: Global.MenuManager.windowPrefab
   name: windowPrefab
   href: api/Global.MenuManager.html#Global_MenuManager_windowPrefab
@@ -2180,6 +2412,116 @@ references:
   commentId: F:Global.PlayerGameCardSettings.vpSprite
   fullName: PlayerGameCardSettings.vpSprite
   nameWithType: PlayerGameCardSettings.vpSprite
+- uid: Global.PlayerLobbyCard
+  name: PlayerLobbyCard
+  href: api/Global.PlayerLobbyCard.html
+  commentId: T:Global.PlayerLobbyCard
+  fullName: PlayerLobbyCard
+  nameWithType: PlayerLobbyCard
+- uid: Global.PlayerLobbyCard.assetManagerColors
+  name: assetManagerColors
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_assetManagerColors
+  commentId: F:Global.PlayerLobbyCard.assetManagerColors
+  fullName: PlayerLobbyCard.assetManagerColors
+  nameWithType: PlayerLobbyCard.assetManagerColors
+- uid: Global.PlayerLobbyCard.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_assetManagerSprites
+  commentId: F:Global.PlayerLobbyCard.assetManagerSprites
+  fullName: PlayerLobbyCard.assetManagerSprites
+  nameWithType: PlayerLobbyCard.assetManagerSprites
+- uid: Global.PlayerLobbyCard.cardBackground
+  name: cardBackground
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_cardBackground
+  commentId: F:Global.PlayerLobbyCard.cardBackground
+  fullName: PlayerLobbyCard.cardBackground
+  nameWithType: PlayerLobbyCard.cardBackground
+- uid: Global.PlayerLobbyCard.kickButton
+  name: kickButton
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_kickButton
+  commentId: F:Global.PlayerLobbyCard.kickButton
+  fullName: PlayerLobbyCard.kickButton
+  nameWithType: PlayerLobbyCard.kickButton
+- uid: Global.PlayerLobbyCard.kickButtonIconSprite
+  name: kickButtonIconSprite
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_kickButtonIconSprite
+  commentId: F:Global.PlayerLobbyCard.kickButtonIconSprite
+  fullName: PlayerLobbyCard.kickButtonIconSprite
+  nameWithType: PlayerLobbyCard.kickButtonIconSprite
+- uid: Global.PlayerLobbyCard.kickButtonObject
+  name: kickButtonObject
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_kickButtonObject
+  commentId: F:Global.PlayerLobbyCard.kickButtonObject
+  fullName: PlayerLobbyCard.kickButtonObject
+  nameWithType: PlayerLobbyCard.kickButtonObject
+- uid: Global.PlayerLobbyCard.kickButtonSprite
+  name: kickButtonSprite
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_kickButtonSprite
+  commentId: F:Global.PlayerLobbyCard.kickButtonSprite
+  fullName: PlayerLobbyCard.kickButtonSprite
+  nameWithType: PlayerLobbyCard.kickButtonSprite
+- uid: Global.PlayerLobbyCard.ownerLabel
+  name: ownerLabel
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_ownerLabel
+  commentId: F:Global.PlayerLobbyCard.ownerLabel
+  fullName: PlayerLobbyCard.ownerLabel
+  nameWithType: PlayerLobbyCard.ownerLabel
+- uid: Global.PlayerLobbyCard.pingUpdate(System.Int32)
+  name: pingUpdate(Int32)
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_pingUpdate_System_Int32_
+  commentId: M:Global.PlayerLobbyCard.pingUpdate(System.Int32)
+  fullName: PlayerLobbyCard.pingUpdate(System.Int32)
+  nameWithType: PlayerLobbyCard.pingUpdate(Int32)
+- uid: Global.PlayerLobbyCard.pingUpdate*
+  name: pingUpdate
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_pingUpdate_
+  commentId: Overload:Global.PlayerLobbyCard.pingUpdate
+  isSpec: "True"
+  fullName: PlayerLobbyCard.pingUpdate
+  nameWithType: PlayerLobbyCard.pingUpdate
+- uid: Global.PlayerLobbyCard.playernameText
+  name: playernameText
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_playernameText
+  commentId: F:Global.PlayerLobbyCard.playernameText
+  fullName: PlayerLobbyCard.playernameText
+  nameWithType: PlayerLobbyCard.playernameText
+- uid: Global.PlayerLobbyCard.playerPing
+  name: playerPing
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_playerPing
+  commentId: F:Global.PlayerLobbyCard.playerPing
+  fullName: PlayerLobbyCard.playerPing
+  nameWithType: PlayerLobbyCard.playerPing
+- uid: Global.PlayerLobbyCard.playerProfileImage
+  name: playerProfileImage
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_playerProfileImage
+  commentId: F:Global.PlayerLobbyCard.playerProfileImage
+  fullName: PlayerLobbyCard.playerProfileImage
+  nameWithType: PlayerLobbyCard.playerProfileImage
+- uid: Global.PlayerLobbyCard.playerTeamIcon
+  name: playerTeamIcon
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_playerTeamIcon
+  commentId: F:Global.PlayerLobbyCard.playerTeamIcon
+  fullName: PlayerLobbyCard.playerTeamIcon
+  nameWithType: PlayerLobbyCard.playerTeamIcon
+- uid: Global.PlayerLobbyCard.playerWins
+  name: playerWins
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_playerWins
+  commentId: F:Global.PlayerLobbyCard.playerWins
+  fullName: PlayerLobbyCard.playerWins
+  nameWithType: PlayerLobbyCard.playerWins
+- uid: Global.PlayerLobbyCard.setPlayer(System.String,Player)
+  name: setPlayer(String, Player)
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_setPlayer_System_String_Player_
+  commentId: M:Global.PlayerLobbyCard.setPlayer(System.String,Player)
+  fullName: PlayerLobbyCard.setPlayer(System.String, Player)
+  nameWithType: PlayerLobbyCard.setPlayer(String, Player)
+- uid: Global.PlayerLobbyCard.setPlayer*
+  name: setPlayer
+  href: api/Global.PlayerLobbyCard.html#Global_PlayerLobbyCard_setPlayer_
+  commentId: Overload:Global.PlayerLobbyCard.setPlayer
+  isSpec: "True"
+  fullName: PlayerLobbyCard.setPlayer
+  nameWithType: PlayerLobbyCard.setPlayer
 - uid: Global.PlayersPanel
   name: PlayersPanel
   href: api/Global.PlayersPanel.html
@@ -3179,6 +3521,49 @@ references:
   commentId: F:Global.RollValue.valueSprite
   fullName: RollValue.valueSprite
   nameWithType: RollValue.valueSprite
+- uid: Global.RuleSettings
+  name: RuleSettings
+  href: api/Global.RuleSettings.html
+  commentId: T:Global.RuleSettings
+  fullName: RuleSettings
+  nameWithType: RuleSettings
+- uid: Global.RuleSettings.checkboxPrefab
+  name: checkboxPrefab
+  href: api/Global.RuleSettings.html#Global_RuleSettings_checkboxPrefab
+  commentId: F:Global.RuleSettings.checkboxPrefab
+  fullName: RuleSettings.checkboxPrefab
+  nameWithType: RuleSettings.checkboxPrefab
+- uid: Global.RuleSettings.ruleLabel
+  name: ruleLabel
+  href: api/Global.RuleSettings.html#Global_RuleSettings_ruleLabel
+  commentId: F:Global.RuleSettings.ruleLabel
+  fullName: RuleSettings.ruleLabel
+  nameWithType: RuleSettings.ruleLabel
+- uid: Global.RuleSettings.ruleLine
+  name: ruleLine
+  href: api/Global.RuleSettings.html#Global_RuleSettings_ruleLine
+  commentId: F:Global.RuleSettings.ruleLine
+  fullName: RuleSettings.ruleLine
+  nameWithType: RuleSettings.ruleLine
+- uid: Global.RuleSettings.ruleText
+  name: ruleText
+  href: api/Global.RuleSettings.html#Global_RuleSettings_ruleText
+  commentId: F:Global.RuleSettings.ruleText
+  fullName: RuleSettings.ruleText
+  nameWithType: RuleSettings.ruleText
+- uid: Global.RuleSettings.setRule(System.String,System.String)
+  name: setRule(String, String)
+  href: api/Global.RuleSettings.html#Global_RuleSettings_setRule_System_String_System_String_
+  commentId: M:Global.RuleSettings.setRule(System.String,System.String)
+  fullName: RuleSettings.setRule(System.String, System.String)
+  nameWithType: RuleSettings.setRule(String, String)
+- uid: Global.RuleSettings.setRule*
+  name: setRule
+  href: api/Global.RuleSettings.html#Global_RuleSettings_setRule_
+  commentId: Overload:Global.RuleSettings.setRule
+  isSpec: "True"
+  fullName: RuleSettings.setRule
+  nameWithType: RuleSettings.setRule
 - uid: Global.Timer
   name: Timer
   href: api/Global.Timer.html
@@ -4365,12 +4750,12 @@ references:
   commentId: T:Model.Player
   fullName: Model.Player
   nameWithType: Player
-- uid: Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32)
-  name: Player(String, String, Team, Int32)
-  href: api/Model.Player.html#Model_Player__ctor_System_String_System_String_Model_Team_System_Int32_
-  commentId: M:Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32)
-  fullName: Model.Player.Player(System.String, System.String, Model.Team, System.Int32)
-  nameWithType: Player.Player(String, String, Team, Int32)
+- uid: Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32,System.Int32)
+  name: Player(String, String, Team, Int32, Int32)
+  href: api/Model.Player.html#Model_Player__ctor_System_String_System_String_Model_Team_System_Int32_System_Int32_
+  commentId: M:Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32,System.Int32)
+  fullName: Model.Player.Player(System.String, System.String, Model.Team, System.Int32, System.Int32)
+  nameWithType: Player.Player(String, String, Team, Int32, Int32)
 - uid: Model.Player.#ctor*
   name: Player
   href: api/Model.Player.html#Model_Player__ctor_
@@ -4430,6 +4815,19 @@ references:
   isSpec: "True"
   fullName: Model.Player.Team
   nameWithType: Player.Team
+- uid: Model.Player.TotalWins
+  name: TotalWins
+  href: api/Model.Player.html#Model_Player_TotalWins
+  commentId: P:Model.Player.TotalWins
+  fullName: Model.Player.TotalWins
+  nameWithType: Player.TotalWins
+- uid: Model.Player.TotalWins*
+  name: TotalWins
+  href: api/Model.Player.html#Model_Player_TotalWins_
+  commentId: Overload:Model.Player.TotalWins
+  isSpec: "True"
+  fullName: Model.Player.TotalWins
+  nameWithType: Player.TotalWins
 - uid: Model.PlayerGameState
   name: PlayerGameState
   href: api/Model.PlayerGameState.html
