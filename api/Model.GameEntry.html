@@ -147,6 +147,9 @@
                             <a href="Global.ExampleEventConsumer.html" title="ExampleEventConsumer" class="">ExampleEventConsumer</a>
                           </li>
                           <li class="">
+                            <a href="Global.GameBrowser.html" title="GameBrowser" class="">GameBrowser</a>
+                          </li>
+                          <li class="">
                             <a href="Global.GameMetaData.html" title="GameMetaData" class="">GameMetaData</a>
                           </li>
                           <li class="">
@@ -270,6 +273,9 @@
                             <a href="Model.GameEntry.html" title="GameEntry" class="active">GameEntry</a>
                           </li>
                           <li class="">
+                            <a href="Model.GameSettings.html" title="GameSettings" class="">GameSettings</a>
+                          </li>
+                          <li class="">
                             <a href="Model.Player.html" title="Player" class="">Player</a>
                           </li>
                           <li class="">
@@ -292,6 +298,9 @@
                           </li>
                           <li class="">
                             <a href="Model.VertexCoordinates.html" title="VertexCoordinates" class="">VertexCoordinates</a>
+                          </li>
+                          <li class="">
+                            <a href="Model.WinCondition.html" title="WinCondition" class="">WinCondition</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -324,7 +333,7 @@
   
   <h1 id="Model_GameEntry" data-uid="Model.GameEntry" class="text-break">Class GameEntry
   </h1>
-  <div class="markdown level0 summary"><p>Contains all information about a player.</p>
+  <div class="markdown level0 summary"><p>Contains all information about a game for the game browser.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -362,6 +371,72 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class GameEntry</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Model_GameEntry__ctor_" data-uid="Model.GameEntry.#ctor*"></a>
+  <h4 id="Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_" data-uid="Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)">GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)</h4>
+  <div class="markdown level1 summary"><p>Consturctor for a new game entry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameEntry(string id, int thumbIndex, string name, Player creator, bool custom, string password, GameSettings gameSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>unique id for the game</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">thumbIndex</span></td>
+        <td><p>index of the game's thumbnail</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>the game's name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Player.html">Player</a></td>
+        <td><span class="parametername">creator</span></td>
+        <td><p>what player is creating the game</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">custom</span></td>
+        <td><p>is the game custom</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>password string for the game</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.GameSettings.html">GameSettings</a></td>
+        <td><span class="parametername">gameSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -372,7 +447,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; GameSettings { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameSettings GameSettings { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,7 +459,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><a class="xref" href="Model.GameSettings.html">GameSettings</a></td>
         <td><p>Dictionary of custom game settings</p>
 </td>
       </tr>

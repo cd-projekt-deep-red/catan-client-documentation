@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerRollEvent
+    <title>Class GameSettings
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerRollEvent
+    <meta name="title" content="Class GameSettings
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -272,8 +272,8 @@
                           <li class="">
                             <a href="Model.GameEntry.html" title="GameEntry" class="">GameEntry</a>
                           </li>
-                          <li class="">
-                            <a href="Model.GameSettings.html" title="GameSettings" class="">GameSettings</a>
+                          <li class="active">
+                            <a href="Model.GameSettings.html" title="GameSettings" class="active">GameSettings</a>
                           </li>
                           <li class="">
                             <a href="Model.Player.html" title="Player" class="">Player</a>
@@ -314,8 +314,8 @@
                           <li class="">
                             <a href="Model.Event.GameStartEvent.html" title="GameStartEvent" class="">GameStartEvent</a>
                           </li>
-                          <li class="active">
-                            <a href="Model.Event.PlayerRollEvent.html" title="PlayerRollEvent" class="active">PlayerRollEvent</a>
+                          <li class="">
+                            <a href="Model.Event.PlayerRollEvent.html" title="PlayerRollEvent" class="">PlayerRollEvent</a>
                           </li>
                           <li class="">
                             <a href="Model.Event.RoadPlacedEvent.html" title="RoadPlacedEvent" class="">RoadPlacedEvent</a>
@@ -328,27 +328,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Model.Event.PlayerRollEvent">
+            <article class="content wrap" id="_content" data-uid="Model.GameSettings">
   
   
-  <h1 id="Model_Event_PlayerRollEvent" data-uid="Model.Event.PlayerRollEvent" class="text-break">Class PlayerRollEvent
+  <h1 id="Model_GameSettings" data-uid="Model.GameSettings" class="text-break">Class GameSettings
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Contains all settings for a game</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Model.Event.GameEvent.html">GameEvent</a></div>
-    <div class="level2"><span class="xref">PlayerRollEvent</span></div>
+    <div class="level1"><span class="xref">GameSettings</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Type">GameEvent.Type</a>
-    </div>
-    <div>
-      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Number">GameEvent.Number</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -371,24 +365,132 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Model.Event.html">Model.Event</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Model_Event_PlayerRollEvent_syntax">Syntax</h5>
+  <h5 id="Model_GameSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerRollEvent : GameEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameSettings</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="Model_Event_PlayerRollEvent_PlayerID" data-uid="Model.Event.PlayerRollEvent.PlayerID">PlayerID</h4>
+  <a id="Model_GameSettings__ctor_" data-uid="Model.GameSettings.#ctor*"></a>
+  <h4 id="Model_GameSettings__ctor_Model_WinCondition_System_Int32_System_Boolean_System_Int32_System_String_" data-uid="Model.GameSettings.#ctor(Model.WinCondition,System.Int32,System.Boolean,System.Int32,System.String)">GameSettings(WinCondition, Int32, Boolean, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Consturctor for new game settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameSettings(WinCondition winCondition = WinCondition.VP, int winValue = 10, bool robber = true, int turnLength = 90, string seed = &quot;0&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.WinCondition.html">WinCondition</a></td>
+        <td><span class="parametername">winCondition</span></td>
+        <td><p>what win condition the game has</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">winValue</span></td>
+        <td><p>value of Win Condition, see comment on Win Condition above for more info</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">robber</span></td>
+        <td><p>does the game use the robber</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">turnLength</span></td>
+        <td><p>how many seconds the turn is</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">seed</span></td>
+        <td><p>seed for the board to generate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Model_GameSettings_BoardSeed_" data-uid="Model.GameSettings.BoardSeed*"></a>
+  <h4 id="Model_GameSettings_BoardSeed" data-uid="Model.GameSettings.BoardSeed">BoardSeed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PlayerID</code></pre>
+    <pre><code class="lang-csharp hljs">public string BoardSeed { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Seed for the generation of the board, 0 for the default generation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameSettings_Robber_" data-uid="Model.GameSettings.Robber*"></a>
+  <h4 id="Model_GameSettings_Robber" data-uid="Model.GameSettings.Robber">Robber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Robber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Is the robber used</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameSettings_TurnTime_" data-uid="Model.GameSettings.TurnTime*"></a>
+  <h4 id="Model_GameSettings_TurnTime" data-uid="Model.GameSettings.TurnTime">TurnTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TurnTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -399,20 +501,22 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>Turn Time, in seconds</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Model_Event_PlayerRollEvent_RollValues" data-uid="Model.Event.PlayerRollEvent.RollValues">RollValues</h4>
+  <a id="Model_GameSettings_WinCondition_" data-uid="Model.GameSettings.WinCondition*"></a>
+  <h4 id="Model_GameSettings_WinCondition" data-uid="Model.GameSettings.WinCondition">WinCondition</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int[] RollValues</code></pre>
+    <pre><code class="lang-csharp hljs">public WinCondition WinCondition { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -422,8 +526,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
-        <td></td>
+        <td><a class="xref" href="Model.WinCondition.html">WinCondition</a></td>
+        <td><p>Win Condition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_GameSettings_WinValue_" data-uid="Model.GameSettings.WinValue*"></a>
+  <h4 id="Model_GameSettings_WinValue" data-uid="Model.GameSettings.WinValue">WinValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WinValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Value of Win Condition, for conditions of longest road and largest army the value is set to 0. For leader at time the value is set to the time in seconds of the game.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerRollEvent
+    <title>Class GameBrowser
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerRollEvent
+    <meta name="title" content="Class GameBrowser
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -146,8 +146,8 @@
                           <li class="">
                             <a href="Global.ExampleEventConsumer.html" title="ExampleEventConsumer" class="">ExampleEventConsumer</a>
                           </li>
-                          <li class="">
-                            <a href="Global.GameBrowser.html" title="GameBrowser" class="">GameBrowser</a>
+                          <li class="active">
+                            <a href="Global.GameBrowser.html" title="GameBrowser" class="active">GameBrowser</a>
                           </li>
                           <li class="">
                             <a href="Global.GameMetaData.html" title="GameMetaData" class="">GameMetaData</a>
@@ -314,8 +314,8 @@
                           <li class="">
                             <a href="Model.Event.GameStartEvent.html" title="GameStartEvent" class="">GameStartEvent</a>
                           </li>
-                          <li class="active">
-                            <a href="Model.Event.PlayerRollEvent.html" title="PlayerRollEvent" class="active">PlayerRollEvent</a>
+                          <li class="">
+                            <a href="Model.Event.PlayerRollEvent.html" title="PlayerRollEvent" class="">PlayerRollEvent</a>
                           </li>
                           <li class="">
                             <a href="Model.Event.RoadPlacedEvent.html" title="RoadPlacedEvent" class="">RoadPlacedEvent</a>
@@ -328,65 +328,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Model.Event.PlayerRollEvent">
+            <article class="content wrap" id="_content" data-uid="Global.GameBrowser">
   
   
-  <h1 id="Model_Event_PlayerRollEvent" data-uid="Model.Event.PlayerRollEvent" class="text-break">Class PlayerRollEvent
+  <h1 id="Global_GameBrowser" data-uid="Global.GameBrowser" class="text-break">Class GameBrowser
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Model.Event.GameEvent.html">GameEvent</a></div>
-    <div class="level2"><span class="xref">PlayerRollEvent</span></div>
+    <div class="level1"><span class="xref">GameBrowser</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Type">GameEvent.Type</a>
-    </div>
-    <div>
-      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Number">GameEvent.Number</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Model.Event.html">Model.Event</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Model_Event_PlayerRollEvent_syntax">Syntax</h5>
+  <h5 id="Global_GameBrowser_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerRollEvent : GameEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameBrowser : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Model_Event_PlayerRollEvent_PlayerID" data-uid="Model.Event.PlayerRollEvent.PlayerID">PlayerID</h4>
+  <h4 id="Global_GameBrowser_gameEntryPrefab" data-uid="Global.GameBrowser.gameEntryPrefab">gameEntryPrefab</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PlayerID</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject gameEntryPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -398,19 +367,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">GameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Model_Event_PlayerRollEvent_RollValues" data-uid="Model.Event.PlayerRollEvent.RollValues">RollValues</h4>
+  <h4 id="Global_GameBrowser_gamesWrapper" data-uid="Global.GameBrowser.gamesWrapper">gamesWrapper</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int[] RollValues</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject gamesWrapper</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -422,7 +391,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_GameBrowser_updateGames_" data-uid="Global.GameBrowser.updateGames*"></a>
+  <h4 id="Global_GameBrowser_updateGames_GameEntry___" data-uid="Global.GameBrowser.updateGames(GameEntry[])">updateGames(GameEntry[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateGames(GameEntry[] games)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameEntry</span>[]</td>
+        <td><span class="parametername">games</span></td>
         <td></td>
       </tr>
     </tbody>

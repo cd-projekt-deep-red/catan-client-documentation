@@ -1360,6 +1360,40 @@ references:
   commentId: F:Global.ExampleEventConsumer.eventStream
   fullName: ExampleEventConsumer.eventStream
   nameWithType: ExampleEventConsumer.eventStream
+- uid: Global.GameBrowser
+  name: GameBrowser
+  href: api/Global.GameBrowser.html
+  commentId: T:Global.GameBrowser
+  fullName: GameBrowser
+  nameWithType: GameBrowser
+- uid: Global.GameBrowser.gameEntryPrefab
+  name: gameEntryPrefab
+  href: api/Global.GameBrowser.html#Global_GameBrowser_gameEntryPrefab
+  commentId: F:Global.GameBrowser.gameEntryPrefab
+  fullName: GameBrowser.gameEntryPrefab
+  nameWithType: GameBrowser.gameEntryPrefab
+- uid: Global.GameBrowser.gamesWrapper
+  name: gamesWrapper
+  href: api/Global.GameBrowser.html#Global_GameBrowser_gamesWrapper
+  commentId: F:Global.GameBrowser.gamesWrapper
+  fullName: GameBrowser.gamesWrapper
+  nameWithType: GameBrowser.gamesWrapper
+- uid: Global.GameBrowser.updateGames(GameEntry[])
+  name: updateGames(GameEntry[])
+  href: api/Global.GameBrowser.html#Global_GameBrowser_updateGames_GameEntry___
+  commentId: M:Global.GameBrowser.updateGames(GameEntry[])
+  name.vb: updateGames(GameEntry())
+  fullName: GameBrowser.updateGames(GameEntry[])
+  fullName.vb: GameBrowser.updateGames(GameEntry())
+  nameWithType: GameBrowser.updateGames(GameEntry[])
+  nameWithType.vb: GameBrowser.updateGames(GameEntry())
+- uid: Global.GameBrowser.updateGames*
+  name: updateGames
+  href: api/Global.GameBrowser.html#Global_GameBrowser_updateGames_
+  commentId: Overload:Global.GameBrowser.updateGames
+  isSpec: "True"
+  fullName: GameBrowser.updateGames
+  nameWithType: GameBrowser.updateGames
 - uid: Global.GameMetaData
   name: GameMetaData
   href: api/Global.GameMetaData.html
@@ -1961,6 +1995,19 @@ references:
   commentId: F:Global.MenuManager.startGameButton
   fullName: MenuManager.startGameButton
   nameWithType: MenuManager.startGameButton
+- uid: Global.MenuManager.updateGames
+  name: updateGames()
+  href: api/Global.MenuManager.html#Global_MenuManager_updateGames
+  commentId: M:Global.MenuManager.updateGames
+  fullName: MenuManager.updateGames()
+  nameWithType: MenuManager.updateGames()
+- uid: Global.MenuManager.updateGames*
+  name: updateGames
+  href: api/Global.MenuManager.html#Global_MenuManager_updateGames_
+  commentId: Overload:Global.MenuManager.updateGames
+  isSpec: "True"
+  fullName: MenuManager.updateGames
+  nameWithType: MenuManager.updateGames
 - uid: Global.MockNetworkManager
   name: MockNetworkManager
   href: api/Global.MockNetworkManager.html
@@ -4073,6 +4120,19 @@ references:
   commentId: T:Model.GameEntry
   fullName: Model.GameEntry
   nameWithType: GameEntry
+- uid: Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)
+  name: GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)
+  href: api/Model.GameEntry.html#Model_GameEntry__ctor_System_String_System_Int32_System_String_Model_Player_System_Boolean_System_String_Model_GameSettings_
+  commentId: M:Model.GameEntry.#ctor(System.String,System.Int32,System.String,Model.Player,System.Boolean,System.String,Model.GameSettings)
+  fullName: Model.GameEntry.GameEntry(System.String, System.Int32, System.String, Model.Player, System.Boolean, System.String, Model.GameSettings)
+  nameWithType: GameEntry.GameEntry(String, Int32, String, Player, Boolean, String, GameSettings)
+- uid: Model.GameEntry.#ctor*
+  name: GameEntry
+  href: api/Model.GameEntry.html#Model_GameEntry__ctor_
+  commentId: Overload:Model.GameEntry.#ctor
+  isSpec: "True"
+  fullName: Model.GameEntry.GameEntry
+  nameWithType: GameEntry.GameEntry
 - uid: Model.GameEntry.GameSettings
   name: GameSettings
   href: api/Model.GameEntry.html#Model_GameEntry_GameSettings
@@ -4164,12 +4224,109 @@ references:
   isSpec: "True"
   fullName: Model.GameEntry.ThumbIndex
   nameWithType: GameEntry.ThumbIndex
+- uid: Model.GameSettings
+  name: GameSettings
+  href: api/Model.GameSettings.html
+  commentId: T:Model.GameSettings
+  fullName: Model.GameSettings
+  nameWithType: GameSettings
+- uid: Model.GameSettings.#ctor(Model.WinCondition,System.Int32,System.Boolean,System.Int32,System.String)
+  name: GameSettings(WinCondition, Int32, Boolean, Int32, String)
+  href: api/Model.GameSettings.html#Model_GameSettings__ctor_Model_WinCondition_System_Int32_System_Boolean_System_Int32_System_String_
+  commentId: M:Model.GameSettings.#ctor(Model.WinCondition,System.Int32,System.Boolean,System.Int32,System.String)
+  fullName: Model.GameSettings.GameSettings(Model.WinCondition, System.Int32, System.Boolean, System.Int32, System.String)
+  nameWithType: GameSettings.GameSettings(WinCondition, Int32, Boolean, Int32, String)
+- uid: Model.GameSettings.#ctor*
+  name: GameSettings
+  href: api/Model.GameSettings.html#Model_GameSettings__ctor_
+  commentId: Overload:Model.GameSettings.#ctor
+  isSpec: "True"
+  fullName: Model.GameSettings.GameSettings
+  nameWithType: GameSettings.GameSettings
+- uid: Model.GameSettings.BoardSeed
+  name: BoardSeed
+  href: api/Model.GameSettings.html#Model_GameSettings_BoardSeed
+  commentId: P:Model.GameSettings.BoardSeed
+  fullName: Model.GameSettings.BoardSeed
+  nameWithType: GameSettings.BoardSeed
+- uid: Model.GameSettings.BoardSeed*
+  name: BoardSeed
+  href: api/Model.GameSettings.html#Model_GameSettings_BoardSeed_
+  commentId: Overload:Model.GameSettings.BoardSeed
+  isSpec: "True"
+  fullName: Model.GameSettings.BoardSeed
+  nameWithType: GameSettings.BoardSeed
+- uid: Model.GameSettings.Robber
+  name: Robber
+  href: api/Model.GameSettings.html#Model_GameSettings_Robber
+  commentId: P:Model.GameSettings.Robber
+  fullName: Model.GameSettings.Robber
+  nameWithType: GameSettings.Robber
+- uid: Model.GameSettings.Robber*
+  name: Robber
+  href: api/Model.GameSettings.html#Model_GameSettings_Robber_
+  commentId: Overload:Model.GameSettings.Robber
+  isSpec: "True"
+  fullName: Model.GameSettings.Robber
+  nameWithType: GameSettings.Robber
+- uid: Model.GameSettings.TurnTime
+  name: TurnTime
+  href: api/Model.GameSettings.html#Model_GameSettings_TurnTime
+  commentId: P:Model.GameSettings.TurnTime
+  fullName: Model.GameSettings.TurnTime
+  nameWithType: GameSettings.TurnTime
+- uid: Model.GameSettings.TurnTime*
+  name: TurnTime
+  href: api/Model.GameSettings.html#Model_GameSettings_TurnTime_
+  commentId: Overload:Model.GameSettings.TurnTime
+  isSpec: "True"
+  fullName: Model.GameSettings.TurnTime
+  nameWithType: GameSettings.TurnTime
+- uid: Model.GameSettings.WinCondition
+  name: WinCondition
+  href: api/Model.GameSettings.html#Model_GameSettings_WinCondition
+  commentId: P:Model.GameSettings.WinCondition
+  fullName: Model.GameSettings.WinCondition
+  nameWithType: GameSettings.WinCondition
+- uid: Model.GameSettings.WinCondition*
+  name: WinCondition
+  href: api/Model.GameSettings.html#Model_GameSettings_WinCondition_
+  commentId: Overload:Model.GameSettings.WinCondition
+  isSpec: "True"
+  fullName: Model.GameSettings.WinCondition
+  nameWithType: GameSettings.WinCondition
+- uid: Model.GameSettings.WinValue
+  name: WinValue
+  href: api/Model.GameSettings.html#Model_GameSettings_WinValue
+  commentId: P:Model.GameSettings.WinValue
+  fullName: Model.GameSettings.WinValue
+  nameWithType: GameSettings.WinValue
+- uid: Model.GameSettings.WinValue*
+  name: WinValue
+  href: api/Model.GameSettings.html#Model_GameSettings_WinValue_
+  commentId: Overload:Model.GameSettings.WinValue
+  isSpec: "True"
+  fullName: Model.GameSettings.WinValue
+  nameWithType: GameSettings.WinValue
 - uid: Model.Player
   name: Player
   href: api/Model.Player.html
   commentId: T:Model.Player
   fullName: Model.Player
   nameWithType: Player
+- uid: Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32)
+  name: Player(String, String, Team, Int32)
+  href: api/Model.Player.html#Model_Player__ctor_System_String_System_String_Model_Team_System_Int32_
+  commentId: M:Model.Player.#ctor(System.String,System.String,Model.Team,System.Int32)
+  fullName: Model.Player.Player(System.String, System.String, Model.Team, System.Int32)
+  nameWithType: Player.Player(String, String, Team, Int32)
+- uid: Model.Player.#ctor*
+  name: Player
+  href: api/Model.Player.html#Model_Player__ctor_
+  commentId: Overload:Model.Player.#ctor
+  isSpec: "True"
+  fullName: Model.Player.Player
+  nameWithType: Player.Player
 - uid: Model.Player.Id
   name: Id
   href: api/Model.Player.html#Model_Player_Id
@@ -4810,3 +4967,51 @@ references:
   isSpec: "True"
   fullName: Model.VertexCoordinates.ToString
   nameWithType: VertexCoordinates.ToString
+- uid: Model.WinCondition
+  name: WinCondition
+  href: api/Model.WinCondition.html
+  commentId: T:Model.WinCondition
+  fullName: Model.WinCondition
+  nameWithType: WinCondition
+- uid: Model.WinCondition.CityCount
+  name: CityCount
+  href: api/Model.WinCondition.html#Model_WinCondition_CityCount
+  commentId: F:Model.WinCondition.CityCount
+  fullName: Model.WinCondition.CityCount
+  nameWithType: WinCondition.CityCount
+- uid: Model.WinCondition.LargestArmy
+  name: LargestArmy
+  href: api/Model.WinCondition.html#Model_WinCondition_LargestArmy
+  commentId: F:Model.WinCondition.LargestArmy
+  fullName: Model.WinCondition.LargestArmy
+  nameWithType: WinCondition.LargestArmy
+- uid: Model.WinCondition.LeaderAtTime
+  name: LeaderAtTime
+  href: api/Model.WinCondition.html#Model_WinCondition_LeaderAtTime
+  commentId: F:Model.WinCondition.LeaderAtTime
+  fullName: Model.WinCondition.LeaderAtTime
+  nameWithType: WinCondition.LeaderAtTime
+- uid: Model.WinCondition.LongestRoad
+  name: LongestRoad
+  href: api/Model.WinCondition.html#Model_WinCondition_LongestRoad
+  commentId: F:Model.WinCondition.LongestRoad
+  fullName: Model.WinCondition.LongestRoad
+  nameWithType: WinCondition.LongestRoad
+- uid: Model.WinCondition.RoadCount
+  name: RoadCount
+  href: api/Model.WinCondition.html#Model_WinCondition_RoadCount
+  commentId: F:Model.WinCondition.RoadCount
+  fullName: Model.WinCondition.RoadCount
+  nameWithType: WinCondition.RoadCount
+- uid: Model.WinCondition.SettlementCount
+  name: SettlementCount
+  href: api/Model.WinCondition.html#Model_WinCondition_SettlementCount
+  commentId: F:Model.WinCondition.SettlementCount
+  fullName: Model.WinCondition.SettlementCount
+  nameWithType: WinCondition.SettlementCount
+- uid: Model.WinCondition.VP
+  name: VP
+  href: api/Model.WinCondition.html#Model_WinCondition_VP
+  commentId: F:Model.WinCondition.VP
+  fullName: Model.WinCondition.VP
+  nameWithType: WinCondition.VP
