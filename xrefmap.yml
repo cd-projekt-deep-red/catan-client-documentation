@@ -4524,25 +4524,32 @@ references:
   commentId: T:Model.Event.RoadPlacedEvent
   fullName: Model.Event.RoadPlacedEvent
   nameWithType: RoadPlacedEvent
-- uid: Model.Event.RoadPlacedEvent.PlayerID
-  name: PlayerID
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_PlayerID
-  commentId: F:Model.Event.RoadPlacedEvent.PlayerID
-  fullName: Model.Event.RoadPlacedEvent.PlayerID
-  nameWithType: RoadPlacedEvent.PlayerID
-- uid: Model.Event.RoadPlacedEvent.roads
-  name: roads
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_roads
-  commentId: P:Model.Event.RoadPlacedEvent.roads
-  fullName: Model.Event.RoadPlacedEvent.roads
-  nameWithType: RoadPlacedEvent.roads
-- uid: Model.Event.RoadPlacedEvent.roads*
-  name: roads
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_roads_
-  commentId: Overload:Model.Event.RoadPlacedEvent.roads
+- uid: Model.Event.RoadPlacedEvent.coOrdinates
+  name: coOrdinates
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_coOrdinates
+  commentId: P:Model.Event.RoadPlacedEvent.coOrdinates
+  fullName: Model.Event.RoadPlacedEvent.coOrdinates
+  nameWithType: RoadPlacedEvent.coOrdinates
+- uid: Model.Event.RoadPlacedEvent.coOrdinates*
+  name: coOrdinates
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_coOrdinates_
+  commentId: Overload:Model.Event.RoadPlacedEvent.coOrdinates
   isSpec: "True"
-  fullName: Model.Event.RoadPlacedEvent.roads
-  nameWithType: RoadPlacedEvent.roads
+  fullName: Model.Event.RoadPlacedEvent.coOrdinates
+  nameWithType: RoadPlacedEvent.coOrdinates
+- uid: Model.Event.RoadPlacedEvent.team
+  name: team
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_team
+  commentId: P:Model.Event.RoadPlacedEvent.team
+  fullName: Model.Event.RoadPlacedEvent.team
+  nameWithType: RoadPlacedEvent.team
+- uid: Model.Event.RoadPlacedEvent.team*
+  name: team
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_team_
+  commentId: Overload:Model.Event.RoadPlacedEvent.team
+  isSpec: "True"
+  fullName: Model.Event.RoadPlacedEvent.team
+  nameWithType: RoadPlacedEvent.team
 - uid: Model.GameEntry
   name: GameEntry
   href: api/Model.GameEntry.html

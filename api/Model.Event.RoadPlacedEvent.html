@@ -394,43 +394,17 @@ contains a dictionary of the new roads</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class RoadPlacedEvent : GameEvent</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Model_Event_RoadPlacedEvent_PlayerID" data-uid="Model.Event.RoadPlacedEvent.PlayerID">PlayerID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PlayerID</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Model_Event_RoadPlacedEvent_roads_" data-uid="Model.Event.RoadPlacedEvent.roads*"></a>
-  <h4 id="Model_Event_RoadPlacedEvent_roads" data-uid="Model.Event.RoadPlacedEvent.roads">roads</h4>
+  <a id="Model_Event_RoadPlacedEvent_coOrdinates_" data-uid="Model.Event.RoadPlacedEvent.coOrdinates*"></a>
+  <h4 id="Model_Event_RoadPlacedEvent_coOrdinates" data-uid="Model.Event.RoadPlacedEvent.coOrdinates">coOrdinates</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;EdgeCoordinates, Team&gt; roads { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdgeCoordinates coOrdinates { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,7 +416,32 @@ contains a dictionary of the new roads</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.EdgeCoordinates.html">EdgeCoordinates</a>, <a class="xref" href="Model.Team.html">Team</a>&gt;</td>
+        <td><a class="xref" href="Model.EdgeCoordinates.html">EdgeCoordinates</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_Event_RoadPlacedEvent_team_" data-uid="Model.Event.RoadPlacedEvent.team*"></a>
+  <h4 id="Model_Event_RoadPlacedEvent_team" data-uid="Model.Event.RoadPlacedEvent.team">team</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Team team { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
         <td></td>
       </tr>
     </tbody>
