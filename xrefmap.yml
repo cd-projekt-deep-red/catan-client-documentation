@@ -1320,12 +1320,12 @@ references:
   commentId: F:Global.EventDisplay.logBacker
   fullName: EventDisplay.logBacker
   nameWithType: EventDisplay.logBacker
-- uid: Global.EventDisplay.logRoadBuildEvent(System.Int32,Player,EdgeCoordinates)
-  name: logRoadBuildEvent(Int32, Player, EdgeCoordinates)
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_System_Int32_Player_EdgeCoordinates_
-  commentId: M:Global.EventDisplay.logRoadBuildEvent(System.Int32,Player,EdgeCoordinates)
-  fullName: EventDisplay.logRoadBuildEvent(System.Int32, Player, EdgeCoordinates)
-  nameWithType: EventDisplay.logRoadBuildEvent(Int32, Player, EdgeCoordinates)
+- uid: Global.EventDisplay.logRoadBuildEvent(System.Int32,Team,EdgeCoordinates)
+  name: logRoadBuildEvent(Int32, Team, EdgeCoordinates)
+  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_System_Int32_Team_EdgeCoordinates_
+  commentId: M:Global.EventDisplay.logRoadBuildEvent(System.Int32,Team,EdgeCoordinates)
+  fullName: EventDisplay.logRoadBuildEvent(System.Int32, Team, EdgeCoordinates)
+  nameWithType: EventDisplay.logRoadBuildEvent(Int32, Team, EdgeCoordinates)
 - uid: Global.EventDisplay.logRoadBuildEvent*
   name: logRoadBuildEvent
   href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_
@@ -1333,15 +1333,15 @@ references:
   isSpec: "True"
   fullName: EventDisplay.logRoadBuildEvent
   nameWithType: EventDisplay.logRoadBuildEvent
-- uid: Global.EventDisplay.logRollEvent(System.Int32,Player,System.Int32[])
-  name: logRollEvent(Int32, Player, Int32[])
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_System_Int32_Player_System_Int32___
-  commentId: M:Global.EventDisplay.logRollEvent(System.Int32,Player,System.Int32[])
-  name.vb: logRollEvent(Int32, Player, Int32())
-  fullName: EventDisplay.logRollEvent(System.Int32, Player, System.Int32[])
-  fullName.vb: EventDisplay.logRollEvent(System.Int32, Player, System.Int32())
-  nameWithType: EventDisplay.logRollEvent(Int32, Player, Int32[])
-  nameWithType.vb: EventDisplay.logRollEvent(Int32, Player, Int32())
+- uid: Global.EventDisplay.logRollEvent(System.Int32,Team,System.Int32[])
+  name: logRollEvent(Int32, Team, Int32[])
+  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_System_Int32_Team_System_Int32___
+  commentId: M:Global.EventDisplay.logRollEvent(System.Int32,Team,System.Int32[])
+  name.vb: logRollEvent(Int32, Team, Int32())
+  fullName: EventDisplay.logRollEvent(System.Int32, Team, System.Int32[])
+  fullName.vb: EventDisplay.logRollEvent(System.Int32, Team, System.Int32())
+  nameWithType: EventDisplay.logRollEvent(Int32, Team, Int32[])
+  nameWithType.vb: EventDisplay.logRollEvent(Int32, Team, Int32())
 - uid: Global.EventDisplay.logRollEvent*
   name: logRollEvent
   href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_
@@ -1519,6 +1519,12 @@ references:
   commentId: F:Global.GameLobby.gameID
   fullName: GameLobby.gameID
   nameWithType: GameLobby.gameID
+- uid: Global.GameLobby.gameOptions
+  name: gameOptions
+  href: api/Global.GameLobby.html#Global_GameLobby_gameOptions
+  commentId: F:Global.GameLobby.gameOptions
+  fullName: GameLobby.gameOptions
+  nameWithType: GameLobby.gameOptions
 - uid: Global.GameLobby.gameSeed
   name: gameSeed
   href: api/Global.GameLobby.html#Global_GameLobby_gameSeed
@@ -1549,6 +1555,12 @@ references:
   commentId: F:Global.GameLobby.lobbyTitle
   fullName: GameLobby.lobbyTitle
   nameWithType: GameLobby.lobbyTitle
+- uid: Global.GameLobby.localClientVariables
+  name: localClientVariables
+  href: api/Global.GameLobby.html#Global_GameLobby_localClientVariables
+  commentId: F:Global.GameLobby.localClientVariables
+  fullName: GameLobby.localClientVariables
+  nameWithType: GameLobby.localClientVariables
 - uid: Global.GameLobby.playerCardScriptsArray
   name: playerCardScriptsArray
   href: api/Global.GameLobby.html#Global_GameLobby_playerCardScriptsArray
@@ -1993,6 +2005,37 @@ references:
   commentId: F:Global.JoinButton.buttonImageIcon
   fullName: JoinButton.buttonImageIcon
   nameWithType: JoinButton.buttonImageIcon
+- uid: Global.LocalClientVariables
+  name: LocalClientVariables
+  href: api/Global.LocalClientVariables.html
+  commentId: T:Global.LocalClientVariables
+  fullName: LocalClientVariables
+  nameWithType: LocalClientVariables
+- uid: Global.LocalClientVariables.deviceUniqueID
+  name: deviceUniqueID
+  href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_deviceUniqueID
+  commentId: F:Global.LocalClientVariables.deviceUniqueID
+  fullName: LocalClientVariables.deviceUniqueID
+  nameWithType: LocalClientVariables.deviceUniqueID
+- uid: Global.LocalClientVariables.localPlayer
+  name: localPlayer
+  href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_localPlayer
+  commentId: F:Global.LocalClientVariables.localPlayer
+  fullName: LocalClientVariables.localPlayer
+  nameWithType: LocalClientVariables.localPlayer
+- uid: Global.LocalClientVariables.OnEnable
+  name: OnEnable()
+  href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_OnEnable
+  commentId: M:Global.LocalClientVariables.OnEnable
+  fullName: LocalClientVariables.OnEnable()
+  nameWithType: LocalClientVariables.OnEnable()
+- uid: Global.LocalClientVariables.OnEnable*
+  name: OnEnable
+  href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_OnEnable_
+  commentId: Overload:Global.LocalClientVariables.OnEnable
+  isSpec: "True"
+  fullName: LocalClientVariables.OnEnable
+  nameWithType: LocalClientVariables.OnEnable
 - uid: Global.LocalPlayerStats
   name: LocalPlayerStats
   href: api/Global.LocalPlayerStats.html
@@ -2548,6 +2591,60 @@ references:
   isSpec: "True"
   fullName: PlayerLobbyCard.setPlayer
   nameWithType: PlayerLobbyCard.setPlayer
+- uid: Global.PlayerMenuStats
+  name: PlayerMenuStats
+  href: api/Global.PlayerMenuStats.html
+  commentId: T:Global.PlayerMenuStats
+  fullName: PlayerMenuStats
+  nameWithType: PlayerMenuStats
+- uid: Global.PlayerMenuStats.assetManagerSounds
+  name: assetManagerSounds
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_assetManagerSounds
+  commentId: F:Global.PlayerMenuStats.assetManagerSounds
+  fullName: PlayerMenuStats.assetManagerSounds
+  nameWithType: PlayerMenuStats.assetManagerSounds
+- uid: Global.PlayerMenuStats.flash
+  name: flash
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_flash
+  commentId: F:Global.PlayerMenuStats.flash
+  fullName: PlayerMenuStats.flash
+  nameWithType: PlayerMenuStats.flash
+- uid: Global.PlayerMenuStats.levelProgress
+  name: levelProgress
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_levelProgress
+  commentId: F:Global.PlayerMenuStats.levelProgress
+  fullName: PlayerMenuStats.levelProgress
+  nameWithType: PlayerMenuStats.levelProgress
+- uid: Global.PlayerMenuStats.levelText
+  name: levelText
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_levelText
+  commentId: F:Global.PlayerMenuStats.levelText
+  fullName: PlayerMenuStats.levelText
+  nameWithType: PlayerMenuStats.levelText
+- uid: Global.PlayerMenuStats.playerWins
+  name: playerWins
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_playerWins
+  commentId: F:Global.PlayerMenuStats.playerWins
+  fullName: PlayerMenuStats.playerWins
+  nameWithType: PlayerMenuStats.playerWins
+- uid: Global.PlayerMenuStats.soundEmitter
+  name: soundEmitter
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_soundEmitter
+  commentId: F:Global.PlayerMenuStats.soundEmitter
+  fullName: PlayerMenuStats.soundEmitter
+  nameWithType: PlayerMenuStats.soundEmitter
+- uid: Global.PlayerMenuStats.winsLeftText
+  name: winsLeftText
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_winsLeftText
+  commentId: F:Global.PlayerMenuStats.winsLeftText
+  fullName: PlayerMenuStats.winsLeftText
+  nameWithType: PlayerMenuStats.winsLeftText
+- uid: Global.PlayerMenuStats.winsText
+  name: winsText
+  href: api/Global.PlayerMenuStats.html#Global_PlayerMenuStats_winsText
+  commentId: F:Global.PlayerMenuStats.winsText
+  fullName: PlayerMenuStats.winsText
+  nameWithType: PlayerMenuStats.winsText
 - uid: Global.PlayersPanel
   name: PlayersPanel
   href: api/Global.PlayersPanel.html
@@ -4532,18 +4629,18 @@ references:
   commentId: T:Model.Event.PlayerRollEvent
   fullName: Model.Event.PlayerRollEvent
   nameWithType: PlayerRollEvent
-- uid: Model.Event.PlayerRollEvent.Player
-  name: Player
-  href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_Player
-  commentId: F:Model.Event.PlayerRollEvent.Player
-  fullName: Model.Event.PlayerRollEvent.Player
-  nameWithType: PlayerRollEvent.Player
 - uid: Model.Event.PlayerRollEvent.RollValues
   name: RollValues
   href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_RollValues
   commentId: F:Model.Event.PlayerRollEvent.RollValues
   fullName: Model.Event.PlayerRollEvent.RollValues
   nameWithType: PlayerRollEvent.RollValues
+- uid: Model.Event.PlayerRollEvent.Team
+  name: Team
+  href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_Team
+  commentId: F:Model.Event.PlayerRollEvent.Team
+  fullName: Model.Event.PlayerRollEvent.Team
+  nameWithType: PlayerRollEvent.Team
 - uid: Model.Event.RoadPlacedEvent
   name: RoadPlacedEvent
   href: api/Model.Event.RoadPlacedEvent.html
@@ -4563,19 +4660,19 @@ references:
   isSpec: "True"
   fullName: Model.Event.RoadPlacedEvent.Coordinates
   nameWithType: RoadPlacedEvent.Coordinates
-- uid: Model.Event.RoadPlacedEvent.Player
-  name: Player
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Player
-  commentId: P:Model.Event.RoadPlacedEvent.Player
-  fullName: Model.Event.RoadPlacedEvent.Player
-  nameWithType: RoadPlacedEvent.Player
-- uid: Model.Event.RoadPlacedEvent.Player*
-  name: Player
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Player_
-  commentId: Overload:Model.Event.RoadPlacedEvent.Player
+- uid: Model.Event.RoadPlacedEvent.Team
+  name: Team
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Team
+  commentId: P:Model.Event.RoadPlacedEvent.Team
+  fullName: Model.Event.RoadPlacedEvent.Team
+  nameWithType: RoadPlacedEvent.Team
+- uid: Model.Event.RoadPlacedEvent.Team*
+  name: Team
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Team_
+  commentId: Overload:Model.Event.RoadPlacedEvent.Team
   isSpec: "True"
-  fullName: Model.Event.RoadPlacedEvent.Player
-  nameWithType: RoadPlacedEvent.Player
+  fullName: Model.Event.RoadPlacedEvent.Team
+  nameWithType: RoadPlacedEvent.Team
 - uid: Model.GameEntry
   name: GameEntry
   href: api/Model.GameEntry.html
