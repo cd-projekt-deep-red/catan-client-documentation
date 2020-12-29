@@ -1728,6 +1728,19 @@ references:
   commentId: T:Global.HexMath
   fullName: HexMath
   nameWithType: HexMath
+- uid: Global.HexMath.calcOutOfBounds(EdgeCoordinates)
+  name: calcOutOfBounds(EdgeCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_calcOutOfBounds_EdgeCoordinates_
+  commentId: M:Global.HexMath.calcOutOfBounds(EdgeCoordinates)
+  fullName: HexMath.calcOutOfBounds(EdgeCoordinates)
+  nameWithType: HexMath.calcOutOfBounds(EdgeCoordinates)
+- uid: Global.HexMath.calcOutOfBounds*
+  name: calcOutOfBounds
+  href: api/Global.HexMath.html#Global_HexMath_calcOutOfBounds_
+  commentId: Overload:Global.HexMath.calcOutOfBounds
+  isSpec: "True"
+  fullName: HexMath.calcOutOfBounds
+  nameWithType: HexMath.calcOutOfBounds
 - uid: Global.HexMath.CordToResourceLayerOrder(TileCoordinates)
   name: CordToResourceLayerOrder(TileCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_TileCoordinates_
