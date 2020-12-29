@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventDisplay.html",
-          "hash": "+zYfoGO5S2YcM6Eh1oMBNQ=="
+          "hash": "87SSXCYOkFJQnd+wF/6eYw=="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.PlayerRollEvent.html",
-          "hash": "4rJScF2/VgvI3GrjOLibag=="
+          "hash": "hQDVh4riuwO1MO/2Us83Lg=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.RoadPlacedEvent.html",
-          "hash": "6g4k7mSA4IoYd+CnLISmMQ=="
+          "hash": "BGURUK3hYzwg2Z2SJsYwAw=="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.html",
-          "hash": "g9xkPZmM6dm4m9j+hlvptA=="
+          "hash": "rKX1IAUWSnI+IeF1hjoWTQ=="
         }
       },
       "is_incremental": false,
@@ -1035,11 +1035,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 82,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -1048,10 +1047,11 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 82,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

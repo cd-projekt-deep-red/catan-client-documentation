@@ -1320,15 +1320,28 @@ references:
   commentId: F:Global.EventDisplay.logBacker
   fullName: EventDisplay.logBacker
   nameWithType: EventDisplay.logBacker
-- uid: Global.EventDisplay.logRollEvent(System.Int32,System.Int32,System.Int32[])
-  name: logRollEvent(Int32, Int32, Int32[])
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_System_Int32_System_Int32_System_Int32___
-  commentId: M:Global.EventDisplay.logRollEvent(System.Int32,System.Int32,System.Int32[])
-  name.vb: logRollEvent(Int32, Int32, Int32())
-  fullName: EventDisplay.logRollEvent(System.Int32, System.Int32, System.Int32[])
-  fullName.vb: EventDisplay.logRollEvent(System.Int32, System.Int32, System.Int32())
-  nameWithType: EventDisplay.logRollEvent(Int32, Int32, Int32[])
-  nameWithType.vb: EventDisplay.logRollEvent(Int32, Int32, Int32())
+- uid: Global.EventDisplay.logRoadBuildEvent(System.Int32,Player,EdgeCoordinates)
+  name: logRoadBuildEvent(Int32, Player, EdgeCoordinates)
+  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_System_Int32_Player_EdgeCoordinates_
+  commentId: M:Global.EventDisplay.logRoadBuildEvent(System.Int32,Player,EdgeCoordinates)
+  fullName: EventDisplay.logRoadBuildEvent(System.Int32, Player, EdgeCoordinates)
+  nameWithType: EventDisplay.logRoadBuildEvent(Int32, Player, EdgeCoordinates)
+- uid: Global.EventDisplay.logRoadBuildEvent*
+  name: logRoadBuildEvent
+  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_
+  commentId: Overload:Global.EventDisplay.logRoadBuildEvent
+  isSpec: "True"
+  fullName: EventDisplay.logRoadBuildEvent
+  nameWithType: EventDisplay.logRoadBuildEvent
+- uid: Global.EventDisplay.logRollEvent(System.Int32,Player,System.Int32[])
+  name: logRollEvent(Int32, Player, Int32[])
+  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_System_Int32_Player_System_Int32___
+  commentId: M:Global.EventDisplay.logRollEvent(System.Int32,Player,System.Int32[])
+  name.vb: logRollEvent(Int32, Player, Int32())
+  fullName: EventDisplay.logRollEvent(System.Int32, Player, System.Int32[])
+  fullName.vb: EventDisplay.logRollEvent(System.Int32, Player, System.Int32())
+  nameWithType: EventDisplay.logRollEvent(Int32, Player, Int32[])
+  nameWithType.vb: EventDisplay.logRollEvent(Int32, Player, Int32())
 - uid: Global.EventDisplay.logRollEvent*
   name: logRollEvent
   href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_
@@ -4519,12 +4532,12 @@ references:
   commentId: T:Model.Event.PlayerRollEvent
   fullName: Model.Event.PlayerRollEvent
   nameWithType: PlayerRollEvent
-- uid: Model.Event.PlayerRollEvent.PlayerID
-  name: PlayerID
-  href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_PlayerID
-  commentId: F:Model.Event.PlayerRollEvent.PlayerID
-  fullName: Model.Event.PlayerRollEvent.PlayerID
-  nameWithType: PlayerRollEvent.PlayerID
+- uid: Model.Event.PlayerRollEvent.Player
+  name: Player
+  href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_Player
+  commentId: F:Model.Event.PlayerRollEvent.Player
+  fullName: Model.Event.PlayerRollEvent.Player
+  nameWithType: PlayerRollEvent.Player
 - uid: Model.Event.PlayerRollEvent.RollValues
   name: RollValues
   href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_RollValues
@@ -4537,32 +4550,32 @@ references:
   commentId: T:Model.Event.RoadPlacedEvent
   fullName: Model.Event.RoadPlacedEvent
   nameWithType: RoadPlacedEvent
-- uid: Model.Event.RoadPlacedEvent.coOrdinates
-  name: coOrdinates
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_coOrdinates
-  commentId: P:Model.Event.RoadPlacedEvent.coOrdinates
-  fullName: Model.Event.RoadPlacedEvent.coOrdinates
-  nameWithType: RoadPlacedEvent.coOrdinates
-- uid: Model.Event.RoadPlacedEvent.coOrdinates*
-  name: coOrdinates
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_coOrdinates_
-  commentId: Overload:Model.Event.RoadPlacedEvent.coOrdinates
+- uid: Model.Event.RoadPlacedEvent.Coordinates
+  name: Coordinates
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Coordinates
+  commentId: P:Model.Event.RoadPlacedEvent.Coordinates
+  fullName: Model.Event.RoadPlacedEvent.Coordinates
+  nameWithType: RoadPlacedEvent.Coordinates
+- uid: Model.Event.RoadPlacedEvent.Coordinates*
+  name: Coordinates
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Coordinates_
+  commentId: Overload:Model.Event.RoadPlacedEvent.Coordinates
   isSpec: "True"
-  fullName: Model.Event.RoadPlacedEvent.coOrdinates
-  nameWithType: RoadPlacedEvent.coOrdinates
-- uid: Model.Event.RoadPlacedEvent.team
-  name: team
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_team
-  commentId: P:Model.Event.RoadPlacedEvent.team
-  fullName: Model.Event.RoadPlacedEvent.team
-  nameWithType: RoadPlacedEvent.team
-- uid: Model.Event.RoadPlacedEvent.team*
-  name: team
-  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_team_
-  commentId: Overload:Model.Event.RoadPlacedEvent.team
+  fullName: Model.Event.RoadPlacedEvent.Coordinates
+  nameWithType: RoadPlacedEvent.Coordinates
+- uid: Model.Event.RoadPlacedEvent.Player
+  name: Player
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Player
+  commentId: P:Model.Event.RoadPlacedEvent.Player
+  fullName: Model.Event.RoadPlacedEvent.Player
+  nameWithType: RoadPlacedEvent.Player
+- uid: Model.Event.RoadPlacedEvent.Player*
+  name: Player
+  href: api/Model.Event.RoadPlacedEvent.html#Model_Event_RoadPlacedEvent_Player_
+  commentId: Overload:Model.Event.RoadPlacedEvent.Player
   isSpec: "True"
-  fullName: Model.Event.RoadPlacedEvent.team
-  nameWithType: RoadPlacedEvent.team
+  fullName: Model.Event.RoadPlacedEvent.Player
+  nameWithType: RoadPlacedEvent.Player
 - uid: Model.GameEntry
   name: GameEntry
   href: api/Model.GameEntry.html
