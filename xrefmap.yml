@@ -4588,6 +4588,51 @@ references:
   commentId: N:Model.Event
   fullName: Model.Event
   nameWithType: Model.Event
+- uid: Model.Event.BuildingPlacedEvent
+  name: BuildingPlacedEvent
+  href: api/Model.Event.BuildingPlacedEvent.html
+  commentId: T:Model.Event.BuildingPlacedEvent
+  fullName: Model.Event.BuildingPlacedEvent
+  nameWithType: BuildingPlacedEvent
+- uid: Model.Event.BuildingPlacedEvent.Coordinates
+  name: Coordinates
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_Coordinates
+  commentId: P:Model.Event.BuildingPlacedEvent.Coordinates
+  fullName: Model.Event.BuildingPlacedEvent.Coordinates
+  nameWithType: BuildingPlacedEvent.Coordinates
+- uid: Model.Event.BuildingPlacedEvent.Coordinates*
+  name: Coordinates
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_Coordinates_
+  commentId: Overload:Model.Event.BuildingPlacedEvent.Coordinates
+  isSpec: "True"
+  fullName: Model.Event.BuildingPlacedEvent.Coordinates
+  nameWithType: BuildingPlacedEvent.Coordinates
+- uid: Model.Event.BuildingPlacedEvent.PlayerID
+  name: PlayerID
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_PlayerID
+  commentId: P:Model.Event.BuildingPlacedEvent.PlayerID
+  fullName: Model.Event.BuildingPlacedEvent.PlayerID
+  nameWithType: BuildingPlacedEvent.PlayerID
+- uid: Model.Event.BuildingPlacedEvent.PlayerID*
+  name: PlayerID
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_PlayerID_
+  commentId: Overload:Model.Event.BuildingPlacedEvent.PlayerID
+  isSpec: "True"
+  fullName: Model.Event.BuildingPlacedEvent.PlayerID
+  nameWithType: BuildingPlacedEvent.PlayerID
+- uid: Model.Event.BuildingPlacedEvent.PlayerTeam
+  name: PlayerTeam
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_PlayerTeam
+  commentId: P:Model.Event.BuildingPlacedEvent.PlayerTeam
+  fullName: Model.Event.BuildingPlacedEvent.PlayerTeam
+  nameWithType: BuildingPlacedEvent.PlayerTeam
+- uid: Model.Event.BuildingPlacedEvent.PlayerTeam*
+  name: PlayerTeam
+  href: api/Model.Event.BuildingPlacedEvent.html#Model_Event_BuildingPlacedEvent_PlayerTeam_
+  commentId: Overload:Model.Event.BuildingPlacedEvent.PlayerTeam
+  isSpec: "True"
+  fullName: Model.Event.BuildingPlacedEvent.PlayerTeam
+  nameWithType: BuildingPlacedEvent.PlayerTeam
 - uid: Model.Event.GameEvent
   name: GameEvent
   href: api/Model.Event.GameEvent.html
@@ -4670,6 +4715,25 @@ references:
   commentId: F:Model.Event.PlayerRollEvent.Team
   fullName: Model.Event.PlayerRollEvent.Team
   nameWithType: PlayerRollEvent.Team
+- uid: Model.Event.ResourceDistributionEvent
+  name: ResourceDistributionEvent
+  href: api/Model.Event.ResourceDistributionEvent.html
+  commentId: T:Model.Event.ResourceDistributionEvent
+  fullName: Model.Event.ResourceDistributionEvent
+  nameWithType: ResourceDistributionEvent
+- uid: Model.Event.ResourceDistributionEvent.Resources
+  name: Resources
+  href: api/Model.Event.ResourceDistributionEvent.html#Model_Event_ResourceDistributionEvent_Resources
+  commentId: P:Model.Event.ResourceDistributionEvent.Resources
+  fullName: Model.Event.ResourceDistributionEvent.Resources
+  nameWithType: ResourceDistributionEvent.Resources
+- uid: Model.Event.ResourceDistributionEvent.Resources*
+  name: Resources
+  href: api/Model.Event.ResourceDistributionEvent.html#Model_Event_ResourceDistributionEvent_Resources_
+  commentId: Overload:Model.Event.ResourceDistributionEvent.Resources
+  isSpec: "True"
+  fullName: Model.Event.ResourceDistributionEvent.Resources
+  nameWithType: ResourceDistributionEvent.Resources
 - uid: Model.Event.RoadPlacedEvent
   name: RoadPlacedEvent
   href: api/Model.Event.RoadPlacedEvent.html
@@ -4702,6 +4766,38 @@ references:
   isSpec: "True"
   fullName: Model.Event.RoadPlacedEvent.Team
   nameWithType: RoadPlacedEvent.Team
+- uid: Model.Event.TurnStartEvent
+  name: TurnStartEvent
+  href: api/Model.Event.TurnStartEvent.html
+  commentId: T:Model.Event.TurnStartEvent
+  fullName: Model.Event.TurnStartEvent
+  nameWithType: TurnStartEvent
+- uid: Model.Event.TurnStartEvent.ActivePlayerID
+  name: ActivePlayerID
+  href: api/Model.Event.TurnStartEvent.html#Model_Event_TurnStartEvent_ActivePlayerID
+  commentId: P:Model.Event.TurnStartEvent.ActivePlayerID
+  fullName: Model.Event.TurnStartEvent.ActivePlayerID
+  nameWithType: TurnStartEvent.ActivePlayerID
+- uid: Model.Event.TurnStartEvent.ActivePlayerID*
+  name: ActivePlayerID
+  href: api/Model.Event.TurnStartEvent.html#Model_Event_TurnStartEvent_ActivePlayerID_
+  commentId: Overload:Model.Event.TurnStartEvent.ActivePlayerID
+  isSpec: "True"
+  fullName: Model.Event.TurnStartEvent.ActivePlayerID
+  nameWithType: TurnStartEvent.ActivePlayerID
+- uid: Model.Event.TurnStartEvent.ActivePlayerTeam
+  name: ActivePlayerTeam
+  href: api/Model.Event.TurnStartEvent.html#Model_Event_TurnStartEvent_ActivePlayerTeam
+  commentId: P:Model.Event.TurnStartEvent.ActivePlayerTeam
+  fullName: Model.Event.TurnStartEvent.ActivePlayerTeam
+  nameWithType: TurnStartEvent.ActivePlayerTeam
+- uid: Model.Event.TurnStartEvent.ActivePlayerTeam*
+  name: ActivePlayerTeam
+  href: api/Model.Event.TurnStartEvent.html#Model_Event_TurnStartEvent_ActivePlayerTeam_
+  commentId: Overload:Model.Event.TurnStartEvent.ActivePlayerTeam
+  isSpec: "True"
+  fullName: Model.Event.TurnStartEvent.ActivePlayerTeam
+  nameWithType: TurnStartEvent.ActivePlayerTeam
 - uid: Model.GameEntry
   name: GameEntry
   href: api/Model.GameEntry.html
