@@ -405,6 +405,35 @@ references:
   commentId: T:Global.BoardManagerV2
   fullName: BoardManagerV2
   nameWithType: BoardManagerV2
+- uid: Global.BoardManagerV2.destroyBuildRoads
+  name: destroyBuildRoads()
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_destroyBuildRoads
+  commentId: M:Global.BoardManagerV2.destroyBuildRoads
+  fullName: BoardManagerV2.destroyBuildRoads()
+  nameWithType: BoardManagerV2.destroyBuildRoads()
+- uid: Global.BoardManagerV2.destroyBuildRoads*
+  name: destroyBuildRoads
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_destroyBuildRoads_
+  commentId: Overload:Global.BoardManagerV2.destroyBuildRoads
+  isSpec: "True"
+  fullName: BoardManagerV2.destroyBuildRoads
+  nameWithType: BoardManagerV2.destroyBuildRoads
+- uid: Global.BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary{EdgeCoordinates,Team})
+  name: placeBuildRoad(Dictionary<EdgeCoordinates, Team>)
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildRoad_System_Collections_Generic_Dictionary_EdgeCoordinates_Team__
+  commentId: M:Global.BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary{EdgeCoordinates,Team})
+  name.vb: placeBuildRoad(Dictionary(Of EdgeCoordinates, Team))
+  fullName: BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary<EdgeCoordinates, Team>)
+  fullName.vb: BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary(Of EdgeCoordinates, Team))
+  nameWithType: BoardManagerV2.placeBuildRoad(Dictionary<EdgeCoordinates, Team>)
+  nameWithType.vb: BoardManagerV2.placeBuildRoad(Dictionary(Of EdgeCoordinates, Team))
+- uid: Global.BoardManagerV2.placeBuildRoad*
+  name: placeBuildRoad
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildRoad_
+  commentId: Overload:Global.BoardManagerV2.placeBuildRoad
+  isSpec: "True"
+  fullName: BoardManagerV2.placeBuildRoad
+  nameWithType: BoardManagerV2.placeBuildRoad
 - uid: Global.BrowserGameCard
   name: BrowserGameCard
   href: api/Global.BrowserGameCard.html
