@@ -1337,6 +1337,12 @@ references:
   commentId: F:Global.EventDisplay.eventTextDisplayPrefab
   fullName: EventDisplay.eventTextDisplayPrefab
   nameWithType: EventDisplay.eventTextDisplayPrefab
+- uid: Global.EventDisplay.gameStatus
+  name: gameStatus
+  href: api/Global.EventDisplay.html#Global_EventDisplay_gameStatus
+  commentId: F:Global.EventDisplay.gameStatus
+  fullName: EventDisplay.gameStatus
+  nameWithType: EventDisplay.gameStatus
 - uid: Global.EventDisplay.lastEventWrapper
   name: lastEventWrapper
   href: api/Global.EventDisplay.html#Global_EventDisplay_lastEventWrapper
@@ -1744,6 +1750,32 @@ references:
   isSpec: "True"
   fullName: GameStatus.gameMeta
   nameWithType: GameStatus.gameMeta
+- uid: Global.GameStatus.NonLocalPlayers(Player)
+  name: NonLocalPlayers(Player)
+  href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers_Player_
+  commentId: M:Global.GameStatus.NonLocalPlayers(Player)
+  fullName: GameStatus.NonLocalPlayers(Player)
+  nameWithType: GameStatus.NonLocalPlayers(Player)
+- uid: Global.GameStatus.NonLocalPlayers*
+  name: NonLocalPlayers
+  href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers_
+  commentId: Overload:Global.GameStatus.NonLocalPlayers
+  isSpec: "True"
+  fullName: GameStatus.NonLocalPlayers
+  nameWithType: GameStatus.NonLocalPlayers
+- uid: Global.GameStatus.PlayerLookup(Team)
+  name: PlayerLookup(Team)
+  href: api/Global.GameStatus.html#Global_GameStatus_PlayerLookup_Team_
+  commentId: M:Global.GameStatus.PlayerLookup(Team)
+  fullName: GameStatus.PlayerLookup(Team)
+  nameWithType: GameStatus.PlayerLookup(Team)
+- uid: Global.GameStatus.PlayerLookup*
+  name: PlayerLookup
+  href: api/Global.GameStatus.html#Global_GameStatus_PlayerLookup_
+  commentId: Overload:Global.GameStatus.PlayerLookup
+  isSpec: "True"
+  fullName: GameStatus.PlayerLookup
+  nameWithType: GameStatus.PlayerLookup
 - uid: Global.GameStatus.players
   name: players
   href: api/Global.GameStatus.html#Global_GameStatus_players
@@ -4216,6 +4248,18 @@ references:
   commentId: F:Global.UIManager.eventStream
   fullName: UIManager.eventStream
   nameWithType: UIManager.eventStream
+- uid: Global.UIManager.gameStatus
+  name: gameStatus
+  href: api/Global.UIManager.html#Global_UIManager_gameStatus
+  commentId: F:Global.UIManager.gameStatus
+  fullName: UIManager.gameStatus
+  nameWithType: UIManager.gameStatus
+- uid: Global.UIManager.localClientVariables
+  name: localClientVariables
+  href: api/Global.UIManager.html#Global_UIManager_localClientVariables
+  commentId: F:Global.UIManager.localClientVariables
+  fullName: UIManager.localClientVariables
+  nameWithType: UIManager.localClientVariables
 - uid: Global.UIManager.localPlayerStatsPrefab
   name: localPlayerStatsPrefab
   href: api/Global.UIManager.html#Global_UIManager_localPlayerStatsPrefab
