@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIManager.html",
-          "hash": "hjv0iy/K2bd5pXQeYbBoGA=="
+          "hash": "rAJKxBkP0v9np5HdGOO0Vw=="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.DiscardResourcesEvent.html",
-          "hash": "gNVCrUBxmIB+b8MUZVZu0g=="
+          "hash": "csjxLuu3Wuhq803AgYzGOw=="
         }
       },
       "is_incremental": false,

@@ -4133,6 +4133,12 @@ references:
   commentId: F:Global.UIManager.announcementPrefab
   fullName: UIManager.announcementPrefab
   nameWithType: UIManager.announcementPrefab
+- uid: Global.UIManager.assetManagerColors
+  name: assetManagerColors
+  href: api/Global.UIManager.html#Global_UIManager_assetManagerColors
+  commentId: F:Global.UIManager.assetManagerColors
+  fullName: UIManager.assetManagerColors
+  nameWithType: UIManager.assetManagerColors
 - uid: Global.UIManager.buttonPrefab
   name: buttonPrefab
   href: api/Global.UIManager.html#Global_UIManager_buttonPrefab
@@ -4792,19 +4798,19 @@ references:
   commentId: T:Model.Event.DiscardResourcesEvent
   fullName: Model.Event.DiscardResourcesEvent
   nameWithType: DiscardResourcesEvent
-- uid: Model.Event.DiscardResourcesEvent.Cards
-  name: Cards
-  href: api/Model.Event.DiscardResourcesEvent.html#Model_Event_DiscardResourcesEvent_Cards
-  commentId: P:Model.Event.DiscardResourcesEvent.Cards
-  fullName: Model.Event.DiscardResourcesEvent.Cards
-  nameWithType: DiscardResourcesEvent.Cards
-- uid: Model.Event.DiscardResourcesEvent.Cards*
-  name: Cards
-  href: api/Model.Event.DiscardResourcesEvent.html#Model_Event_DiscardResourcesEvent_Cards_
-  commentId: Overload:Model.Event.DiscardResourcesEvent.Cards
+- uid: Model.Event.DiscardResourcesEvent.Resources
+  name: Resources
+  href: api/Model.Event.DiscardResourcesEvent.html#Model_Event_DiscardResourcesEvent_Resources
+  commentId: P:Model.Event.DiscardResourcesEvent.Resources
+  fullName: Model.Event.DiscardResourcesEvent.Resources
+  nameWithType: DiscardResourcesEvent.Resources
+- uid: Model.Event.DiscardResourcesEvent.Resources*
+  name: Resources
+  href: api/Model.Event.DiscardResourcesEvent.html#Model_Event_DiscardResourcesEvent_Resources_
+  commentId: Overload:Model.Event.DiscardResourcesEvent.Resources
   isSpec: "True"
-  fullName: Model.Event.DiscardResourcesEvent.Cards
-  nameWithType: DiscardResourcesEvent.Cards
+  fullName: Model.Event.DiscardResourcesEvent.Resources
+  nameWithType: DiscardResourcesEvent.Resources
 - uid: Model.Event.DiscardResourcesEvent.Team
   name: Team
   href: api/Model.Event.DiscardResourcesEvent.html#Model_Event_DiscardResourcesEvent_Team
