@@ -1452,6 +1452,12 @@ references:
   commentId: E:Global.EventStream.OnPlayerRollEvent
   fullName: EventStream.OnPlayerRollEvent
   nameWithType: EventStream.OnPlayerRollEvent
+- uid: Global.EventStream.OnPopCenterPlacedEvent
+  name: OnPopCenterPlacedEvent
+  href: api/Global.EventStream.html#Global_EventStream_OnPopCenterPlacedEvent
+  commentId: E:Global.EventStream.OnPopCenterPlacedEvent
+  fullName: EventStream.OnPopCenterPlacedEvent
+  nameWithType: EventStream.OnPopCenterPlacedEvent
 - uid: Global.EventStream.OnRoadPlacedEvent
   name: OnRoadPlacedEvent
   href: api/Global.EventStream.html#Global_EventStream_OnRoadPlacedEvent
@@ -1788,6 +1794,12 @@ references:
   commentId: M:Global.HexMath.calcOutOfBounds(EdgeCoordinates)
   fullName: HexMath.calcOutOfBounds(EdgeCoordinates)
   nameWithType: HexMath.calcOutOfBounds(EdgeCoordinates)
+- uid: Global.HexMath.calcOutOfBounds(VertexCoordinates)
+  name: calcOutOfBounds(VertexCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_calcOutOfBounds_VertexCoordinates_
+  commentId: M:Global.HexMath.calcOutOfBounds(VertexCoordinates)
+  fullName: HexMath.calcOutOfBounds(VertexCoordinates)
+  nameWithType: HexMath.calcOutOfBounds(VertexCoordinates)
 - uid: Global.HexMath.calcOutOfBounds*
   name: calcOutOfBounds
   href: api/Global.HexMath.html#Global_HexMath_calcOutOfBounds_
@@ -1878,6 +1890,19 @@ references:
   isSpec: "True"
   fullName: HexMath.GetNeighboringVertices
   nameWithType: HexMath.GetNeighboringVertices
+- uid: Global.HexMath.popCenterOffset(VertexCoordinates)
+  name: popCenterOffset(VertexCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_popCenterOffset_VertexCoordinates_
+  commentId: M:Global.HexMath.popCenterOffset(VertexCoordinates)
+  fullName: HexMath.popCenterOffset(VertexCoordinates)
+  nameWithType: HexMath.popCenterOffset(VertexCoordinates)
+- uid: Global.HexMath.popCenterOffset*
+  name: popCenterOffset
+  href: api/Global.HexMath.html#Global_HexMath_popCenterOffset_
+  commentId: Overload:Global.HexMath.popCenterOffset
+  isSpec: "True"
+  fullName: HexMath.popCenterOffset
+  nameWithType: HexMath.popCenterOffset
 - uid: Global.HexMath.roadOffset(EdgeCoordinates)
   name: roadOffset(EdgeCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_roadOffset_EdgeCoordinates_
@@ -2873,19 +2898,6 @@ references:
   commentId: F:Global.PopulationSettings.populationAnimator
   fullName: PopulationSettings.populationAnimator
   nameWithType: PopulationSettings.populationAnimator
-- uid: Global.PopulationSettings.setPopulation(System.Int32)
-  name: setPopulation(Int32)
-  href: api/Global.PopulationSettings.html#Global_PopulationSettings_setPopulation_System_Int32_
-  commentId: M:Global.PopulationSettings.setPopulation(System.Int32)
-  fullName: PopulationSettings.setPopulation(System.Int32)
-  nameWithType: PopulationSettings.setPopulation(Int32)
-- uid: Global.PopulationSettings.setPopulation*
-  name: setPopulation
-  href: api/Global.PopulationSettings.html#Global_PopulationSettings_setPopulation_
-  commentId: Overload:Global.PopulationSettings.setPopulation
-  isSpec: "True"
-  fullName: PopulationSettings.setPopulation
-  nameWithType: PopulationSettings.setPopulation
 - uid: Global.PopulationSettings.setPopulationColor(System.String)
   name: setPopulationColor(String)
   href: api/Global.PopulationSettings.html#Global_PopulationSettings_setPopulationColor_System_String_
@@ -2899,6 +2911,19 @@ references:
   isSpec: "True"
   fullName: PopulationSettings.setPopulationColor
   nameWithType: PopulationSettings.setPopulationColor
+- uid: Global.PopulationSettings.setPopulationLayerOrder(System.Int32)
+  name: setPopulationLayerOrder(Int32)
+  href: api/Global.PopulationSettings.html#Global_PopulationSettings_setPopulationLayerOrder_System_Int32_
+  commentId: M:Global.PopulationSettings.setPopulationLayerOrder(System.Int32)
+  fullName: PopulationSettings.setPopulationLayerOrder(System.Int32)
+  nameWithType: PopulationSettings.setPopulationLayerOrder(Int32)
+- uid: Global.PopulationSettings.setPopulationLayerOrder*
+  name: setPopulationLayerOrder
+  href: api/Global.PopulationSettings.html#Global_PopulationSettings_setPopulationLayerOrder_
+  commentId: Overload:Global.PopulationSettings.setPopulationLayerOrder
+  isSpec: "True"
+  fullName: PopulationSettings.setPopulationLayerOrder
+  nameWithType: PopulationSettings.setPopulationLayerOrder
 - uid: Global.PopulationSettings.settlement
   name: settlement
   href: api/Global.PopulationSettings.html#Global_PopulationSettings_settlement
@@ -4943,6 +4968,51 @@ references:
   commentId: F:Model.Event.PlayerRollEvent.Team
   fullName: Model.Event.PlayerRollEvent.Team
   nameWithType: PlayerRollEvent.Team
+- uid: Model.Event.PopCenterPlacedEvent
+  name: PopCenterPlacedEvent
+  href: api/Model.Event.PopCenterPlacedEvent.html
+  commentId: T:Model.Event.PopCenterPlacedEvent
+  fullName: Model.Event.PopCenterPlacedEvent
+  nameWithType: PopCenterPlacedEvent
+- uid: Model.Event.PopCenterPlacedEvent.team
+  name: team
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_team
+  commentId: P:Model.Event.PopCenterPlacedEvent.team
+  fullName: Model.Event.PopCenterPlacedEvent.team
+  nameWithType: PopCenterPlacedEvent.team
+- uid: Model.Event.PopCenterPlacedEvent.team*
+  name: team
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_team_
+  commentId: Overload:Model.Event.PopCenterPlacedEvent.team
+  isSpec: "True"
+  fullName: Model.Event.PopCenterPlacedEvent.team
+  nameWithType: PopCenterPlacedEvent.team
+- uid: Model.Event.PopCenterPlacedEvent.upgradeLevel
+  name: upgradeLevel
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_upgradeLevel
+  commentId: P:Model.Event.PopCenterPlacedEvent.upgradeLevel
+  fullName: Model.Event.PopCenterPlacedEvent.upgradeLevel
+  nameWithType: PopCenterPlacedEvent.upgradeLevel
+- uid: Model.Event.PopCenterPlacedEvent.upgradeLevel*
+  name: upgradeLevel
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_upgradeLevel_
+  commentId: Overload:Model.Event.PopCenterPlacedEvent.upgradeLevel
+  isSpec: "True"
+  fullName: Model.Event.PopCenterPlacedEvent.upgradeLevel
+  nameWithType: PopCenterPlacedEvent.upgradeLevel
+- uid: Model.Event.PopCenterPlacedEvent.vertexCoordinates
+  name: vertexCoordinates
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_vertexCoordinates
+  commentId: P:Model.Event.PopCenterPlacedEvent.vertexCoordinates
+  fullName: Model.Event.PopCenterPlacedEvent.vertexCoordinates
+  nameWithType: PopCenterPlacedEvent.vertexCoordinates
+- uid: Model.Event.PopCenterPlacedEvent.vertexCoordinates*
+  name: vertexCoordinates
+  href: api/Model.Event.PopCenterPlacedEvent.html#Model_Event_PopCenterPlacedEvent_vertexCoordinates_
+  commentId: Overload:Model.Event.PopCenterPlacedEvent.vertexCoordinates
+  isSpec: "True"
+  fullName: Model.Event.PopCenterPlacedEvent.vertexCoordinates
+  nameWithType: PopCenterPlacedEvent.vertexCoordinates
 - uid: Model.Event.PurchaseDevelopmentCardEvent
   name: PurchaseDevelopmentCardEvent
   href: api/Model.Event.PurchaseDevelopmentCardEvent.html
