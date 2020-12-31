@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BrowserGameCard
+    <title>Class TradeAcceptEvent
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BrowserGameCard
+    <meta name="title" content="Class TradeAcceptEvent
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -101,8 +101,8 @@
                           <li class="">
                             <a href="Global.BoardManagerV2.html" title="BoardManagerV2" class="">BoardManagerV2</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="active">BrowserGameCard</a>
+                          <li class="">
+                            <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="">BrowserGameCard</a>
                           </li>
                           <li class="">
                             <a href="Global.BuildingIconSettings.html" title="BuildingIconSettings" class="">BuildingIconSettings</a>
@@ -374,8 +374,8 @@
                           <li class="">
                             <a href="Model.Event.StealResourceEvent.html" title="StealResourceEvent" class="">StealResourceEvent</a>
                           </li>
-                          <li class="">
-                            <a href="Model.Event.TradeAcceptEvent.html" title="TradeAcceptEvent" class="">TradeAcceptEvent</a>
+                          <li class="active">
+                            <a href="Model.Event.TradeAcceptEvent.html" title="TradeAcceptEvent" class="active">TradeAcceptEvent</a>
                           </li>
                           <li class="">
                             <a href="Model.Event.TradeOfferEvent.html" title="TradeOfferEvent" class="">TradeOfferEvent</a>
@@ -391,36 +391,72 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.BrowserGameCard">
+            <article class="content wrap" id="_content" data-uid="Model.Event.TradeAcceptEvent">
   
   
-  <h1 id="Global_BrowserGameCard" data-uid="Global.BrowserGameCard" class="text-break">Class BrowserGameCard
+  <h1 id="Model_Event_TradeAcceptEvent" data-uid="Model.Event.TradeAcceptEvent" class="text-break">Class TradeAcceptEvent
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>TODO</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BrowserGameCard</span></div>
+    <div class="level1"><a class="xref" href="Model.Event.GameEvent.html">GameEvent</a></div>
+    <div class="level2"><span class="xref">TradeAcceptEvent</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Type">GameEvent.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Number">GameEvent.Number</a>
+    </div>
+    <div>
+      <a class="xref" href="Model.Event.GameEvent.html#Model_Event_GameEvent_Timestamp">GameEvent.Timestamp</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.Event.html">Model.Event</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_BrowserGameCard_syntax">Syntax</h5>
+  <h5 id="Model_Event_TradeAcceptEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BrowserGameCard : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class TradeAcceptEvent : GameEvent</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Global_BrowserGameCard_assetManagerSprites" data-uid="Global.BrowserGameCard.assetManagerSprites">assetManagerSprites</h4>
+  <a id="Model_Event_TradeAcceptEvent_Initiator_" data-uid="Model.Event.TradeAcceptEvent.Initiator*"></a>
+  <h4 id="Model_Event_TradeAcceptEvent_Initiator" data-uid="Model.Event.TradeAcceptEvent.Initiator">Initiator</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
+    <pre><code class="lang-csharp hljs">public Team Initiator { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -430,21 +466,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BrowserGameCard_gameName" data-uid="Global.BrowserGameCard.gameName">gameName</h4>
+  <a id="Model_Event_TradeAcceptEvent_OfferedResources_" data-uid="Model.Event.TradeAcceptEvent.OfferedResources*"></a>
+  <h4 id="Model_Event_TradeAcceptEvent_OfferedResources" data-uid="Model.Event.TradeAcceptEvent.OfferedResources">OfferedResources</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI gameName</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ResourceType, int&gt; OfferedResources { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -454,21 +491,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.ResourceType.html">ResourceType</a>, <span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BrowserGameCard_gameSettingsList" data-uid="Global.BrowserGameCard.gameSettingsList">gameSettingsList</h4>
+  <a id="Model_Event_TradeAcceptEvent_Recipient_" data-uid="Model.Event.TradeAcceptEvent.Recipient*"></a>
+  <h4 id="Model_Event_TradeAcceptEvent_Recipient" data-uid="Model.Event.TradeAcceptEvent.Recipient">Recipient</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject gameSettingsList</code></pre>
+    <pre><code class="lang-csharp hljs">public Team Recipient { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -478,21 +516,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BrowserGameCard_gameSetup" data-uid="Global.BrowserGameCard.gameSetup">gameSetup</h4>
+  <a id="Model_Event_TradeAcceptEvent_TradeID_" data-uid="Model.Event.TradeAcceptEvent.TradeID*"></a>
+  <h4 id="Model_Event_TradeAcceptEvent_TradeID" data-uid="Model.Event.TradeAcceptEvent.TradeID">TradeID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI gameSetup</code></pre>
+    <pre><code class="lang-csharp hljs">public string TradeID { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -502,21 +541,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BrowserGameCard_gameThumb" data-uid="Global.BrowserGameCard.gameThumb">gameThumb</h4>
+  <a id="Model_Event_TradeAcceptEvent_WantedResources_" data-uid="Model.Event.TradeAcceptEvent.WantedResources*"></a>
+  <h4 id="Model_Event_TradeAcceptEvent_WantedResources" data-uid="Model.Event.TradeAcceptEvent.WantedResources">WantedResources</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image gameThumb</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ResourceType, int&gt; WantedResources { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -526,180 +566,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Image</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_joinButtonSprite" data-uid="Global.BrowserGameCard.joinButtonSprite">joinButtonSprite</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image joinButtonSprite</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Image</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_joinGameButton" data-uid="Global.BrowserGameCard.joinGameButton">joinGameButton</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Button joinGameButton</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Button</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_joinIcon" data-uid="Global.BrowserGameCard.joinIcon">joinIcon</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image joinIcon</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Image</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_passwordIcon" data-uid="Global.BrowserGameCard.passwordIcon">passwordIcon</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer passwordIcon</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_passwordProtectedIcon" data-uid="Global.BrowserGameCard.passwordProtectedIcon">passwordProtectedIcon</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject passwordProtectedIcon</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_BrowserGameCard_playerCount" data-uid="Global.BrowserGameCard.playerCount">playerCount</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI playerCount</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Global_BrowserGameCard_setGame_" data-uid="Global.BrowserGameCard.setGame*"></a>
-  <h4 id="Global_BrowserGameCard_setGame_GameEntry_" data-uid="Global.BrowserGameCard.setGame(GameEntry)">setGame(GameEntry)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setGame(GameEntry game)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameEntry</span></td>
-        <td><span class="parametername">game</span></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.ResourceType.html">ResourceType</a>, <span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
