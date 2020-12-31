@@ -1355,35 +1355,6 @@ references:
   commentId: F:Global.EventDisplay.logBacker
   fullName: EventDisplay.logBacker
   nameWithType: EventDisplay.logBacker
-- uid: Global.EventDisplay.logRoadBuildEvent(System.Int32,Team,EdgeCoordinates)
-  name: logRoadBuildEvent(Int32, Team, EdgeCoordinates)
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_System_Int32_Team_EdgeCoordinates_
-  commentId: M:Global.EventDisplay.logRoadBuildEvent(System.Int32,Team,EdgeCoordinates)
-  fullName: EventDisplay.logRoadBuildEvent(System.Int32, Team, EdgeCoordinates)
-  nameWithType: EventDisplay.logRoadBuildEvent(Int32, Team, EdgeCoordinates)
-- uid: Global.EventDisplay.logRoadBuildEvent*
-  name: logRoadBuildEvent
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRoadBuildEvent_
-  commentId: Overload:Global.EventDisplay.logRoadBuildEvent
-  isSpec: "True"
-  fullName: EventDisplay.logRoadBuildEvent
-  nameWithType: EventDisplay.logRoadBuildEvent
-- uid: Global.EventDisplay.logRollEvent(System.Int32,Team,System.Int32[])
-  name: logRollEvent(Int32, Team, Int32[])
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_System_Int32_Team_System_Int32___
-  commentId: M:Global.EventDisplay.logRollEvent(System.Int32,Team,System.Int32[])
-  name.vb: logRollEvent(Int32, Team, Int32())
-  fullName: EventDisplay.logRollEvent(System.Int32, Team, System.Int32[])
-  fullName.vb: EventDisplay.logRollEvent(System.Int32, Team, System.Int32())
-  nameWithType: EventDisplay.logRollEvent(Int32, Team, Int32[])
-  nameWithType.vb: EventDisplay.logRollEvent(Int32, Team, Int32())
-- uid: Global.EventDisplay.logRollEvent*
-  name: logRollEvent
-  href: api/Global.EventDisplay.html#Global_EventDisplay_logRollEvent_
-  commentId: Overload:Global.EventDisplay.logRollEvent
-  isSpec: "True"
-  fullName: EventDisplay.logRollEvent
-  nameWithType: EventDisplay.logRollEvent
 - uid: Global.EventDisplay.scrollView
   name: scrollView
   href: api/Global.EventDisplay.html#Global_EventDisplay_scrollView
