@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameStatus.html",
-          "hash": "lepdD9qyxA4UkmbLIPg0VQ=="
+          "hash": "XMV0NcsVFWKtIHJdYJ1Wig=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LocalClientVariables.html",
-          "hash": "OIoCaGDrvO5xYinyrfzrpg=="
+          "hash": "M+SPmRbOC4RmoOAQhrdIzw=="
         }
       },
       "is_incremental": false,

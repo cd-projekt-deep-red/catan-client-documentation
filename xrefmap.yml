@@ -1733,6 +1733,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.gameMeta
   nameWithType: GameStatus.gameMeta
+- uid: Global.GameStatus.localPlayer
+  name: localPlayer
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayer
+  commentId: P:Global.GameStatus.localPlayer
+  fullName: GameStatus.localPlayer
+  nameWithType: GameStatus.localPlayer
+- uid: Global.GameStatus.localPlayer*
+  name: localPlayer
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayer_
+  commentId: Overload:Global.GameStatus.localPlayer
+  isSpec: "True"
+  fullName: GameStatus.localPlayer
+  nameWithType: GameStatus.localPlayer
 - uid: Global.GameStatus.NonLocalPlayers(Player)
   name: NonLocalPlayers(Player)
   href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers_Player_
@@ -2099,12 +2112,6 @@ references:
   commentId: F:Global.LocalClientVariables.deviceUniqueID
   fullName: LocalClientVariables.deviceUniqueID
   nameWithType: LocalClientVariables.deviceUniqueID
-- uid: Global.LocalClientVariables.localPlayer
-  name: localPlayer
-  href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_localPlayer
-  commentId: F:Global.LocalClientVariables.localPlayer
-  fullName: LocalClientVariables.localPlayer
-  nameWithType: LocalClientVariables.localPlayer
 - uid: Global.LocalClientVariables.OnEnable
   name: OnEnable()
   href: api/Global.LocalClientVariables.html#Global_LocalClientVariables_OnEnable
