@@ -1549,6 +1549,12 @@ references:
   commentId: F:Global.GameLobby.gameSeed
   fullName: GameLobby.gameSeed
   nameWithType: GameLobby.gameSeed
+- uid: Global.GameLobby.gameStatus
+  name: gameStatus
+  href: api/Global.GameLobby.html#Global_GameLobby_gameStatus
+  commentId: F:Global.GameLobby.gameStatus
+  fullName: GameLobby.gameStatus
+  nameWithType: GameLobby.gameStatus
 - uid: Global.GameLobby.joinCode
   name: joinCode
   href: api/Global.GameLobby.html#Global_GameLobby_joinCode
@@ -1573,12 +1579,6 @@ references:
   commentId: F:Global.GameLobby.lobbyTitle
   fullName: GameLobby.lobbyTitle
   nameWithType: GameLobby.lobbyTitle
-- uid: Global.GameLobby.localClientVariables
-  name: localClientVariables
-  href: api/Global.GameLobby.html#Global_GameLobby_localClientVariables
-  commentId: F:Global.GameLobby.localClientVariables
-  fullName: GameLobby.localClientVariables
-  nameWithType: GameLobby.localClientVariables
 - uid: Global.GameLobby.playerCardScriptsArray
   name: playerCardScriptsArray
   href: api/Global.GameLobby.html#Global_GameLobby_playerCardScriptsArray
@@ -4250,12 +4250,6 @@ references:
   commentId: F:Global.UIManager.gameStatus
   fullName: UIManager.gameStatus
   nameWithType: UIManager.gameStatus
-- uid: Global.UIManager.localClientVariables
-  name: localClientVariables
-  href: api/Global.UIManager.html#Global_UIManager_localClientVariables
-  commentId: F:Global.UIManager.localClientVariables
-  fullName: UIManager.localClientVariables
-  nameWithType: UIManager.localClientVariables
 - uid: Global.UIManager.localPlayerStatsPrefab
   name: localPlayerStatsPrefab
   href: api/Global.UIManager.html#Global_UIManager_localPlayerStatsPrefab
