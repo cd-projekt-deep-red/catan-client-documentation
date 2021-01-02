@@ -2428,6 +2428,19 @@ references:
   commentId: F:Global.MockNetworkManager.eventStreamObject
   fullName: MockNetworkManager.eventStreamObject
   nameWithType: MockNetworkManager.eventStreamObject
+- uid: Global.MockNetworkManager.roll
+  name: roll()
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_roll
+  commentId: M:Global.MockNetworkManager.roll
+  fullName: MockNetworkManager.roll()
+  nameWithType: MockNetworkManager.roll()
+- uid: Global.MockNetworkManager.roll*
+  name: roll
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_roll_
+  commentId: Overload:Global.MockNetworkManager.roll
+  isSpec: "True"
+  fullName: MockNetworkManager.roll
+  nameWithType: MockNetworkManager.roll
 - uid: Global.NetworkManager
   name: NetworkManager
   href: api/Global.NetworkManager.html
