@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameStatus.html",
-          "hash": "QIG3Antiw9zJcgKQKD+E0w=="
+          "hash": "/6FOZVOdnaFxqn0MKqZ5Mg=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIManager.html",
-          "hash": "uVBWiJKmWVjpxDA8Gfjusg=="
+          "hash": "ov1eiFlW1YVtHOEFzo+sIA=="
         }
       },
       "is_incremental": false,

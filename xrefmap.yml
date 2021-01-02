@@ -1688,6 +1688,12 @@ references:
   isSpec: "True"
   fullName: GameStatus.eventID
   nameWithType: GameStatus.eventID
+- uid: Global.GameStatus.eventStream
+  name: eventStream
+  href: api/Global.GameStatus.html#Global_GameStatus_eventStream
+  commentId: F:Global.GameStatus.eventStream
+  fullName: GameStatus.eventStream
+  nameWithType: GameStatus.eventStream
 - uid: Global.GameStatus.exsistingPopCenters
   name: exsistingPopCenters
   href: api/Global.GameStatus.html#Global_GameStatus_exsistingPopCenters
@@ -4164,19 +4170,6 @@ references:
   isSpec: "True"
   fullName: UIManager.createAnnouncement
   nameWithType: UIManager.createAnnouncement
-- uid: Global.UIManager.createPlayerUI
-  name: createPlayerUI()
-  href: api/Global.UIManager.html#Global_UIManager_createPlayerUI
-  commentId: M:Global.UIManager.createPlayerUI
-  fullName: UIManager.createPlayerUI()
-  nameWithType: UIManager.createPlayerUI()
-- uid: Global.UIManager.createPlayerUI*
-  name: createPlayerUI
-  href: api/Global.UIManager.html#Global_UIManager_createPlayerUI_
-  commentId: Overload:Global.UIManager.createPlayerUI
-  isSpec: "True"
-  fullName: UIManager.createPlayerUI
-  nameWithType: UIManager.createPlayerUI
 - uid: Global.UIManager.createTradeWindow(Player[],TradeOffer[])
   name: createTradeWindow(Player[], TradeOffer[])
   href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_Player___TradeOffer___
