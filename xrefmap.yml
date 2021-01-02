@@ -1441,6 +1441,12 @@ references:
   commentId: E:Global.EventStream.OnRoadPlacedEvent
   fullName: EventStream.OnRoadPlacedEvent
   nameWithType: EventStream.OnRoadPlacedEvent
+- uid: Global.EventStream.OnTurnStartEvent
+  name: OnTurnStartEvent
+  href: api/Global.EventStream.html#Global_EventStream_OnTurnStartEvent
+  commentId: E:Global.EventStream.OnTurnStartEvent
+  fullName: EventStream.OnTurnStartEvent
+  nameWithType: EventStream.OnTurnStartEvent
 - uid: Global.EventStream.PushEvent(GameEvent)
   name: PushEvent(GameEvent)
   href: api/Global.EventStream.html#Global_EventStream_PushEvent_GameEvent_
@@ -4171,19 +4177,6 @@ references:
   isSpec: "True"
   fullName: UIManager.createPlayerUI
   nameWithType: UIManager.createPlayerUI
-- uid: Global.UIManager.createRollPrompt
-  name: createRollPrompt()
-  href: api/Global.UIManager.html#Global_UIManager_createRollPrompt
-  commentId: M:Global.UIManager.createRollPrompt
-  fullName: UIManager.createRollPrompt()
-  nameWithType: UIManager.createRollPrompt()
-- uid: Global.UIManager.createRollPrompt*
-  name: createRollPrompt
-  href: api/Global.UIManager.html#Global_UIManager_createRollPrompt_
-  commentId: Overload:Global.UIManager.createRollPrompt
-  isSpec: "True"
-  fullName: UIManager.createRollPrompt
-  nameWithType: UIManager.createRollPrompt
 - uid: Global.UIManager.createTradeWindow(Player[],TradeOffer[])
   name: createTradeWindow(Player[], TradeOffer[])
   href: api/Global.UIManager.html#Global_UIManager_createTradeWindow_Player___TradeOffer___
