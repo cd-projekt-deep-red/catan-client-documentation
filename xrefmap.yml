@@ -434,6 +434,22 @@ references:
   isSpec: "True"
   fullName: BoardManagerV2.placeBuildRoad
   nameWithType: BoardManagerV2.placeBuildRoad
+- uid: Global.BoardManagerV2.rollDice(System.Int32[])
+  name: rollDice(Int32[])
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_rollDice_System_Int32___
+  commentId: M:Global.BoardManagerV2.rollDice(System.Int32[])
+  name.vb: rollDice(Int32())
+  fullName: BoardManagerV2.rollDice(System.Int32[])
+  fullName.vb: BoardManagerV2.rollDice(System.Int32())
+  nameWithType: BoardManagerV2.rollDice(Int32[])
+  nameWithType.vb: BoardManagerV2.rollDice(Int32())
+- uid: Global.BoardManagerV2.rollDice*
+  name: rollDice
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_rollDice_
+  commentId: Overload:Global.BoardManagerV2.rollDice
+  isSpec: "True"
+  fullName: BoardManagerV2.rollDice
+  nameWithType: BoardManagerV2.rollDice
 - uid: Global.BrowserGameCard
   name: BrowserGameCard
   href: api/Global.BrowserGameCard.html
@@ -1746,6 +1762,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.NonLocalPlayers
   nameWithType: GameStatus.NonLocalPlayers
+- uid: Global.GameStatus.playerHand
+  name: playerHand
+  href: api/Global.GameStatus.html#Global_GameStatus_playerHand
+  commentId: P:Global.GameStatus.playerHand
+  fullName: GameStatus.playerHand
+  nameWithType: GameStatus.playerHand
+- uid: Global.GameStatus.playerHand*
+  name: playerHand
+  href: api/Global.GameStatus.html#Global_GameStatus_playerHand_
+  commentId: Overload:Global.GameStatus.playerHand
+  isSpec: "True"
+  fullName: GameStatus.playerHand
+  nameWithType: GameStatus.playerHand
 - uid: Global.GameStatus.PlayerLookup(Team)
   name: PlayerLookup(Team)
   href: api/Global.GameStatus.html#Global_GameStatus_PlayerLookup_Team_
