@@ -1762,12 +1762,25 @@ references:
   isSpec: "True"
   fullName: GameStatus.localPlayer
   nameWithType: GameStatus.localPlayer
-- uid: Global.GameStatus.NonLocalPlayers(Player)
-  name: NonLocalPlayers(Player)
-  href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers_Player_
-  commentId: M:Global.GameStatus.NonLocalPlayers(Player)
-  fullName: GameStatus.NonLocalPlayers(Player)
-  nameWithType: GameStatus.NonLocalPlayers(Player)
+- uid: Global.GameStatus.localPlayerResources
+  name: localPlayerResources
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayerResources
+  commentId: P:Global.GameStatus.localPlayerResources
+  fullName: GameStatus.localPlayerResources
+  nameWithType: GameStatus.localPlayerResources
+- uid: Global.GameStatus.localPlayerResources*
+  name: localPlayerResources
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayerResources_
+  commentId: Overload:Global.GameStatus.localPlayerResources
+  isSpec: "True"
+  fullName: GameStatus.localPlayerResources
+  nameWithType: GameStatus.localPlayerResources
+- uid: Global.GameStatus.NonLocalPlayers
+  name: NonLocalPlayers()
+  href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers
+  commentId: M:Global.GameStatus.NonLocalPlayers
+  fullName: GameStatus.NonLocalPlayers()
+  nameWithType: GameStatus.NonLocalPlayers()
 - uid: Global.GameStatus.NonLocalPlayers*
   name: NonLocalPlayers
   href: api/Global.GameStatus.html#Global_GameStatus_NonLocalPlayers_
@@ -1775,19 +1788,6 @@ references:
   isSpec: "True"
   fullName: GameStatus.NonLocalPlayers
   nameWithType: GameStatus.NonLocalPlayers
-- uid: Global.GameStatus.playerHand
-  name: playerHand
-  href: api/Global.GameStatus.html#Global_GameStatus_playerHand
-  commentId: P:Global.GameStatus.playerHand
-  fullName: GameStatus.playerHand
-  nameWithType: GameStatus.playerHand
-- uid: Global.GameStatus.playerHand*
-  name: playerHand
-  href: api/Global.GameStatus.html#Global_GameStatus_playerHand_
-  commentId: Overload:Global.GameStatus.playerHand
-  isSpec: "True"
-  fullName: GameStatus.playerHand
-  nameWithType: GameStatus.playerHand
 - uid: Global.GameStatus.PlayerLookup(Team)
   name: PlayerLookup(Team)
   href: api/Global.GameStatus.html#Global_GameStatus_PlayerLookup_Team_
@@ -1870,6 +1870,12 @@ references:
   commentId: F:Global.GiveResource.assetManagerSprites
   fullName: GiveResource.assetManagerSprites
   nameWithType: GiveResource.assetManagerSprites
+- uid: Global.GiveResource.gameStatus
+  name: gameStatus
+  href: api/Global.GiveResource.html#Global_GiveResource_gameStatus
+  commentId: F:Global.GiveResource.gameStatus
+  fullName: GiveResource.gameStatus
+  nameWithType: GiveResource.gameStatus
 - uid: Global.GiveResource.resource
   name: resource
   href: api/Global.GiveResource.html#Global_GiveResource_resource
