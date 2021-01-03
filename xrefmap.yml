@@ -434,6 +434,22 @@ references:
   isSpec: "True"
   fullName: BoardManagerV2.placeBuildRoad
   nameWithType: BoardManagerV2.placeBuildRoad
+- uid: Global.BoardManagerV2.rollDice(System.Int32[])
+  name: rollDice(Int32[])
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_rollDice_System_Int32___
+  commentId: M:Global.BoardManagerV2.rollDice(System.Int32[])
+  name.vb: rollDice(Int32())
+  fullName: BoardManagerV2.rollDice(System.Int32[])
+  fullName.vb: BoardManagerV2.rollDice(System.Int32())
+  nameWithType: BoardManagerV2.rollDice(Int32[])
+  nameWithType.vb: BoardManagerV2.rollDice(Int32())
+- uid: Global.BoardManagerV2.rollDice*
+  name: rollDice
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_rollDice_
+  commentId: Overload:Global.BoardManagerV2.rollDice
+  isSpec: "True"
+  fullName: BoardManagerV2.rollDice
+  nameWithType: BoardManagerV2.rollDice
 - uid: Global.BrowserGameCard
   name: BrowserGameCard
   href: api/Global.BrowserGameCard.html
@@ -2304,6 +2320,19 @@ references:
   isSpec: "True"
   fullName: MangerUtlities.eventSyncCheck
   nameWithType: MangerUtlities.eventSyncCheck
+- uid: Global.MangerUtlities.resourcesAvailable(BuildingType,GameStatus)
+  name: resourcesAvailable(BuildingType, GameStatus)
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_resourcesAvailable_BuildingType_GameStatus_
+  commentId: M:Global.MangerUtlities.resourcesAvailable(BuildingType,GameStatus)
+  fullName: MangerUtlities.resourcesAvailable(BuildingType, GameStatus)
+  nameWithType: MangerUtlities.resourcesAvailable(BuildingType, GameStatus)
+- uid: Global.MangerUtlities.resourcesAvailable*
+  name: resourcesAvailable
+  href: api/Global.MangerUtlities.html#Global_MangerUtlities_resourcesAvailable_
+  commentId: Overload:Global.MangerUtlities.resourcesAvailable
+  isSpec: "True"
+  fullName: MangerUtlities.resourcesAvailable
+  nameWithType: MangerUtlities.resourcesAvailable
 - uid: Global.MaritimeTrades
   name: MaritimeTrades
   href: api/Global.MaritimeTrades.html
@@ -4561,6 +4590,36 @@ references:
   isSpec: "True"
   fullName: Model.Board.ResourceTiles
   nameWithType: Board.ResourceTiles
+- uid: Model.BuildingType
+  name: BuildingType
+  href: api/Model.BuildingType.html
+  commentId: T:Model.BuildingType
+  fullName: Model.BuildingType
+  nameWithType: BuildingType
+- uid: Model.BuildingType.City
+  name: City
+  href: api/Model.BuildingType.html#Model_BuildingType_City
+  commentId: F:Model.BuildingType.City
+  fullName: Model.BuildingType.City
+  nameWithType: BuildingType.City
+- uid: Model.BuildingType.DevelopmentCard
+  name: DevelopmentCard
+  href: api/Model.BuildingType.html#Model_BuildingType_DevelopmentCard
+  commentId: F:Model.BuildingType.DevelopmentCard
+  fullName: Model.BuildingType.DevelopmentCard
+  nameWithType: BuildingType.DevelopmentCard
+- uid: Model.BuildingType.Road
+  name: Road
+  href: api/Model.BuildingType.html#Model_BuildingType_Road
+  commentId: F:Model.BuildingType.Road
+  fullName: Model.BuildingType.Road
+  nameWithType: BuildingType.Road
+- uid: Model.BuildingType.Settlment
+  name: Settlment
+  href: api/Model.BuildingType.html#Model_BuildingType_Settlment
+  commentId: F:Model.BuildingType.Settlment
+  fullName: Model.BuildingType.Settlment
+  nameWithType: BuildingType.Settlment
 - uid: Model.DevelopmentCardType
   name: DevelopmentCardType
   href: api/Model.DevelopmentCardType.html
