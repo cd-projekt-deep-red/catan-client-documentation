@@ -1845,12 +1845,12 @@ references:
   commentId: T:Global.GiveResource
   fullName: GiveResource
   nameWithType: GiveResource
-- uid: Global.GiveResource.animateResource(ResourceType,Vector3,Vector3,System.Single)
-  name: animateResource(ResourceType, Vector3, Vector3, Single)
-  href: api/Global.GiveResource.html#Global_GiveResource_animateResource_ResourceType_Vector3_Vector3_System_Single_
-  commentId: M:Global.GiveResource.animateResource(ResourceType,Vector3,Vector3,System.Single)
-  fullName: GiveResource.animateResource(ResourceType, Vector3, Vector3, System.Single)
-  nameWithType: GiveResource.animateResource(ResourceType, Vector3, Vector3, Single)
+- uid: Global.GiveResource.animateResource(System.Boolean,ResourceType,Vector3,Vector3,System.Single)
+  name: animateResource(Boolean, ResourceType, Vector3, Vector3, Single)
+  href: api/Global.GiveResource.html#Global_GiveResource_animateResource_System_Boolean_ResourceType_Vector3_Vector3_System_Single_
+  commentId: M:Global.GiveResource.animateResource(System.Boolean,ResourceType,Vector3,Vector3,System.Single)
+  fullName: GiveResource.animateResource(System.Boolean, ResourceType, Vector3, Vector3, System.Single)
+  nameWithType: GiveResource.animateResource(Boolean, ResourceType, Vector3, Vector3, Single)
 - uid: Global.GiveResource.animateResource*
   name: animateResource
   href: api/Global.GiveResource.html#Global_GiveResource_animateResource_
