@@ -1823,6 +1823,43 @@ references:
   commentId: F:Global.GhostAnnouncement.ghostAnnouncementText
   fullName: GhostAnnouncement.ghostAnnouncementText
   nameWithType: GhostAnnouncement.ghostAnnouncementText
+- uid: Global.GiveResource
+  name: GiveResource
+  href: api/Global.GiveResource.html
+  commentId: T:Global.GiveResource
+  fullName: GiveResource
+  nameWithType: GiveResource
+- uid: Global.GiveResource.animateResource(ResourceType,Vector3,Vector3,System.Single)
+  name: animateResource(ResourceType, Vector3, Vector3, Single)
+  href: api/Global.GiveResource.html#Global_GiveResource_animateResource_ResourceType_Vector3_Vector3_System_Single_
+  commentId: M:Global.GiveResource.animateResource(ResourceType,Vector3,Vector3,System.Single)
+  fullName: GiveResource.animateResource(ResourceType, Vector3, Vector3, System.Single)
+  nameWithType: GiveResource.animateResource(ResourceType, Vector3, Vector3, Single)
+- uid: Global.GiveResource.animateResource*
+  name: animateResource
+  href: api/Global.GiveResource.html#Global_GiveResource_animateResource_
+  commentId: Overload:Global.GiveResource.animateResource
+  isSpec: "True"
+  fullName: GiveResource.animateResource
+  nameWithType: GiveResource.animateResource
+- uid: Global.GiveResource.assetManagerSounds
+  name: assetManagerSounds
+  href: api/Global.GiveResource.html#Global_GiveResource_assetManagerSounds
+  commentId: F:Global.GiveResource.assetManagerSounds
+  fullName: GiveResource.assetManagerSounds
+  nameWithType: GiveResource.assetManagerSounds
+- uid: Global.GiveResource.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.GiveResource.html#Global_GiveResource_assetManagerSprites
+  commentId: F:Global.GiveResource.assetManagerSprites
+  fullName: GiveResource.assetManagerSprites
+  nameWithType: GiveResource.assetManagerSprites
+- uid: Global.GiveResource.resource
+  name: resource
+  href: api/Global.GiveResource.html#Global_GiveResource_resource
+  commentId: F:Global.GiveResource.resource
+  fullName: GiveResource.resource
+  nameWithType: GiveResource.resource
 - uid: Global.HexMath
   name: HexMath
   href: api/Global.HexMath.html
@@ -2775,6 +2812,12 @@ references:
   commentId: F:Global.PlayersPanel.playerCardPrefab
   fullName: PlayersPanel.playerCardPrefab
   nameWithType: PlayersPanel.playerCardPrefab
+- uid: Global.PlayersPanel.playerCards
+  name: playerCards
+  href: api/Global.PlayersPanel.html#Global_PlayersPanel_playerCards
+  commentId: F:Global.PlayersPanel.playerCards
+  fullName: PlayersPanel.playerCards
+  nameWithType: PlayersPanel.playerCards
 - uid: Global.PlayerTradeOffer
   name: PlayerTradeOffer
   href: api/Global.PlayerTradeOffer.html
@@ -4250,6 +4293,12 @@ references:
   commentId: F:Global.UIManager.gameStatus
   fullName: UIManager.gameStatus
   nameWithType: UIManager.gameStatus
+- uid: Global.UIManager.giveResourcePrefab
+  name: giveResourcePrefab
+  href: api/Global.UIManager.html#Global_UIManager_giveResourcePrefab
+  commentId: F:Global.UIManager.giveResourcePrefab
+  fullName: UIManager.giveResourcePrefab
+  nameWithType: UIManager.giveResourcePrefab
 - uid: Global.UIManager.localPlayerStatsPrefab
   name: localPlayerStatsPrefab
   href: api/Global.UIManager.html#Global_UIManager_localPlayerStatsPrefab
@@ -4990,6 +5039,12 @@ references:
   commentId: T:Model.Event.PlayerRollEvent
   fullName: Model.Event.PlayerRollEvent
   nameWithType: PlayerRollEvent
+- uid: Model.Event.PlayerRollEvent.Resources
+  name: Resources
+  href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_Resources
+  commentId: F:Model.Event.PlayerRollEvent.Resources
+  fullName: Model.Event.PlayerRollEvent.Resources
+  nameWithType: PlayerRollEvent.Resources
 - uid: Model.Event.PlayerRollEvent.RollValues
   name: RollValues
   href: api/Model.Event.PlayerRollEvent.html#Model_Event_PlayerRollEvent_RollValues
