@@ -1907,6 +1907,12 @@ references:
   isSpec: "True"
   fullName: HexMath.calcOutOfBounds
   nameWithType: HexMath.calcOutOfBounds
+- uid: Global.HexMath.CordToResourceLayerOrder(EdgeCoordinates)
+  name: CordToResourceLayerOrder(EdgeCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_EdgeCoordinates_
+  commentId: M:Global.HexMath.CordToResourceLayerOrder(EdgeCoordinates)
+  fullName: HexMath.CordToResourceLayerOrder(EdgeCoordinates)
+  nameWithType: HexMath.CordToResourceLayerOrder(EdgeCoordinates)
 - uid: Global.HexMath.CordToResourceLayerOrder(TileCoordinates)
   name: CordToResourceLayerOrder(TileCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_TileCoordinates_
