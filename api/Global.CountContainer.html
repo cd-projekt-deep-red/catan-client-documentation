@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class IconContainerSettings
+    <title>Class CountContainer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class IconContainerSettings
+    <meta name="title" content="Class CountContainer
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -105,9 +105,6 @@
                             <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="">BrowserGameCard</a>
                           </li>
                           <li class="">
-                            <a href="Global.BuildingIconSettings.html" title="BuildingIconSettings" class="">BuildingIconSettings</a>
-                          </li>
-                          <li class="">
                             <a href="Global.BuildPopulationSettings.html" title="BuildPopulationSettings" class="">BuildPopulationSettings</a>
                           </li>
                           <li class="">
@@ -127,6 +124,9 @@
                           </li>
                           <li class="">
                             <a href="Global.ConnectionSettings.html" title="ConnectionSettings" class="">ConnectionSettings</a>
+                          </li>
+                          <li class="active">
+                            <a href="Global.CountContainer.html" title="CountContainer" class="active">CountContainer</a>
                           </li>
                           <li class="">
                             <a href="Global.CrownAnimator.html" title="CrownAnimator" class="">CrownAnimator</a>
@@ -175,9 +175,6 @@
                           </li>
                           <li class="">
                             <a href="Global.Hourglass.html" title="Hourglass" class="">Hourglass</a>
-                          </li>
-                          <li class="active">
-                            <a href="Global.IconContainerSettings.html" title="IconContainerSettings" class="active">IconContainerSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.JoinButton.html" title="JoinButton" class="">JoinButton</a>
@@ -247,9 +244,6 @@
                           </li>
                           <li class="">
                             <a href="Global.ResourceCounterSettings.html" title="ResourceCounterSettings" class="">ResourceCounterSettings</a>
-                          </li>
-                          <li class="">
-                            <a href="Global.ResourceIconSettings.html" title="ResourceIconSettings" class="">ResourceIconSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.ResourceTile.html" title="ResourceTile" class="">ResourceTile</a>
@@ -400,34 +394,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.IconContainerSettings">
+            <article class="content wrap" id="_content" data-uid="Global.CountContainer">
   
   
-  <h1 id="Global_IconContainerSettings" data-uid="Global.IconContainerSettings" class="text-break">Class IconContainerSettings
+  <h1 id="Global_CountContainer" data-uid="Global.CountContainer" class="text-break">Class CountContainer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">IconContainerSettings</span></div>
+    <div class="level1"><span class="xref">CountContainer</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_IconContainerSettings_syntax">Syntax</h5>
+  <h5 id="Global_CountContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class IconContainerSettings : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CountContainer : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_IconContainerSettings_buildingIconPrefab" data-uid="Global.IconContainerSettings.buildingIconPrefab">buildingIconPrefab</h4>
+  <h4 id="Global_CountContainer_assetManagerSprites" data-uid="Global.CountContainer.assetManagerSprites">assetManagerSprites</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject buildingIconPrefab</code></pre>
+    <pre><code class="lang-csharp hljs">public AssetManager assetManagerSprites</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -439,19 +433,115 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><a class="xref" href="Global.AssetManager.html">AssetManager</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_IconContainerSettings_count" data-uid="Global.IconContainerSettings.count">count</h4>
+  <h4 id="Global_CountContainer_constantIcon" data-uid="Global.CountContainer.constantIcon">constantIcon</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI count</code></pre>
+    <pre><code class="lang-csharp hljs">public SpriteRenderer constantIcon</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SpriteRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_containerLE" data-uid="Global.CountContainer.containerLE">containerLE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayoutElement containerLE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayoutElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_containerRT" data-uid="Global.CountContainer.containerRT">containerRT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform containerRT</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_containerType" data-uid="Global.CountContainer.containerType">containerType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string containerType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_countText" data-uid="Global.CountContainer.countText">countText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI countText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -470,12 +560,36 @@
   </table>
   
   
-  <h4 id="Global_IconContainerSettings_iconWrapper" data-uid="Global.IconContainerSettings.iconWrapper">iconWrapper</h4>
+  <h4 id="Global_CountContainer_gameStatus" data-uid="Global.CountContainer.gameStatus">gameStatus</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject iconWrapper</code></pre>
+    <pre><code class="lang-csharp hljs">public GameStatus gameStatus</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_iconPrefab" data-uid="Global.CountContainer.iconPrefab">iconPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject iconPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -494,12 +608,12 @@
   </table>
   
   
-  <h4 id="Global_IconContainerSettings_resourceIconPrefab" data-uid="Global.IconContainerSettings.resourceIconPrefab">resourceIconPrefab</h4>
+  <h4 id="Global_CountContainer_iconType" data-uid="Global.CountContainer.iconType">iconType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject resourceIconPrefab</code></pre>
+    <pre><code class="lang-csharp hljs">public string iconType</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -511,7 +625,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_CountContainer_iconWrapperRT" data-uid="Global.CountContainer.iconWrapperRT">iconWrapperRT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform iconWrapperRT</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -520,13 +658,13 @@
   </h3>
   
   
-  <a id="Global_IconContainerSettings_setIconCount_" data-uid="Global.IconContainerSettings.setIconCount*"></a>
-  <h4 id="Global_IconContainerSettings_setIconCount_System_Int32_Team_" data-uid="Global.IconContainerSettings.setIconCount(System.Int32,Team)">setIconCount(Int32, Team)</h4>
+  <a id="Global_CountContainer_SetCount_" data-uid="Global.CountContainer.SetCount*"></a>
+  <h4 id="Global_CountContainer_SetCount_System_Int32_" data-uid="Global.CountContainer.SetCount(System.Int32)">SetCount(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setIconCount(int iconChange, Team playerColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetCount(int change)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -540,12 +678,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">iconChange</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Team</span></td>
-        <td><span class="parametername">playerColor</span></td>
+        <td><span class="parametername">change</span></td>
         <td></td>
       </tr>
     </tbody>

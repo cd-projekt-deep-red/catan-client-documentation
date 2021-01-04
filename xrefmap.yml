@@ -535,69 +535,6 @@ references:
   isSpec: "True"
   fullName: BrowserGameCard.setGame
   nameWithType: BrowserGameCard.setGame
-- uid: Global.BuildingIconSettings
-  name: BuildingIconSettings
-  href: api/Global.BuildingIconSettings.html
-  commentId: T:Global.BuildingIconSettings
-  fullName: BuildingIconSettings
-  nameWithType: BuildingIconSettings
-- uid: Global.BuildingIconSettings.AnimateIn(System.Single)
-  name: AnimateIn(Single)
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_AnimateIn_System_Single_
-  commentId: M:Global.BuildingIconSettings.AnimateIn(System.Single)
-  fullName: BuildingIconSettings.AnimateIn(System.Single)
-  nameWithType: BuildingIconSettings.AnimateIn(Single)
-- uid: Global.BuildingIconSettings.AnimateIn*
-  name: AnimateIn
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_AnimateIn_
-  commentId: Overload:Global.BuildingIconSettings.AnimateIn
-  isSpec: "True"
-  fullName: BuildingIconSettings.AnimateIn
-  nameWithType: BuildingIconSettings.AnimateIn
-- uid: Global.BuildingIconSettings.AnimateOut(System.Single)
-  name: AnimateOut(Single)
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_AnimateOut_System_Single_
-  commentId: M:Global.BuildingIconSettings.AnimateOut(System.Single)
-  fullName: BuildingIconSettings.AnimateOut(System.Single)
-  nameWithType: BuildingIconSettings.AnimateOut(Single)
-- uid: Global.BuildingIconSettings.AnimateOut*
-  name: AnimateOut
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_AnimateOut_
-  commentId: Overload:Global.BuildingIconSettings.AnimateOut
-  isSpec: "True"
-  fullName: BuildingIconSettings.AnimateOut
-  nameWithType: BuildingIconSettings.AnimateOut
-- uid: Global.BuildingIconSettings.animator
-  name: animator
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_animator
-  commentId: F:Global.BuildingIconSettings.animator
-  fullName: BuildingIconSettings.animator
-  nameWithType: BuildingIconSettings.animator
-- uid: Global.BuildingIconSettings.assetManagerSprites
-  name: assetManagerSprites
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_assetManagerSprites
-  commentId: F:Global.BuildingIconSettings.assetManagerSprites
-  fullName: BuildingIconSettings.assetManagerSprites
-  nameWithType: BuildingIconSettings.assetManagerSprites
-- uid: Global.BuildingIconSettings.iconSpriteRenderer
-  name: iconSpriteRenderer
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_iconSpriteRenderer
-  commentId: F:Global.BuildingIconSettings.iconSpriteRenderer
-  fullName: BuildingIconSettings.iconSpriteRenderer
-  nameWithType: BuildingIconSettings.iconSpriteRenderer
-- uid: Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,Team,System.Boolean)
-  name: setBuildingIcon(String, Int32, Team, Boolean)
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_setBuildingIcon_System_String_System_Int32_Team_System_Boolean_
-  commentId: M:Global.BuildingIconSettings.setBuildingIcon(System.String,System.Int32,Team,System.Boolean)
-  fullName: BuildingIconSettings.setBuildingIcon(System.String, System.Int32, Team, System.Boolean)
-  nameWithType: BuildingIconSettings.setBuildingIcon(String, Int32, Team, Boolean)
-- uid: Global.BuildingIconSettings.setBuildingIcon*
-  name: setBuildingIcon
-  href: api/Global.BuildingIconSettings.html#Global_BuildingIconSettings_setBuildingIcon_
-  commentId: Overload:Global.BuildingIconSettings.setBuildingIcon
-  isSpec: "True"
-  fullName: BuildingIconSettings.setBuildingIcon
-  nameWithType: BuildingIconSettings.setBuildingIcon
 - uid: Global.BuildPopulationSettings
   name: BuildPopulationSettings
   href: api/Global.BuildPopulationSettings.html
@@ -1075,6 +1012,85 @@ references:
   isSpec: "True"
   fullName: ConnectionSettings.toggleGhostVisibility
   nameWithType: ConnectionSettings.toggleGhostVisibility
+- uid: Global.CountContainer
+  name: CountContainer
+  href: api/Global.CountContainer.html
+  commentId: T:Global.CountContainer
+  fullName: CountContainer
+  nameWithType: CountContainer
+- uid: Global.CountContainer.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.CountContainer.html#Global_CountContainer_assetManagerSprites
+  commentId: F:Global.CountContainer.assetManagerSprites
+  fullName: CountContainer.assetManagerSprites
+  nameWithType: CountContainer.assetManagerSprites
+- uid: Global.CountContainer.constantIcon
+  name: constantIcon
+  href: api/Global.CountContainer.html#Global_CountContainer_constantIcon
+  commentId: F:Global.CountContainer.constantIcon
+  fullName: CountContainer.constantIcon
+  nameWithType: CountContainer.constantIcon
+- uid: Global.CountContainer.containerLE
+  name: containerLE
+  href: api/Global.CountContainer.html#Global_CountContainer_containerLE
+  commentId: F:Global.CountContainer.containerLE
+  fullName: CountContainer.containerLE
+  nameWithType: CountContainer.containerLE
+- uid: Global.CountContainer.containerRT
+  name: containerRT
+  href: api/Global.CountContainer.html#Global_CountContainer_containerRT
+  commentId: F:Global.CountContainer.containerRT
+  fullName: CountContainer.containerRT
+  nameWithType: CountContainer.containerRT
+- uid: Global.CountContainer.containerType
+  name: containerType
+  href: api/Global.CountContainer.html#Global_CountContainer_containerType
+  commentId: F:Global.CountContainer.containerType
+  fullName: CountContainer.containerType
+  nameWithType: CountContainer.containerType
+- uid: Global.CountContainer.countText
+  name: countText
+  href: api/Global.CountContainer.html#Global_CountContainer_countText
+  commentId: F:Global.CountContainer.countText
+  fullName: CountContainer.countText
+  nameWithType: CountContainer.countText
+- uid: Global.CountContainer.gameStatus
+  name: gameStatus
+  href: api/Global.CountContainer.html#Global_CountContainer_gameStatus
+  commentId: F:Global.CountContainer.gameStatus
+  fullName: CountContainer.gameStatus
+  nameWithType: CountContainer.gameStatus
+- uid: Global.CountContainer.iconPrefab
+  name: iconPrefab
+  href: api/Global.CountContainer.html#Global_CountContainer_iconPrefab
+  commentId: F:Global.CountContainer.iconPrefab
+  fullName: CountContainer.iconPrefab
+  nameWithType: CountContainer.iconPrefab
+- uid: Global.CountContainer.iconType
+  name: iconType
+  href: api/Global.CountContainer.html#Global_CountContainer_iconType
+  commentId: F:Global.CountContainer.iconType
+  fullName: CountContainer.iconType
+  nameWithType: CountContainer.iconType
+- uid: Global.CountContainer.iconWrapperRT
+  name: iconWrapperRT
+  href: api/Global.CountContainer.html#Global_CountContainer_iconWrapperRT
+  commentId: F:Global.CountContainer.iconWrapperRT
+  fullName: CountContainer.iconWrapperRT
+  nameWithType: CountContainer.iconWrapperRT
+- uid: Global.CountContainer.SetCount(System.Int32)
+  name: SetCount(Int32)
+  href: api/Global.CountContainer.html#Global_CountContainer_SetCount_System_Int32_
+  commentId: M:Global.CountContainer.SetCount(System.Int32)
+  fullName: CountContainer.SetCount(System.Int32)
+  nameWithType: CountContainer.SetCount(Int32)
+- uid: Global.CountContainer.SetCount*
+  name: SetCount
+  href: api/Global.CountContainer.html#Global_CountContainer_SetCount_
+  commentId: Overload:Global.CountContainer.SetCount
+  isSpec: "True"
+  fullName: CountContainer.SetCount
+  nameWithType: CountContainer.SetCount
 - uid: Global.CrownAnimator
   name: CrownAnimator
   href: api/Global.CrownAnimator.html
@@ -1749,6 +1765,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.gameMeta
   nameWithType: GameStatus.gameMeta
+- uid: Global.GameStatus.GeneratePlayerGameState
+  name: GeneratePlayerGameState()
+  href: api/Global.GameStatus.html#Global_GameStatus_GeneratePlayerGameState
+  commentId: M:Global.GameStatus.GeneratePlayerGameState
+  fullName: GameStatus.GeneratePlayerGameState()
+  nameWithType: GameStatus.GeneratePlayerGameState()
+- uid: Global.GameStatus.GeneratePlayerGameState*
+  name: GeneratePlayerGameState
+  href: api/Global.GameStatus.html#Global_GameStatus_GeneratePlayerGameState_
+  commentId: Overload:Global.GameStatus.GeneratePlayerGameState
+  isSpec: "True"
+  fullName: GameStatus.GeneratePlayerGameState
+  nameWithType: GameStatus.GeneratePlayerGameState
 - uid: Global.GameStatus.localPlayer
   name: localPlayer
   href: api/Global.GameStatus.html#Global_GameStatus_localPlayer
@@ -1762,6 +1791,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.localPlayer
   nameWithType: GameStatus.localPlayer
+- uid: Global.GameStatus.localPlayerBuildings
+  name: localPlayerBuildings
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayerBuildings
+  commentId: P:Global.GameStatus.localPlayerBuildings
+  fullName: GameStatus.localPlayerBuildings
+  nameWithType: GameStatus.localPlayerBuildings
+- uid: Global.GameStatus.localPlayerBuildings*
+  name: localPlayerBuildings
+  href: api/Global.GameStatus.html#Global_GameStatus_localPlayerBuildings_
+  commentId: Overload:Global.GameStatus.localPlayerBuildings
+  isSpec: "True"
+  fullName: GameStatus.localPlayerBuildings
+  nameWithType: GameStatus.localPlayerBuildings
 - uid: Global.GameStatus.localPlayerResources
   name: localPlayerResources
   href: api/Global.GameStatus.html#Global_GameStatus_localPlayerResources
@@ -1882,6 +1924,12 @@ references:
   commentId: F:Global.GiveResource.resource
   fullName: GiveResource.resource
   nameWithType: GiveResource.resource
+- uid: Global.GiveResource.uiManager
+  name: uiManager
+  href: api/Global.GiveResource.html#Global_GiveResource_uiManager
+  commentId: F:Global.GiveResource.uiManager
+  fullName: GiveResource.uiManager
+  nameWithType: GiveResource.uiManager
 - uid: Global.HexMath
   name: HexMath
   href: api/Global.HexMath.html
@@ -2104,49 +2152,6 @@ references:
   isSpec: "True"
   fullName: Hourglass.setTurnSpeed
   nameWithType: Hourglass.setTurnSpeed
-- uid: Global.IconContainerSettings
-  name: IconContainerSettings
-  href: api/Global.IconContainerSettings.html
-  commentId: T:Global.IconContainerSettings
-  fullName: IconContainerSettings
-  nameWithType: IconContainerSettings
-- uid: Global.IconContainerSettings.buildingIconPrefab
-  name: buildingIconPrefab
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_buildingIconPrefab
-  commentId: F:Global.IconContainerSettings.buildingIconPrefab
-  fullName: IconContainerSettings.buildingIconPrefab
-  nameWithType: IconContainerSettings.buildingIconPrefab
-- uid: Global.IconContainerSettings.count
-  name: count
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_count
-  commentId: F:Global.IconContainerSettings.count
-  fullName: IconContainerSettings.count
-  nameWithType: IconContainerSettings.count
-- uid: Global.IconContainerSettings.iconWrapper
-  name: iconWrapper
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_iconWrapper
-  commentId: F:Global.IconContainerSettings.iconWrapper
-  fullName: IconContainerSettings.iconWrapper
-  nameWithType: IconContainerSettings.iconWrapper
-- uid: Global.IconContainerSettings.resourceIconPrefab
-  name: resourceIconPrefab
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_resourceIconPrefab
-  commentId: F:Global.IconContainerSettings.resourceIconPrefab
-  fullName: IconContainerSettings.resourceIconPrefab
-  nameWithType: IconContainerSettings.resourceIconPrefab
-- uid: Global.IconContainerSettings.setIconCount(System.Int32,Team)
-  name: setIconCount(Int32, Team)
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_setIconCount_System_Int32_Team_
-  commentId: M:Global.IconContainerSettings.setIconCount(System.Int32,Team)
-  fullName: IconContainerSettings.setIconCount(System.Int32, Team)
-  nameWithType: IconContainerSettings.setIconCount(Int32, Team)
-- uid: Global.IconContainerSettings.setIconCount*
-  name: setIconCount
-  href: api/Global.IconContainerSettings.html#Global_IconContainerSettings_setIconCount_
-  commentId: Overload:Global.IconContainerSettings.setIconCount
-  isSpec: "True"
-  fullName: IconContainerSettings.setIconCount
-  nameWithType: IconContainerSettings.setIconCount
 - uid: Global.JoinButton
   name: JoinButton
   href: api/Global.JoinButton.html
@@ -2238,6 +2243,12 @@ references:
   commentId: F:Global.LocalPlayerStats.profileImage
   fullName: LocalPlayerStats.profileImage
   nameWithType: LocalPlayerStats.profileImage
+- uid: Global.LocalPlayerStats.resourceContainerDict
+  name: resourceContainerDict
+  href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_resourceContainerDict
+  commentId: F:Global.LocalPlayerStats.resourceContainerDict
+  fullName: LocalPlayerStats.resourceContainerDict
+  nameWithType: LocalPlayerStats.resourceContainerDict
 - uid: Global.LocalPlayerStats.resourceContainers
   name: resourceContainers
   href: api/Global.LocalPlayerStats.html#Global_LocalPlayerStats_resourceContainers
@@ -3517,69 +3528,6 @@ references:
   commentId: F:Global.ResourceCounterSettings.textMaterials
   fullName: ResourceCounterSettings.textMaterials
   nameWithType: ResourceCounterSettings.textMaterials
-- uid: Global.ResourceIconSettings
-  name: ResourceIconSettings
-  href: api/Global.ResourceIconSettings.html
-  commentId: T:Global.ResourceIconSettings
-  fullName: ResourceIconSettings
-  nameWithType: ResourceIconSettings
-- uid: Global.ResourceIconSettings.AnimateIn(System.Single)
-  name: AnimateIn(Single)
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_AnimateIn_System_Single_
-  commentId: M:Global.ResourceIconSettings.AnimateIn(System.Single)
-  fullName: ResourceIconSettings.AnimateIn(System.Single)
-  nameWithType: ResourceIconSettings.AnimateIn(Single)
-- uid: Global.ResourceIconSettings.AnimateIn*
-  name: AnimateIn
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_AnimateIn_
-  commentId: Overload:Global.ResourceIconSettings.AnimateIn
-  isSpec: "True"
-  fullName: ResourceIconSettings.AnimateIn
-  nameWithType: ResourceIconSettings.AnimateIn
-- uid: Global.ResourceIconSettings.AnimateOut(System.Single)
-  name: AnimateOut(Single)
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_AnimateOut_System_Single_
-  commentId: M:Global.ResourceIconSettings.AnimateOut(System.Single)
-  fullName: ResourceIconSettings.AnimateOut(System.Single)
-  nameWithType: ResourceIconSettings.AnimateOut(Single)
-- uid: Global.ResourceIconSettings.AnimateOut*
-  name: AnimateOut
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_AnimateOut_
-  commentId: Overload:Global.ResourceIconSettings.AnimateOut
-  isSpec: "True"
-  fullName: ResourceIconSettings.AnimateOut
-  nameWithType: ResourceIconSettings.AnimateOut
-- uid: Global.ResourceIconSettings.animator
-  name: animator
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_animator
-  commentId: F:Global.ResourceIconSettings.animator
-  fullName: ResourceIconSettings.animator
-  nameWithType: ResourceIconSettings.animator
-- uid: Global.ResourceIconSettings.assetManagerSprites
-  name: assetManagerSprites
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_assetManagerSprites
-  commentId: F:Global.ResourceIconSettings.assetManagerSprites
-  fullName: ResourceIconSettings.assetManagerSprites
-  nameWithType: ResourceIconSettings.assetManagerSprites
-- uid: Global.ResourceIconSettings.iconSpriteRenderer
-  name: iconSpriteRenderer
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_iconSpriteRenderer
-  commentId: F:Global.ResourceIconSettings.iconSpriteRenderer
-  fullName: ResourceIconSettings.iconSpriteRenderer
-  nameWithType: ResourceIconSettings.iconSpriteRenderer
-- uid: Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.Boolean)
-  name: setResourceIcon(String, Int32, Boolean)
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_setResourceIcon_System_String_System_Int32_System_Boolean_
-  commentId: M:Global.ResourceIconSettings.setResourceIcon(System.String,System.Int32,System.Boolean)
-  fullName: ResourceIconSettings.setResourceIcon(System.String, System.Int32, System.Boolean)
-  nameWithType: ResourceIconSettings.setResourceIcon(String, Int32, Boolean)
-- uid: Global.ResourceIconSettings.setResourceIcon*
-  name: setResourceIcon
-  href: api/Global.ResourceIconSettings.html#Global_ResourceIconSettings_setResourceIcon_
-  commentId: Overload:Global.ResourceIconSettings.setResourceIcon
-  isSpec: "True"
-  fullName: ResourceIconSettings.setResourceIcon
-  nameWithType: ResourceIconSettings.setResourceIcon
 - uid: Global.ResourceTile
   name: ResourceTile
   href: api/Global.ResourceTile.html
@@ -4626,12 +4574,12 @@ references:
   commentId: F:Model.BuildingType.Road
   fullName: Model.BuildingType.Road
   nameWithType: BuildingType.Road
-- uid: Model.BuildingType.Settlment
-  name: Settlment
-  href: api/Model.BuildingType.html#Model_BuildingType_Settlment
-  commentId: F:Model.BuildingType.Settlment
-  fullName: Model.BuildingType.Settlment
-  nameWithType: BuildingType.Settlment
+- uid: Model.BuildingType.Settlement
+  name: Settlement
+  href: api/Model.BuildingType.html#Model_BuildingType_Settlement
+  commentId: F:Model.BuildingType.Settlement
+  fullName: Model.BuildingType.Settlement
+  nameWithType: BuildingType.Settlement
 - uid: Model.DevelopmentCardType
   name: DevelopmentCardType
   href: api/Model.DevelopmentCardType.html
@@ -5850,12 +5798,12 @@ references:
   isSpec: "True"
   fullName: Model.PlayerGameState.ResourcesOwned
   nameWithType: PlayerGameState.ResourcesOwned
-- uid: Model.PlayerGameState.setBuilding(System.String,System.Int32)
-  name: setBuilding(String, Int32)
-  href: api/Model.PlayerGameState.html#Model_PlayerGameState_setBuilding_System_String_System_Int32_
-  commentId: M:Model.PlayerGameState.setBuilding(System.String,System.Int32)
-  fullName: Model.PlayerGameState.setBuilding(System.String, System.Int32)
-  nameWithType: PlayerGameState.setBuilding(String, Int32)
+- uid: Model.PlayerGameState.setBuilding(Model.BuildingType,System.Int32)
+  name: setBuilding(BuildingType, Int32)
+  href: api/Model.PlayerGameState.html#Model_PlayerGameState_setBuilding_Model_BuildingType_System_Int32_
+  commentId: M:Model.PlayerGameState.setBuilding(Model.BuildingType,System.Int32)
+  fullName: Model.PlayerGameState.setBuilding(Model.BuildingType, System.Int32)
+  nameWithType: PlayerGameState.setBuilding(BuildingType, Int32)
 - uid: Model.PlayerGameState.setBuilding*
   name: setBuilding
   href: api/Model.PlayerGameState.html#Model_PlayerGameState_setBuilding_
@@ -5863,12 +5811,12 @@ references:
   isSpec: "True"
   fullName: Model.PlayerGameState.setBuilding
   nameWithType: PlayerGameState.setBuilding
-- uid: Model.PlayerGameState.setResource(System.String,System.Int32)
-  name: setResource(String, Int32)
-  href: api/Model.PlayerGameState.html#Model_PlayerGameState_setResource_System_String_System_Int32_
-  commentId: M:Model.PlayerGameState.setResource(System.String,System.Int32)
-  fullName: Model.PlayerGameState.setResource(System.String, System.Int32)
-  nameWithType: PlayerGameState.setResource(String, Int32)
+- uid: Model.PlayerGameState.setResource(Model.ResourceType,System.Int32)
+  name: setResource(ResourceType, Int32)
+  href: api/Model.PlayerGameState.html#Model_PlayerGameState_setResource_Model_ResourceType_System_Int32_
+  commentId: M:Model.PlayerGameState.setResource(Model.ResourceType,System.Int32)
+  fullName: Model.PlayerGameState.setResource(Model.ResourceType, System.Int32)
+  nameWithType: PlayerGameState.setResource(ResourceType, Int32)
 - uid: Model.PlayerGameState.setResource*
   name: setResource
   href: api/Model.PlayerGameState.html#Model_PlayerGameState_setResource_

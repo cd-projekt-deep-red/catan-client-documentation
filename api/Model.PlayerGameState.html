@@ -105,9 +105,6 @@
                             <a href="Global.BrowserGameCard.html" title="BrowserGameCard" class="">BrowserGameCard</a>
                           </li>
                           <li class="">
-                            <a href="Global.BuildingIconSettings.html" title="BuildingIconSettings" class="">BuildingIconSettings</a>
-                          </li>
-                          <li class="">
                             <a href="Global.BuildPopulationSettings.html" title="BuildPopulationSettings" class="">BuildPopulationSettings</a>
                           </li>
                           <li class="">
@@ -127,6 +124,9 @@
                           </li>
                           <li class="">
                             <a href="Global.ConnectionSettings.html" title="ConnectionSettings" class="">ConnectionSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.CountContainer.html" title="CountContainer" class="">CountContainer</a>
                           </li>
                           <li class="">
                             <a href="Global.CrownAnimator.html" title="CrownAnimator" class="">CrownAnimator</a>
@@ -175,9 +175,6 @@
                           </li>
                           <li class="">
                             <a href="Global.Hourglass.html" title="Hourglass" class="">Hourglass</a>
-                          </li>
-                          <li class="">
-                            <a href="Global.IconContainerSettings.html" title="IconContainerSettings" class="">IconContainerSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.JoinButton.html" title="JoinButton" class="">JoinButton</a>
@@ -247,9 +244,6 @@
                           </li>
                           <li class="">
                             <a href="Global.ResourceCounterSettings.html" title="ResourceCounterSettings" class="">ResourceCounterSettings</a>
-                          </li>
-                          <li class="">
-                            <a href="Global.ResourceIconSettings.html" title="ResourceIconSettings" class="">ResourceIconSettings</a>
                           </li>
                           <li class="">
                             <a href="Global.ResourceTile.html" title="ResourceTile" class="">ResourceTile</a>
@@ -485,7 +479,7 @@ with an attached player id</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; BuildingsOwned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;BuildingType, int&gt; BuildingsOwned { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -497,7 +491,7 @@ with an attached player id</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.BuildingType.html">BuildingType</a>, <span class="xref">System.Int32</span>&gt;</td>
         <td><p>The amount of buildings owned by the player.</p>
 </td>
       </tr>
@@ -615,7 +609,7 @@ with an attached player id</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, int&gt; ResourcesOwned { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ResourceType, int&gt; ResourcesOwned { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -627,7 +621,7 @@ with an attached player id</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.ResourceType.html">ResourceType</a>, <span class="xref">System.Int32</span>&gt;</td>
         <td><p>The amount of resources owned by the player.</p>
 </td>
       </tr>
@@ -664,14 +658,14 @@ with an attached player id</p>
   
   
   <a id="Model_PlayerGameState_setBuilding_" data-uid="Model.PlayerGameState.setBuilding*"></a>
-  <h4 id="Model_PlayerGameState_setBuilding_System_String_System_Int32_" data-uid="Model.PlayerGameState.setBuilding(System.String,System.Int32)">setBuilding(String, Int32)</h4>
+  <h4 id="Model_PlayerGameState_setBuilding_Model_BuildingType_System_Int32_" data-uid="Model.PlayerGameState.setBuilding(Model.BuildingType,System.Int32)">setBuilding(BuildingType, Int32)</h4>
   <div class="markdown level1 summary"><p>Takes a building type string and a building count integer
 and sets the player's new building count value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setBuilding(string buildingType, int buildingCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setBuilding(BuildingType buildingType, int buildingCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -684,7 +678,7 @@ and sets the player's new building count value</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Model.BuildingType.html">BuildingType</a></td>
         <td><span class="parametername">buildingType</span></td>
         <td><p>the name of the building to set</p>
 </td>
@@ -700,14 +694,14 @@ and sets the player's new building count value</p>
   
   
   <a id="Model_PlayerGameState_setResource_" data-uid="Model.PlayerGameState.setResource*"></a>
-  <h4 id="Model_PlayerGameState_setResource_System_String_System_Int32_" data-uid="Model.PlayerGameState.setResource(System.String,System.Int32)">setResource(String, Int32)</h4>
+  <h4 id="Model_PlayerGameState_setResource_Model_ResourceType_System_Int32_" data-uid="Model.PlayerGameState.setResource(Model.ResourceType,System.Int32)">setResource(ResourceType, Int32)</h4>
   <div class="markdown level1 summary"><p>Takes a resource type string and a resource count integer
 and sets the player's new resource count value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setResource(string resourceType, int resourceCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setResource(ResourceType resourceType, int resourceCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -720,9 +714,9 @@ and sets the player's new resource count value</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Model.ResourceType.html">ResourceType</a></td>
         <td><span class="parametername">resourceType</span></td>
-        <td><p>the name of the resource to set</p>
+        <td><p>the resource to set</p>
 </td>
       </tr>
       <tr>
