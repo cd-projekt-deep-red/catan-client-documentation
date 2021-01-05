@@ -1694,6 +1694,19 @@ references:
   commentId: T:Global.GameStatus
   fullName: GameStatus
   nameWithType: GameStatus
+- uid: Global.GameStatus.activePlayer
+  name: activePlayer
+  href: api/Global.GameStatus.html#Global_GameStatus_activePlayer
+  commentId: P:Global.GameStatus.activePlayer
+  fullName: GameStatus.activePlayer
+  nameWithType: GameStatus.activePlayer
+- uid: Global.GameStatus.activePlayer*
+  name: activePlayer
+  href: api/Global.GameStatus.html#Global_GameStatus_activePlayer_
+  commentId: Overload:Global.GameStatus.activePlayer
+  isSpec: "True"
+  fullName: GameStatus.activePlayer
+  nameWithType: GameStatus.activePlayer
 - uid: Global.GameStatus.board
   name: board
   href: api/Global.GameStatus.html#Global_GameStatus_board
@@ -2531,25 +2544,38 @@ references:
   commentId: T:Global.MockNetworkManager
   fullName: MockNetworkManager
   nameWithType: MockNetworkManager
+- uid: Global.MockNetworkManager.EndTurn(Team)
+  name: EndTurn(Team)
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_EndTurn_Team_
+  commentId: M:Global.MockNetworkManager.EndTurn(Team)
+  fullName: MockNetworkManager.EndTurn(Team)
+  nameWithType: MockNetworkManager.EndTurn(Team)
+- uid: Global.MockNetworkManager.EndTurn*
+  name: EndTurn
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_EndTurn_
+  commentId: Overload:Global.MockNetworkManager.EndTurn
+  isSpec: "True"
+  fullName: MockNetworkManager.EndTurn
+  nameWithType: MockNetworkManager.EndTurn
 - uid: Global.MockNetworkManager.eventStreamObject
   name: eventStreamObject
   href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_eventStreamObject
   commentId: F:Global.MockNetworkManager.eventStreamObject
   fullName: MockNetworkManager.eventStreamObject
   nameWithType: MockNetworkManager.eventStreamObject
-- uid: Global.MockNetworkManager.roll
-  name: roll()
-  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_roll
-  commentId: M:Global.MockNetworkManager.roll
-  fullName: MockNetworkManager.roll()
-  nameWithType: MockNetworkManager.roll()
-- uid: Global.MockNetworkManager.roll*
-  name: roll
-  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_roll_
-  commentId: Overload:Global.MockNetworkManager.roll
+- uid: Global.MockNetworkManager.Roll
+  name: Roll()
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_Roll
+  commentId: M:Global.MockNetworkManager.Roll
+  fullName: MockNetworkManager.Roll()
+  nameWithType: MockNetworkManager.Roll()
+- uid: Global.MockNetworkManager.Roll*
+  name: Roll
+  href: api/Global.MockNetworkManager.html#Global_MockNetworkManager_Roll_
+  commentId: Overload:Global.MockNetworkManager.Roll
   isSpec: "True"
-  fullName: MockNetworkManager.roll
-  nameWithType: MockNetworkManager.roll
+  fullName: MockNetworkManager.Roll
+  nameWithType: MockNetworkManager.Roll
 - uid: Global.NetworkManager
   name: NetworkManager
   href: api/Global.NetworkManager.html
@@ -3821,6 +3847,48 @@ references:
   isSpec: "True"
   fullName: RuleSettings.setRule
   nameWithType: RuleSettings.setRule
+- uid: Global.SkipButton
+  name: SkipButton
+  href: api/Global.SkipButton.html
+  commentId: T:Global.SkipButton
+  fullName: SkipButton
+  nameWithType: SkipButton
+- uid: Global.SkipButton.assetManagerColors
+  name: assetManagerColors
+  href: api/Global.SkipButton.html#Global_SkipButton_assetManagerColors
+  commentId: F:Global.SkipButton.assetManagerColors
+  fullName: SkipButton.assetManagerColors
+  nameWithType: SkipButton.assetManagerColors
+- uid: Global.SkipButton.assetManagerSprites
+  name: assetManagerSprites
+  href: api/Global.SkipButton.html#Global_SkipButton_assetManagerSprites
+  commentId: F:Global.SkipButton.assetManagerSprites
+  fullName: SkipButton.assetManagerSprites
+  nameWithType: SkipButton.assetManagerSprites
+- uid: Global.SkipButton.buttonSprite
+  name: buttonSprite
+  href: api/Global.SkipButton.html#Global_SkipButton_buttonSprite
+  commentId: F:Global.SkipButton.buttonSprite
+  fullName: SkipButton.buttonSprite
+  nameWithType: SkipButton.buttonSprite
+- uid: Global.SkipButton.buttonText
+  name: buttonText
+  href: api/Global.SkipButton.html#Global_SkipButton_buttonText
+  commentId: F:Global.SkipButton.buttonText
+  fullName: SkipButton.buttonText
+  nameWithType: SkipButton.buttonText
+- uid: Global.SkipButton.gameStatus
+  name: gameStatus
+  href: api/Global.SkipButton.html#Global_SkipButton_gameStatus
+  commentId: F:Global.SkipButton.gameStatus
+  fullName: SkipButton.gameStatus
+  nameWithType: SkipButton.gameStatus
+- uid: Global.SkipButton.uiManager
+  name: uiManager
+  href: api/Global.SkipButton.html#Global_SkipButton_uiManager
+  commentId: F:Global.SkipButton.uiManager
+  fullName: SkipButton.uiManager
+  nameWithType: SkipButton.uiManager
 - uid: Global.Timer
   name: Timer
   href: api/Global.Timer.html
@@ -4276,6 +4344,19 @@ references:
   commentId: F:Global.UIManager.eventStream
   fullName: UIManager.eventStream
   nameWithType: UIManager.eventStream
+- uid: Global.UIManager.FinishTurn(Team)
+  name: FinishTurn(Team)
+  href: api/Global.UIManager.html#Global_UIManager_FinishTurn_Team_
+  commentId: M:Global.UIManager.FinishTurn(Team)
+  fullName: UIManager.FinishTurn(Team)
+  nameWithType: UIManager.FinishTurn(Team)
+- uid: Global.UIManager.FinishTurn*
+  name: FinishTurn
+  href: api/Global.UIManager.html#Global_UIManager_FinishTurn_
+  commentId: Overload:Global.UIManager.FinishTurn
+  isSpec: "True"
+  fullName: UIManager.FinishTurn
+  nameWithType: UIManager.FinishTurn
 - uid: Global.UIManager.gameStatus
   name: gameStatus
   href: api/Global.UIManager.html#Global_UIManager_gameStatus
@@ -4300,6 +4381,12 @@ references:
   commentId: F:Global.UIManager.playersPanelPrefab
   fullName: UIManager.playersPanelPrefab
   nameWithType: UIManager.playersPanelPrefab
+- uid: Global.UIManager.skipButtonPrefab
+  name: skipButtonPrefab
+  href: api/Global.UIManager.html#Global_UIManager_skipButtonPrefab
+  commentId: F:Global.UIManager.skipButtonPrefab
+  fullName: UIManager.skipButtonPrefab
+  nameWithType: UIManager.skipButtonPrefab
 - uid: Global.UIManager.tradeContentPrefab
   name: tradeContentPrefab
   href: api/Global.UIManager.html#Global_UIManager_tradeContentPrefab
