@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BoardManagerV2.html",
-          "hash": "yv1IFLAP3atiBF1tCnANRg=="
+          "hash": "jOKGWHvPp2Hvu3F4/8efzw=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HexMath.html",
-          "hash": "Q64iuEelXHstbdu2ptOrQA=="
+          "hash": "8APppwqQwLi6pQupk0GXyA=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Board.html",
-          "hash": "4hXxUaY8y5RxIxa4UtAhpw=="
+          "hash": "v+tHq+00oUHVou8nFmjP0g=="
         }
       },
       "is_incremental": false,
