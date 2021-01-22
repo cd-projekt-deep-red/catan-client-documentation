@@ -418,6 +418,19 @@ references:
   isSpec: "True"
   fullName: BoardManagerV2.destroyBuildOptions
   nameWithType: BoardManagerV2.destroyBuildOptions
+- uid: Global.BoardManagerV2.destroyConnector(VertexCoordinates)
+  name: destroyConnector(VertexCoordinates)
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_destroyConnector_VertexCoordinates_
+  commentId: M:Global.BoardManagerV2.destroyConnector(VertexCoordinates)
+  fullName: BoardManagerV2.destroyConnector(VertexCoordinates)
+  nameWithType: BoardManagerV2.destroyConnector(VertexCoordinates)
+- uid: Global.BoardManagerV2.destroyConnector*
+  name: destroyConnector
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_destroyConnector_
+  commentId: Overload:Global.BoardManagerV2.destroyConnector
+  isSpec: "True"
+  fullName: BoardManagerV2.destroyConnector
+  nameWithType: BoardManagerV2.destroyConnector
 - uid: Global.BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary{EdgeCoordinates,Team})
   name: placeBuildRoad(Dictionary<EdgeCoordinates, Team>)
   href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildRoad_System_Collections_Generic_Dictionary_EdgeCoordinates_Team__
@@ -947,6 +960,19 @@ references:
   commentId: F:Global.ConnectionSettings.ghostSpriteRenderer
   fullName: ConnectionSettings.ghostSpriteRenderer
   nameWithType: ConnectionSettings.ghostSpriteRenderer
+- uid: Global.ConnectionSettings.renderConnection
+  name: renderConnection()
+  href: api/Global.ConnectionSettings.html#Global_ConnectionSettings_renderConnection
+  commentId: M:Global.ConnectionSettings.renderConnection
+  fullName: ConnectionSettings.renderConnection()
+  nameWithType: ConnectionSettings.renderConnection()
+- uid: Global.ConnectionSettings.renderConnection*
+  name: renderConnection
+  href: api/Global.ConnectionSettings.html#Global_ConnectionSettings_renderConnection_
+  commentId: Overload:Global.ConnectionSettings.renderConnection
+  isSpec: "True"
+  fullName: ConnectionSettings.renderConnection
+  nameWithType: ConnectionSettings.renderConnection
 - uid: Global.ConnectionSettings.setConnection(System.Int32)
   name: setConnection(Int32)
   href: api/Global.ConnectionSettings.html#Global_ConnectionSettings_setConnection_System_Int32_
@@ -1968,6 +1994,19 @@ references:
   isSpec: "True"
   fullName: HexMath.calcOutOfBounds
   nameWithType: HexMath.calcOutOfBounds
+- uid: Global.HexMath.checkInverseVertex(VertexCoordinates)
+  name: checkInverseVertex(VertexCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_checkInverseVertex_VertexCoordinates_
+  commentId: M:Global.HexMath.checkInverseVertex(VertexCoordinates)
+  fullName: HexMath.checkInverseVertex(VertexCoordinates)
+  nameWithType: HexMath.checkInverseVertex(VertexCoordinates)
+- uid: Global.HexMath.checkInverseVertex*
+  name: checkInverseVertex
+  href: api/Global.HexMath.html#Global_HexMath_checkInverseVertex_
+  commentId: Overload:Global.HexMath.checkInverseVertex
+  isSpec: "True"
+  fullName: HexMath.checkInverseVertex
+  nameWithType: HexMath.checkInverseVertex
 - uid: Global.HexMath.CordToResourceLayerOrder(EdgeCoordinates)
   name: CordToResourceLayerOrder(EdgeCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_CordToResourceLayerOrder_EdgeCoordinates_
@@ -1993,12 +2032,24 @@ references:
   isSpec: "True"
   fullName: HexMath.CordToResourceLayerOrder
   nameWithType: HexMath.CordToResourceLayerOrder
+- uid: Global.HexMath.CordToVector3(EdgeCoordinates)
+  name: CordToVector3(EdgeCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_CordToVector3_EdgeCoordinates_
+  commentId: M:Global.HexMath.CordToVector3(EdgeCoordinates)
+  fullName: HexMath.CordToVector3(EdgeCoordinates)
+  nameWithType: HexMath.CordToVector3(EdgeCoordinates)
 - uid: Global.HexMath.CordToVector3(TileCoordinates)
   name: CordToVector3(TileCoordinates)
   href: api/Global.HexMath.html#Global_HexMath_CordToVector3_TileCoordinates_
   commentId: M:Global.HexMath.CordToVector3(TileCoordinates)
   fullName: HexMath.CordToVector3(TileCoordinates)
   nameWithType: HexMath.CordToVector3(TileCoordinates)
+- uid: Global.HexMath.CordToVector3(VertexCoordinates)
+  name: CordToVector3(VertexCoordinates)
+  href: api/Global.HexMath.html#Global_HexMath_CordToVector3_VertexCoordinates_
+  commentId: M:Global.HexMath.CordToVector3(VertexCoordinates)
+  fullName: HexMath.CordToVector3(VertexCoordinates)
+  nameWithType: HexMath.CordToVector3(VertexCoordinates)
 - uid: Global.HexMath.CordToVector3*
   name: CordToVector3
   href: api/Global.HexMath.html#Global_HexMath_CordToVector3_
@@ -2063,32 +2114,6 @@ references:
   isSpec: "True"
   fullName: HexMath.GetNeighboringVertices
   nameWithType: HexMath.GetNeighboringVertices
-- uid: Global.HexMath.popCenterOffset(VertexCoordinates)
-  name: popCenterOffset(VertexCoordinates)
-  href: api/Global.HexMath.html#Global_HexMath_popCenterOffset_VertexCoordinates_
-  commentId: M:Global.HexMath.popCenterOffset(VertexCoordinates)
-  fullName: HexMath.popCenterOffset(VertexCoordinates)
-  nameWithType: HexMath.popCenterOffset(VertexCoordinates)
-- uid: Global.HexMath.popCenterOffset*
-  name: popCenterOffset
-  href: api/Global.HexMath.html#Global_HexMath_popCenterOffset_
-  commentId: Overload:Global.HexMath.popCenterOffset
-  isSpec: "True"
-  fullName: HexMath.popCenterOffset
-  nameWithType: HexMath.popCenterOffset
-- uid: Global.HexMath.roadOffset(EdgeCoordinates)
-  name: roadOffset(EdgeCoordinates)
-  href: api/Global.HexMath.html#Global_HexMath_roadOffset_EdgeCoordinates_
-  commentId: M:Global.HexMath.roadOffset(EdgeCoordinates)
-  fullName: HexMath.roadOffset(EdgeCoordinates)
-  nameWithType: HexMath.roadOffset(EdgeCoordinates)
-- uid: Global.HexMath.roadOffset*
-  name: roadOffset
-  href: api/Global.HexMath.html#Global_HexMath_roadOffset_
-  commentId: Overload:Global.HexMath.roadOffset
-  isSpec: "True"
-  fullName: HexMath.roadOffset
-  nameWithType: HexMath.roadOffset
 - uid: Global.Hourglass
   name: Hourglass
   href: api/Global.Hourglass.html
@@ -2330,51 +2355,6 @@ references:
   commentId: F:Global.LocalPlayerStats.vpSprite
   fullName: LocalPlayerStats.vpSprite
   nameWithType: LocalPlayerStats.vpSprite
-- uid: Global.MangerUtlities
-  name: MangerUtlities
-  href: api/Global.MangerUtlities.html
-  commentId: T:Global.MangerUtlities
-  fullName: MangerUtlities
-  nameWithType: MangerUtlities
-- uid: Global.MangerUtlities.calcBuildRoad(GameStatus,Team)
-  name: calcBuildRoad(GameStatus, Team)
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_calcBuildRoad_GameStatus_Team_
-  commentId: M:Global.MangerUtlities.calcBuildRoad(GameStatus,Team)
-  fullName: MangerUtlities.calcBuildRoad(GameStatus, Team)
-  nameWithType: MangerUtlities.calcBuildRoad(GameStatus, Team)
-- uid: Global.MangerUtlities.calcBuildRoad*
-  name: calcBuildRoad
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_calcBuildRoad_
-  commentId: Overload:Global.MangerUtlities.calcBuildRoad
-  isSpec: "True"
-  fullName: MangerUtlities.calcBuildRoad
-  nameWithType: MangerUtlities.calcBuildRoad
-- uid: Global.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
-  name: eventSyncCheck(Int32, Int32)
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_eventSyncCheck_System_Int32_System_Int32_
-  commentId: M:Global.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
-  fullName: MangerUtlities.eventSyncCheck(System.Int32, System.Int32)
-  nameWithType: MangerUtlities.eventSyncCheck(Int32, Int32)
-- uid: Global.MangerUtlities.eventSyncCheck*
-  name: eventSyncCheck
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_eventSyncCheck_
-  commentId: Overload:Global.MangerUtlities.eventSyncCheck
-  isSpec: "True"
-  fullName: MangerUtlities.eventSyncCheck
-  nameWithType: MangerUtlities.eventSyncCheck
-- uid: Global.MangerUtlities.resourcesAvailable(BuildingType,GameStatus)
-  name: resourcesAvailable(BuildingType, GameStatus)
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_resourcesAvailable_BuildingType_GameStatus_
-  commentId: M:Global.MangerUtlities.resourcesAvailable(BuildingType,GameStatus)
-  fullName: MangerUtlities.resourcesAvailable(BuildingType, GameStatus)
-  nameWithType: MangerUtlities.resourcesAvailable(BuildingType, GameStatus)
-- uid: Global.MangerUtlities.resourcesAvailable*
-  name: resourcesAvailable
-  href: api/Global.MangerUtlities.html#Global_MangerUtlities_resourcesAvailable_
-  commentId: Overload:Global.MangerUtlities.resourcesAvailable
-  isSpec: "True"
-  fullName: MangerUtlities.resourcesAvailable
-  nameWithType: MangerUtlities.resourcesAvailable
 - uid: Global.MaritimeTrades
   name: MaritimeTrades
   href: api/Global.MaritimeTrades.html
@@ -2582,6 +2562,18 @@ references:
   isSpec: "True"
   fullName: MockNetworkManager.Roll
   nameWithType: MockNetworkManager.Roll
+- uid: Global.MockNetworkManagerBoardTests
+  name: MockNetworkManagerBoardTests
+  href: api/Global.MockNetworkManagerBoardTests.html
+  commentId: T:Global.MockNetworkManagerBoardTests
+  fullName: MockNetworkManagerBoardTests
+  nameWithType: MockNetworkManagerBoardTests
+- uid: Global.MockNetworkManagerBoardTests.eventStreamObject
+  name: eventStreamObject
+  href: api/Global.MockNetworkManagerBoardTests.html#Global_MockNetworkManagerBoardTests_eventStreamObject
+  commentId: F:Global.MockNetworkManagerBoardTests.eventStreamObject
+  fullName: MockNetworkManagerBoardTests.eventStreamObject
+  nameWithType: MockNetworkManagerBoardTests.eventStreamObject
 - uid: Global.NetworkManager
   name: NetworkManager
   href: api/Global.NetworkManager.html
@@ -4686,6 +4678,66 @@ references:
   commentId: F:Model.BuildingType.Settlement
   fullName: Model.BuildingType.Settlement
   nameWithType: BuildingType.Settlement
+- uid: Model.ConnectionType
+  name: ConnectionType
+  href: api/Model.ConnectionType.html
+  commentId: T:Model.ConnectionType
+  fullName: Model.ConnectionType
+  nameWithType: ConnectionType
+- uid: Model.ConnectionType.DLFR
+  name: DLFR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_DLFR
+  commentId: F:Model.ConnectionType.DLFR
+  fullName: Model.ConnectionType.DLFR
+  nameWithType: ConnectionType.DLFR
+- uid: Model.ConnectionType.FLDR
+  name: FLDR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_FLDR
+  commentId: F:Model.ConnectionType.FLDR
+  fullName: Model.ConnectionType.FLDR
+  nameWithType: ConnectionType.FLDR
+- uid: Model.ConnectionType.FLUR
+  name: FLUR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_FLUR
+  commentId: F:Model.ConnectionType.FLUR
+  fullName: Model.ConnectionType.FLUR
+  nameWithType: ConnectionType.FLUR
+- uid: Model.ConnectionType.FLURDR
+  name: FLURDR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_FLURDR
+  commentId: F:Model.ConnectionType.FLURDR
+  fullName: Model.ConnectionType.FLURDR
+  nameWithType: ConnectionType.FLURDR
+- uid: Model.ConnectionType.NONE
+  name: NONE
+  href: api/Model.ConnectionType.html#Model_ConnectionType_NONE
+  commentId: F:Model.ConnectionType.NONE
+  fullName: Model.ConnectionType.NONE
+  nameWithType: ConnectionType.NONE
+- uid: Model.ConnectionType.ULDL
+  name: ULDL
+  href: api/Model.ConnectionType.html#Model_ConnectionType_ULDL
+  commentId: F:Model.ConnectionType.ULDL
+  fullName: Model.ConnectionType.ULDL
+  nameWithType: ConnectionType.ULDL
+- uid: Model.ConnectionType.ULDLFR
+  name: ULDLFR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_ULDLFR
+  commentId: F:Model.ConnectionType.ULDLFR
+  fullName: Model.ConnectionType.ULDLFR
+  nameWithType: ConnectionType.ULDLFR
+- uid: Model.ConnectionType.ULFR
+  name: ULFR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_ULFR
+  commentId: F:Model.ConnectionType.ULFR
+  fullName: Model.ConnectionType.ULFR
+  nameWithType: ConnectionType.ULFR
+- uid: Model.ConnectionType.URDR
+  name: URDR
+  href: api/Model.ConnectionType.html#Model_ConnectionType_URDR
+  commentId: F:Model.ConnectionType.URDR
+  fullName: Model.ConnectionType.URDR
+  nameWithType: ConnectionType.URDR
 - uid: Model.DevelopmentCardType
   name: DevelopmentCardType
   href: api/Model.DevelopmentCardType.html
@@ -5723,6 +5775,116 @@ references:
   isSpec: "True"
   fullName: Model.GameSettings.WinValue
   nameWithType: GameSettings.WinValue
+- uid: Model.MangerUtlities
+  name: MangerUtlities
+  href: api/Model.MangerUtlities.html
+  commentId: T:Model.MangerUtlities
+  fullName: Model.MangerUtlities
+  nameWithType: MangerUtlities
+- uid: Model.MangerUtlities.calcBuildCity(GameStatus,Model.Team)
+  name: calcBuildCity(GameStatus, Team)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildCity_GameStatus_Model_Team_
+  commentId: M:Model.MangerUtlities.calcBuildCity(GameStatus,Model.Team)
+  fullName: Model.MangerUtlities.calcBuildCity(GameStatus, Model.Team)
+  nameWithType: MangerUtlities.calcBuildCity(GameStatus, Team)
+- uid: Model.MangerUtlities.calcBuildCity*
+  name: calcBuildCity
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildCity_
+  commentId: Overload:Model.MangerUtlities.calcBuildCity
+  isSpec: "True"
+  fullName: Model.MangerUtlities.calcBuildCity
+  nameWithType: MangerUtlities.calcBuildCity
+- uid: Model.MangerUtlities.calcBuildDcard(GameStatus,Model.Team)
+  name: calcBuildDcard(GameStatus, Team)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildDcard_GameStatus_Model_Team_
+  commentId: M:Model.MangerUtlities.calcBuildDcard(GameStatus,Model.Team)
+  fullName: Model.MangerUtlities.calcBuildDcard(GameStatus, Model.Team)
+  nameWithType: MangerUtlities.calcBuildDcard(GameStatus, Team)
+- uid: Model.MangerUtlities.calcBuildDcard*
+  name: calcBuildDcard
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildDcard_
+  commentId: Overload:Model.MangerUtlities.calcBuildDcard
+  isSpec: "True"
+  fullName: Model.MangerUtlities.calcBuildDcard
+  nameWithType: MangerUtlities.calcBuildDcard
+- uid: Model.MangerUtlities.calcBuildRoad(GameStatus,Model.Team)
+  name: calcBuildRoad(GameStatus, Team)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildRoad_GameStatus_Model_Team_
+  commentId: M:Model.MangerUtlities.calcBuildRoad(GameStatus,Model.Team)
+  fullName: Model.MangerUtlities.calcBuildRoad(GameStatus, Model.Team)
+  nameWithType: MangerUtlities.calcBuildRoad(GameStatus, Team)
+- uid: Model.MangerUtlities.calcBuildRoad*
+  name: calcBuildRoad
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildRoad_
+  commentId: Overload:Model.MangerUtlities.calcBuildRoad
+  isSpec: "True"
+  fullName: Model.MangerUtlities.calcBuildRoad
+  nameWithType: MangerUtlities.calcBuildRoad
+- uid: Model.MangerUtlities.calcBuildSettlment(GameStatus,Model.Team)
+  name: calcBuildSettlment(GameStatus, Team)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildSettlment_GameStatus_Model_Team_
+  commentId: M:Model.MangerUtlities.calcBuildSettlment(GameStatus,Model.Team)
+  fullName: Model.MangerUtlities.calcBuildSettlment(GameStatus, Model.Team)
+  nameWithType: MangerUtlities.calcBuildSettlment(GameStatus, Team)
+- uid: Model.MangerUtlities.calcBuildSettlment*
+  name: calcBuildSettlment
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_calcBuildSettlment_
+  commentId: Overload:Model.MangerUtlities.calcBuildSettlment
+  isSpec: "True"
+  fullName: Model.MangerUtlities.calcBuildSettlment
+  nameWithType: MangerUtlities.calcBuildSettlment
+- uid: Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates)
+  name: ClosestPopCenter(GameStatus, Team, VertexCoordinates)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_ClosestPopCenter_GameStatus_Model_Team_Model_VertexCoordinates_
+  commentId: M:Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates)
+  fullName: Model.MangerUtlities.ClosestPopCenter(GameStatus, Model.Team, Model.VertexCoordinates)
+  nameWithType: MangerUtlities.ClosestPopCenter(GameStatus, Team, VertexCoordinates)
+- uid: Model.MangerUtlities.ClosestPopCenter*
+  name: ClosestPopCenter
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_ClosestPopCenter_
+  commentId: Overload:Model.MangerUtlities.ClosestPopCenter
+  isSpec: "True"
+  fullName: Model.MangerUtlities.ClosestPopCenter
+  nameWithType: MangerUtlities.ClosestPopCenter
+- uid: Model.MangerUtlities.connectionName(Model.VertexCoordinates,GameStatus,Model.Team)
+  name: connectionName(VertexCoordinates, GameStatus, Team)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_connectionName_Model_VertexCoordinates_GameStatus_Model_Team_
+  commentId: M:Model.MangerUtlities.connectionName(Model.VertexCoordinates,GameStatus,Model.Team)
+  fullName: Model.MangerUtlities.connectionName(Model.VertexCoordinates, GameStatus, Model.Team)
+  nameWithType: MangerUtlities.connectionName(VertexCoordinates, GameStatus, Team)
+- uid: Model.MangerUtlities.connectionName*
+  name: connectionName
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_connectionName_
+  commentId: Overload:Model.MangerUtlities.connectionName
+  isSpec: "True"
+  fullName: Model.MangerUtlities.connectionName
+  nameWithType: MangerUtlities.connectionName
+- uid: Model.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
+  name: eventSyncCheck(Int32, Int32)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_eventSyncCheck_System_Int32_System_Int32_
+  commentId: M:Model.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)
+  fullName: Model.MangerUtlities.eventSyncCheck(System.Int32, System.Int32)
+  nameWithType: MangerUtlities.eventSyncCheck(Int32, Int32)
+- uid: Model.MangerUtlities.eventSyncCheck*
+  name: eventSyncCheck
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_eventSyncCheck_
+  commentId: Overload:Model.MangerUtlities.eventSyncCheck
+  isSpec: "True"
+  fullName: Model.MangerUtlities.eventSyncCheck
+  nameWithType: MangerUtlities.eventSyncCheck
+- uid: Model.MangerUtlities.resourcesAvailable(Model.BuildingType,GameStatus)
+  name: resourcesAvailable(BuildingType, GameStatus)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_resourcesAvailable_Model_BuildingType_GameStatus_
+  commentId: M:Model.MangerUtlities.resourcesAvailable(Model.BuildingType,GameStatus)
+  fullName: Model.MangerUtlities.resourcesAvailable(Model.BuildingType, GameStatus)
+  nameWithType: MangerUtlities.resourcesAvailable(BuildingType, GameStatus)
+- uid: Model.MangerUtlities.resourcesAvailable*
+  name: resourcesAvailable
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_resourcesAvailable_
+  commentId: Overload:Model.MangerUtlities.resourcesAvailable
+  isSpec: "True"
+  fullName: Model.MangerUtlities.resourcesAvailable
+  nameWithType: MangerUtlities.resourcesAvailable
 - uid: Model.Player
   name: Player
   href: api/Model.Player.html

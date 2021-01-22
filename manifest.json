@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Announcement.html",
-          "hash": "o9PXy9nEhamWEub0Cf6xHg=="
+          "hash": "tPB9+9wV85uqu0kYFcYOhQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.AssetManager.html",
-          "hash": "7Hfun4WAaYolSv/iOWokHA=="
+          "hash": "mU8sCXDmX7ndlrtKCRaNrg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BadgeAnimator.html",
-          "hash": "z6HUPW5JeA0x0J25HOcUzQ=="
+          "hash": "hPpaaO/+FS7WlpnlEAb7bA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BoardManager.html",
-          "hash": "htwqv5FIoRwnwfsoluYdEQ=="
+          "hash": "I7rV1a0Gv9MQo76PJxMUPg=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BoardManagerV2.html",
-          "hash": "jOKGWHvPp2Hvu3F4/8efzw=="
+          "hash": "lWRkL7oWOS/bwRdA34Z42g=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BrowserGameCard.html",
-          "hash": "Wuabajd3y/EM81j2u2WmcA=="
+          "hash": "OEEyJp8PeweoHV2zzKI4Ag=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BuildPopulationSettings.html",
-          "hash": "E7+J/j7da6xYUgySi+nbGQ=="
+          "hash": "Y/zfrYgC5GdGf1CXUQjfng=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BuildRoadSettings.html",
-          "hash": "LXkFCA6zO6zSaNBtS7dWmQ=="
+          "hash": "lm73v0et9If+OnIs6G3NWQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ButtonPrimarySettings.html",
-          "hash": "rWP7pvsplTbMRiUnuI45wA=="
+          "hash": "PUhIGTxaXuPZdqHk7BAEDw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ButtonSecondarySettings.html",
-          "hash": "uBkzVsXm8r6//gTM50xMvg=="
+          "hash": "7WRISiR9sMx2eliR0mepxg=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CheckboxDisplaySettings.html",
-          "hash": "ZoeKHvt4d67JCEz00BQgNA=="
+          "hash": "NL2TFzkArnrL7bq2ESjocg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ConnectionLoading.html",
-          "hash": "HSFU+deRemP0sX8S6CaITw=="
+          "hash": "ENh8Q9gpyR/inRhhB2PVqw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ConnectionSettings.html",
-          "hash": "GIULz+iF2K+4kGVljyAl6w=="
+          "hash": "cGIR4Axvj+YFLVDxGIs7gw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CountContainer.html",
-          "hash": "iFrcmtRfMZmhX2rr9JtzKg=="
+          "hash": "oWevlDEjPF3MSV8LEr8iKg=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CrownAnimator.html",
-          "hash": "8owgwtPB6+jlx/KQ326nSQ=="
+          "hash": "896/jHZzufMNsRX2K047dA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DieSettings.html",
-          "hash": "lNeZ7M9c0xlTAyn4uyVaHw=="
+          "hash": "OKENFNbel70tqLuoFpCUlw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DomesticTrades.html",
-          "hash": "D60Y5rQ+FuUiXBjn3avBSA=="
+          "hash": "uQDOqlE2pKfGzvyXL8Fm8A=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventDisplay.html",
-          "hash": "LmWOVLKaFSxn4f/SQRD1Rg=="
+          "hash": "m947D/Rq4SuwsBgwCvE6yA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventEntrySettings.html",
-          "hash": "ReQovCwrXjFFAJpAOXraVg=="
+          "hash": "dhqnjFIlvPV+oE7V6fPIKg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventParser.html",
-          "hash": "oNcAEpNNUCt4T7zahaoPzQ=="
+          "hash": "FZDI1TcWoZCllRchh4LShA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventStream.html",
-          "hash": "29OyXRTUCi/DcERtEhffGA=="
+          "hash": "yiAW+FWD8suYczjHtiErgA=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ExampleEventConsumer.html",
-          "hash": "g58DiTgHnezmseLlbxtNxA=="
+          "hash": "XLPQMGUmjF+IjkQVVTa2vQ=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameBrowser.html",
-          "hash": "zGjl0V7qsiuI/bBFIShsKg=="
+          "hash": "+cwO7/tVNAcMwz/ZCsAFWA=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameLobby.html",
-          "hash": "malPCt1XCGdsMKfQKpQNaw=="
+          "hash": "aRc9hUccVMzDOPUHCMGqjg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameMetaData.html",
-          "hash": "lP9XK/Puu7I2Ua0mR2NxnQ=="
+          "hash": "rz+LyT742fy2RiHldjCLOA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameStatus.html",
-          "hash": "XqE2NAqriDxTU8UlGt6n1Q=="
+          "hash": "oeigt2JCCgUupQUThn+iSw=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GhostAnnouncement.html",
-          "hash": "eI3Z/YnS5ORZHefwR8XPsQ=="
+          "hash": "O4l9MpkGAk7d5EhZMmhTlg=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GiveResource.html",
-          "hash": "4O3YFM7xRNuaiLj+b/KbYw=="
+          "hash": "RJ/KX/D0gVvRZfHJB9YDbA=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HexMath.html",
-          "hash": "8APppwqQwLi6pQupk0GXyA=="
+          "hash": "u6ZBH4Hiq7N4lhvxJzUfVg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Hourglass.html",
-          "hash": "obqEcU0/EgVXB7fKn+9Nqw=="
+          "hash": "BPeSINknBY9qSQW3Iw+TPg=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.JoinButton.html",
-          "hash": "+dVCaGLtV5m99iY4R1krKw=="
+          "hash": "vIsG48eJvD9BJDA4bQ1vhg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LocalClientVariables.html",
-          "hash": "IBwDoxvtng0XS/YcuZKEBw=="
+          "hash": "qvTOHq29vvueeNsntCzORw=="
         }
       },
       "is_incremental": false,
@@ -393,19 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LocalPlayerStats.html",
-          "hash": "QXWpqNU+g96x7vbSWjvTeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.MangerUtlities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.MangerUtlities.html",
-          "hash": "rSmttP7kQpOwwa7REBSX5A=="
+          "hash": "8InIuXTueOVrrGhDHMvFsA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MaritimeTrades.html",
-          "hash": "C/hUfMXk4TV0jd5LnQnwYw=="
+          "hash": "rxLYmsCamN8IZg5zmoHFiA=="
         }
       },
       "is_incremental": false,
@@ -429,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MenuManager.html",
-          "hash": "WSJQ0ol/Cski3kBVA6U24A=="
+          "hash": "e11Dy97fycjEMkPHF4IhJg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +429,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MockNetworkManager.html",
-          "hash": "OsA7inHmN+KVftBrgBFl4Q=="
+          "hash": "fRJymQR6z167JG+eri0L6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MockNetworkManagerBoardTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MockNetworkManagerBoardTests.html",
+          "hash": "mEzDcmcHgsmVowo88dLYhQ=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.NetworkManager.html",
-          "hash": "n6ZuzawmGxYVHzfael1A7g=="
+          "hash": "2a97V358D3S8egXv2W8iFQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Notify.html",
-          "hash": "2rDzulXO+A3cyn2HErhHJw=="
+          "hash": "f9ypwZwLWun/MQKL7ma92A=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerGameCardSettings.html",
-          "hash": "MSssNapcCNWWT+eY95IRlA=="
+          "hash": "2FzOpLJMDh0nwixDAf2+cw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerLobbyCard.html",
-          "hash": "WL3jTyA2lah/nPwv1LuPOg=="
+          "hash": "klVq9ee/Ae1LLppmRSEkcw=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerMenuStats.html",
-          "hash": "pAHRg36TlTqHDxa1wenjYw=="
+          "hash": "Pvu8dDyraHUCZ8rw0Hn0Rw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerTradeOffer.html",
-          "hash": "IksCLSfq6ZnGvVR0H/vAig=="
+          "hash": "jqmJDx1VIMvzNa3sDZVeWg=="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayersPanel.html",
-          "hash": "BQTo7HWWgEt2HsDwr81LQA=="
+          "hash": "sspS3aXI4/LaVIe0vQasZw=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PopulationCenter.html",
-          "hash": "eDHiKSAERJLGLXeDmFbMqA=="
+          "hash": "s+FMtYC+6LAiTriKFsPCNw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PopulationSettings.html",
-          "hash": "gFQlMh1whY6TL2680PFyqQ=="
+          "hash": "yTqaj/PD5OECdnDHqrXeoA=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Port.html",
-          "hash": "Tcr33KmtDCWU7MYmNa4f4A=="
+          "hash": "pMH5DinI1pEV8UMZdawgcg=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PortSettings.html",
-          "hash": "0WfuAtJJSB9a58mF379Kuw=="
+          "hash": "DL+JA3nO6VbVJJSw7nKWXg=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PortTradeSettings.html",
-          "hash": "mnXRCiGlOGmK+KLcdAsgjQ=="
+          "hash": "ScPzAKyzCjM7cQE3EQpBxw=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.QuickJoinButton.html",
-          "hash": "ga3/eJJDpL4trmiAB2avgA=="
+          "hash": "8AkEqEHH9E1D42grLBsKXg=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RectTransformExtensions.html",
-          "hash": "Yn+6Yc2wYJ3JfHL6Pibtbw=="
+          "hash": "igAwbiWFVs+fIbY+l0DKAQ=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Resource.html",
-          "hash": "wsq20AAkClyquBFZz3+xcQ=="
+          "hash": "wa6Ve5hQ/pLltAAfp3G36Q=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ResourceCounterSettings.html",
-          "hash": "W0N5wmaw2p9Gq99TrkLDOA=="
+          "hash": "f3ssgdvPm/qVTekxiKdoxg=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ResourceTile.html",
-          "hash": "a4cf8d7PWvHkkpdVPwm0MQ=="
+          "hash": "9sbzyGkLGxYrHQrUYZSQSw=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RoadSettings.html",
-          "hash": "gog3xlzHVSQMmYSOEzDgRA=="
+          "hash": "rDooaTggQaYL8INftxVdZQ=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RollValue.html",
-          "hash": "7nFByAXJkierk8S6zgrDdQ=="
+          "hash": "pcrJLW0LfXEwbsuBZdNvIw=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RuleSettings.html",
-          "hash": "zaPDtvmK0NiA0pyAJHgYJg=="
+          "hash": "C/QV+Jy/JXpcMrZ8DPAsvQ=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkipButton.html",
-          "hash": "8IfC86MRBfIxRZsWECn5Jg=="
+          "hash": "AzX7MGNC1DwDSytSJo6epA=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Timer.html",
-          "hash": "/b8PC1EsShxhanQQh6NGBg=="
+          "hash": "BXXkX6uYzaZ+Iagfugougg=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TradeMessage.html",
-          "hash": "+JLzBPa8HCWj6xR6xjMxwA=="
+          "hash": "Yz69sZrE7YRdxQ/XMtEhZw=="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TradeWindowContent.html",
-          "hash": "mzhiZNF+Ti+iDPK9aUeHpA=="
+          "hash": "4u5Y5QzvywLOhiv4Lgj9qA=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIManager.html",
-          "hash": "08pPut4rCeG6oDd5NhUTcA=="
+          "hash": "jLvaScb68Q8Ow9sShM+vOw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.VPAnimator.html",
-          "hash": "yda52O+LZzWv22YkJVOvpg=="
+          "hash": "y39a/wCS6Y//daJJdlGvpw=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.WindowSettings.html",
-          "hash": "3DutgHjnMdZX7JBwuxEdSA=="
+          "hash": "lfzIn3Tay3/b8yD49aRB9Q=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "MK69Ur9xXfUIkl86lmG/NA=="
+          "hash": "OHwPklKnNipIAq0KbCKacA=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Board.html",
-          "hash": "v+tHq+00oUHVou8nFmjP0g=="
+          "hash": "9N1BakDnPwyrq3iXnCU4eg=="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.BuildingType.html",
-          "hash": "Gcm1btzlIbn+he7//fk4Rw=="
+          "hash": "F+G+Nn1SgAQRCHh2PCwY0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.ConnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.ConnectionType.html",
+          "hash": "2GD8LDAfk25uQRwPGHZqYg=="
         }
       },
       "is_incremental": false,
@@ -813,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.DevelopmentCardType.html",
-          "hash": "JvBKHTP6Y2RGv+3VkQYmOA=="
+          "hash": "16QLIuFfzc9Z+qVklqNT4Q=="
         }
       },
       "is_incremental": false,
@@ -825,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.EdgeCoordinates.html",
-          "hash": "q5voMVRcc3uJIho5N5USPQ=="
+          "hash": "lVaNReEyzQ4ZU1lmDqDTUA=="
         }
       },
       "is_incremental": false,
@@ -837,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.BankTradeEvent.html",
-          "hash": "xnPmO/tlWuCKiw+I8txtJg=="
+          "hash": "4K2ZABomyTTCmTWGtLebsw=="
         }
       },
       "is_incremental": false,
@@ -849,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.BuildingPlacedEvent.html",
-          "hash": "Tjqp/HBAfv/CiFU262bS/w=="
+          "hash": "tJgL70vs9m+NMohVz6KhrQ=="
         }
       },
       "is_incremental": false,
@@ -861,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.ChatMessageEvent.html",
-          "hash": "Dg7lLaoN6N8CYKy80kMm5w=="
+          "hash": "P74oCnArPaRRqgoVq7Ud3A=="
         }
       },
       "is_incremental": false,
@@ -873,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.DiscardResourcesEvent.html",
-          "hash": "hers70nlosjpVZvwchDTyA=="
+          "hash": "ZIiPfe+6wSBP/izv+7pm5w=="
         }
       },
       "is_incremental": false,
@@ -885,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.GameEndEvent.html",
-          "hash": "tZLVY01qM98/fyphQmLpzQ=="
+          "hash": "fuHUdAVf5GNxJRR0vjxMzQ=="
         }
       },
       "is_incremental": false,
@@ -897,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.GameEvent.html",
-          "hash": "gLsRs/Q85issL5yn0ry3XA=="
+          "hash": "yT1nuLw6pNCHf/HXlRNVaA=="
         }
       },
       "is_incremental": false,
@@ -909,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.GameStartEvent.html",
-          "hash": "xKnS3dQsxGiqaWHSguIATw=="
+          "hash": "qJ0ndY7AZBwJgkWeOAYZfg=="
         }
       },
       "is_incremental": false,
@@ -921,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.MoveRobberEvent.html",
-          "hash": "IUn4cgtBdYr7vvuYRJv0Xw=="
+          "hash": "TeDMePLwG562oAaJhi1Aew=="
         }
       },
       "is_incremental": false,
@@ -933,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.PlayDevelopmentCardEvent.html",
-          "hash": "kmXdiAZmvmNZRhZgdtaDyA=="
+          "hash": "k0dr9HxgEZhEgIqxeLpNVw=="
         }
       },
       "is_incremental": false,
@@ -945,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.PlayerRollEvent.html",
-          "hash": "31HpRuqmEsgAePaRNXrsDA=="
+          "hash": "aCZolcKSNBKSl7+D/QuXQw=="
         }
       },
       "is_incremental": false,
@@ -957,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.PopCenterPlacedEvent.html",
-          "hash": "WiuZIdAt60wVPjrkbINvYw=="
+          "hash": "O80MLZ20WAUgra7tVl0FJA=="
         }
       },
       "is_incremental": false,
@@ -969,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.PurchaseDevelopmentCardEvent.html",
-          "hash": "gzGcm0RmCTlzQ4JBJnppiw=="
+          "hash": "pYK3k1IPR1PtZU/wWQfB2w=="
         }
       },
       "is_incremental": false,
@@ -981,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.ResourceDistributionEvent.html",
-          "hash": "hVt+xYsUpUHZhH1yQNHfYg=="
+          "hash": "FP0cyVgo0pCMjVTOnVgxtw=="
         }
       },
       "is_incremental": false,
@@ -993,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.RoadPlacedEvent.html",
-          "hash": "0ms0Tp5v0XJKKDloITSP3Q=="
+          "hash": "OAErjRwIrX4WoEDk9MVqwQ=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.StealResourceEvent.html",
-          "hash": "C+VC9YHXhxzfdsX03+6UgA=="
+          "hash": "U9adcxU2D4nYQHPwu52gLA=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.TradeAcceptEvent.html",
-          "hash": "NfuqSpXchCunWoZM9XAmEg=="
+          "hash": "q0qzatOjxeHUBca5xMH3Ng=="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.TradeOfferEvent.html",
-          "hash": "a+fE5fwouIRSMqIjqGEUcQ=="
+          "hash": "vFnHopvzg0cjsbSew+UQKQ=="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.TurnStartEvent.html",
-          "hash": "IUq/yffEgzW6xcXkP9zaKg=="
+          "hash": "76pufBQUEgJRJ2E2jumwYQ=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Event.html",
-          "hash": "rk/cBoddo0uaOnFKaSOzgQ=="
+          "hash": "D67L3uCbsda3NeWJyg6syA=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.GameEntry.html",
-          "hash": "AMDcKOyfV2IU1UYoQfsLPQ=="
+          "hash": "jRWkbdvllZ3MfoemVP9Jag=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1089,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.GameSettings.html",
-          "hash": "vzETLCXbUkuzAMPZUjgc0Q=="
+          "hash": "je1cOWLjFHTQPB4KgHhMGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Model.MangerUtlities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Model.MangerUtlities.html",
+          "hash": "q2OaFg8A6UJxGwcbGdWT3Q=="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Player.html",
-          "hash": "VPX1LpPXN1biZ0hIbU6DYQ=="
+          "hash": "kC5UnBLWKKPBF26CYOg0Tw=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.PlayerGameState.html",
-          "hash": "/ghSFeXY1RXWEd0qMHVo6g=="
+          "hash": "020fGQ2rUW0IBtuoAhna3g=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.ResourceTile.html",
-          "hash": "7Ml11hLUoi9TZHLHloAyHQ=="
+          "hash": "qrykyzpeyn1nwILZx6VZtA=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.ResourceType.html",
-          "hash": "HOxFP+aN5DSd0xwLIFTx7g=="
+          "hash": "/FGuyoGDNcbBB19+5hWiSQ=="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.Team.html",
-          "hash": "ynmwDLCEs4+pCxXAU3HqYw=="
+          "hash": "pMbW94zi+4ENZWniTFJjiA=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.TileCoordinates.html",
-          "hash": "EqHjHEXDGTgUG6pe6i/8TQ=="
+          "hash": "Zbw5fZVsG3ZyMkvP4gqMTQ=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.TradeOffer.html",
-          "hash": "xAwxKe/JAuoA9tHn/BCUtQ=="
+          "hash": "7m/Sk+rzxvi5pCzGErcmjQ=="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.VertexCoordinates.html",
-          "hash": "V/tV2oFNIk9TINJcaDv9rQ=="
+          "hash": "XCK6TIDf9BRBoI4enw/xfQ=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.WinCondition.html",
-          "hash": "c0ji/YV2AV6UxogEYkI4sg=="
+          "hash": "ZrOVYjRoBT9oL4FCGdhL3A=="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.html",
-          "hash": "ITfVnsZmtFqBy6HSMX5vkw=="
+          "hash": "2fgJmxsf186DTz1uFSlFbg=="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "knoqhU/3I2DTVqvEPvlcGg=="
+          "hash": "RbEm626yXS/qxVKhYae+jA=="
         }
       },
       "is_incremental": false,
@@ -1260,7 +1284,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 100,
+          "total_file_count": 102,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

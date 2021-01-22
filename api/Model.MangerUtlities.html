@@ -185,9 +185,6 @@
                           <li class="">
                             <a href="Global.LocalPlayerStats.html" title="LocalPlayerStats" class="">LocalPlayerStats</a>
                           </li>
-                          <li class="active">
-                            <a href="Global.MangerUtlities.html" title="MangerUtlities" class="active">MangerUtlities</a>
-                          </li>
                           <li class="">
                             <a href="Global.MaritimeTrades.html" title="MaritimeTrades" class="">MaritimeTrades</a>
                           </li>
@@ -196,6 +193,9 @@
                           </li>
                           <li class="">
                             <a href="Global.MockNetworkManager.html" title="MockNetworkManager" class="">MockNetworkManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MockNetworkManagerBoardTests.html" title="MockNetworkManagerBoardTests" class="">MockNetworkManagerBoardTests</a>
                           </li>
                           <li class="">
                             <a href="Global.NetworkManager.html" title="NetworkManager" class="">NetworkManager</a>
@@ -291,6 +291,9 @@
                             <a href="Model.BuildingType.html" title="BuildingType" class="">BuildingType</a>
                           </li>
                           <li class="">
+                            <a href="Model.ConnectionType.html" title="ConnectionType" class="">ConnectionType</a>
+                          </li>
+                          <li class="">
                             <a href="Model.DevelopmentCardType.html" title="DevelopmentCardType" class="">DevelopmentCardType</a>
                           </li>
                           <li class="">
@@ -301,6 +304,9 @@
                           </li>
                           <li class="">
                             <a href="Model.GameSettings.html" title="GameSettings" class="">GameSettings</a>
+                          </li>
+                          <li class="active">
+                            <a href="Model.MangerUtlities.html" title="MangerUtlities" class="active">MangerUtlities</a>
                           </li>
                           <li class="">
                             <a href="Model.Player.html" title="Player" class="">Player</a>
@@ -397,10 +403,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.MangerUtlities">
+            <article class="content wrap" id="_content" data-uid="Model.MangerUtlities">
   
   
-  <h1 id="Global_MangerUtlities" data-uid="Global.MangerUtlities" class="text-break">Class MangerUtlities
+  <h1 id="Model_MangerUtlities" data-uid="Model.MangerUtlities" class="text-break">Class MangerUtlities
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -433,9 +439,9 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Model.html">Model</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_MangerUtlities_syntax">Syntax</h5>
+  <h5 id="Model_MangerUtlities_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class MangerUtlities</code></pre>
   </div>
@@ -443,8 +449,102 @@
   </h3>
   
   
-  <a id="Global_MangerUtlities_calcBuildRoad_" data-uid="Global.MangerUtlities.calcBuildRoad*"></a>
-  <h4 id="Global_MangerUtlities_calcBuildRoad_GameStatus_Team_" data-uid="Global.MangerUtlities.calcBuildRoad(GameStatus,Team)">calcBuildRoad(GameStatus, Team)</h4>
+  <a id="Model_MangerUtlities_calcBuildCity_" data-uid="Model.MangerUtlities.calcBuildCity*"></a>
+  <h4 id="Model_MangerUtlities_calcBuildCity_GameStatus_Model_Team_" data-uid="Model.MangerUtlities.calcBuildCity(GameStatus,Model.Team)">calcBuildCity(GameStatus, Team)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;VertexCoordinates, Team&gt; calcBuildCity(GameStatus gameStatus, Team team)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td><span class="parametername">gameStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
+        <td><span class="parametername">team</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.VertexCoordinates.html">VertexCoordinates</a>, <a class="xref" href="Model.Team.html">Team</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_MangerUtlities_calcBuildDcard_" data-uid="Model.MangerUtlities.calcBuildDcard*"></a>
+  <h4 id="Model_MangerUtlities_calcBuildDcard_GameStatus_Model_Team_" data-uid="Model.MangerUtlities.calcBuildDcard(GameStatus,Model.Team)">calcBuildDcard(GameStatus, Team)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool calcBuildDcard(GameStatus gameStatus, Team team)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td><span class="parametername">gameStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
+        <td><span class="parametername">team</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_MangerUtlities_calcBuildRoad_" data-uid="Model.MangerUtlities.calcBuildRoad*"></a>
+  <h4 id="Model_MangerUtlities_calcBuildRoad_GameStatus_Model_Team_" data-uid="Model.MangerUtlities.calcBuildRoad(GameStatus,Model.Team)">calcBuildRoad(GameStatus, Team)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -467,7 +567,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Team</span></td>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
         <td><span class="parametername">team</span></td>
         <td></td>
       </tr>
@@ -483,15 +583,166 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">EdgeCoordinates</span>, <span class="xref">Team</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.EdgeCoordinates.html">EdgeCoordinates</a>, <a class="xref" href="Model.Team.html">Team</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_MangerUtlities_eventSyncCheck_" data-uid="Global.MangerUtlities.eventSyncCheck*"></a>
-  <h4 id="Global_MangerUtlities_eventSyncCheck_System_Int32_System_Int32_" data-uid="Global.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)">eventSyncCheck(Int32, Int32)</h4>
+  <a id="Model_MangerUtlities_calcBuildSettlment_" data-uid="Model.MangerUtlities.calcBuildSettlment*"></a>
+  <h4 id="Model_MangerUtlities_calcBuildSettlment_GameStatus_Model_Team_" data-uid="Model.MangerUtlities.calcBuildSettlment(GameStatus,Model.Team)">calcBuildSettlment(GameStatus, Team)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;VertexCoordinates, Team&gt; calcBuildSettlment(GameStatus gameStatus, Team team)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td><span class="parametername">gameStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
+        <td><span class="parametername">team</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Model.VertexCoordinates.html">VertexCoordinates</a>, <a class="xref" href="Model.Team.html">Team</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_MangerUtlities_ClosestPopCenter_" data-uid="Model.MangerUtlities.ClosestPopCenter*"></a>
+  <h4 id="Model_MangerUtlities_ClosestPopCenter_GameStatus_Model_Team_Model_VertexCoordinates_" data-uid="Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates)">ClosestPopCenter(GameStatus, Team, VertexCoordinates)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ClosestPopCenter(GameStatus gameStatus, Team team, VertexCoordinates vertex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td><span class="parametername">gameStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
+        <td><span class="parametername">team</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.VertexCoordinates.html">VertexCoordinates</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_MangerUtlities_connectionName_" data-uid="Model.MangerUtlities.connectionName*"></a>
+  <h4 id="Model_MangerUtlities_connectionName_Model_VertexCoordinates_GameStatus_Model_Team_" data-uid="Model.MangerUtlities.connectionName(Model.VertexCoordinates,GameStatus,Model.Team)">connectionName(VertexCoordinates, GameStatus, Team)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConnectionType connectionName(VertexCoordinates vertex, GameStatus status, Team team)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.VertexCoordinates.html">VertexCoordinates</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.GameStatus.html">GameStatus</a></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Model.Team.html">Team</a></td>
+        <td><span class="parametername">team</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Model.ConnectionType.html">ConnectionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Model_MangerUtlities_eventSyncCheck_" data-uid="Model.MangerUtlities.eventSyncCheck*"></a>
+  <h4 id="Model_MangerUtlities_eventSyncCheck_System_Int32_System_Int32_" data-uid="Model.MangerUtlities.eventSyncCheck(System.Int32,System.Int32)">eventSyncCheck(Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -522,8 +773,8 @@
   </table>
   
   
-  <a id="Global_MangerUtlities_resourcesAvailable_" data-uid="Global.MangerUtlities.resourcesAvailable*"></a>
-  <h4 id="Global_MangerUtlities_resourcesAvailable_BuildingType_GameStatus_" data-uid="Global.MangerUtlities.resourcesAvailable(BuildingType,GameStatus)">resourcesAvailable(BuildingType, GameStatus)</h4>
+  <a id="Model_MangerUtlities_resourcesAvailable_" data-uid="Model.MangerUtlities.resourcesAvailable*"></a>
+  <h4 id="Model_MangerUtlities_resourcesAvailable_Model_BuildingType_GameStatus_" data-uid="Model.MangerUtlities.resourcesAvailable(Model.BuildingType,GameStatus)">resourcesAvailable(BuildingType, GameStatus)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -541,7 +792,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BuildingType</span></td>
+        <td><a class="xref" href="Model.BuildingType.html">BuildingType</a></td>
         <td><span class="parametername">building</span></td>
         <td></td>
       </tr>
