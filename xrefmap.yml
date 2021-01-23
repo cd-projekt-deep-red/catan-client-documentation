@@ -431,6 +431,19 @@ references:
   isSpec: "True"
   fullName: BoardManagerV2.destroyConnector
   nameWithType: BoardManagerV2.destroyConnector
+- uid: Global.BoardManagerV2.placeBuildPopCenter
+  name: placeBuildPopCenter()
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildPopCenter
+  commentId: M:Global.BoardManagerV2.placeBuildPopCenter
+  fullName: BoardManagerV2.placeBuildPopCenter()
+  nameWithType: BoardManagerV2.placeBuildPopCenter()
+- uid: Global.BoardManagerV2.placeBuildPopCenter*
+  name: placeBuildPopCenter
+  href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildPopCenter_
+  commentId: Overload:Global.BoardManagerV2.placeBuildPopCenter
+  isSpec: "True"
+  fullName: BoardManagerV2.placeBuildPopCenter
+  nameWithType: BoardManagerV2.placeBuildPopCenter
 - uid: Global.BoardManagerV2.placeBuildRoad(System.Collections.Generic.Dictionary{EdgeCoordinates,Team})
   name: placeBuildRoad(Dictionary<EdgeCoordinates, Team>)
   href: api/Global.BoardManagerV2.html#Global_BoardManagerV2_placeBuildRoad_System_Collections_Generic_Dictionary_EdgeCoordinates_Team__
@@ -1765,19 +1778,19 @@ references:
   commentId: F:Global.GameStatus.eventStream
   fullName: GameStatus.eventStream
   nameWithType: GameStatus.eventStream
-- uid: Global.GameStatus.exsistingPopCenters
-  name: exsistingPopCenters
-  href: api/Global.GameStatus.html#Global_GameStatus_exsistingPopCenters
-  commentId: P:Global.GameStatus.exsistingPopCenters
-  fullName: GameStatus.exsistingPopCenters
-  nameWithType: GameStatus.exsistingPopCenters
-- uid: Global.GameStatus.exsistingPopCenters*
-  name: exsistingPopCenters
-  href: api/Global.GameStatus.html#Global_GameStatus_exsistingPopCenters_
-  commentId: Overload:Global.GameStatus.exsistingPopCenters
+- uid: Global.GameStatus.exsistingCities
+  name: exsistingCities
+  href: api/Global.GameStatus.html#Global_GameStatus_exsistingCities
+  commentId: P:Global.GameStatus.exsistingCities
+  fullName: GameStatus.exsistingCities
+  nameWithType: GameStatus.exsistingCities
+- uid: Global.GameStatus.exsistingCities*
+  name: exsistingCities
+  href: api/Global.GameStatus.html#Global_GameStatus_exsistingCities_
+  commentId: Overload:Global.GameStatus.exsistingCities
   isSpec: "True"
-  fullName: GameStatus.exsistingPopCenters
-  nameWithType: GameStatus.exsistingPopCenters
+  fullName: GameStatus.exsistingCities
+  nameWithType: GameStatus.exsistingCities
 - uid: Global.GameStatus.exsistingRoads
   name: exsistingRoads
   href: api/Global.GameStatus.html#Global_GameStatus_exsistingRoads
@@ -1791,6 +1804,19 @@ references:
   isSpec: "True"
   fullName: GameStatus.exsistingRoads
   nameWithType: GameStatus.exsistingRoads
+- uid: Global.GameStatus.exsistingSettlements
+  name: exsistingSettlements
+  href: api/Global.GameStatus.html#Global_GameStatus_exsistingSettlements
+  commentId: P:Global.GameStatus.exsistingSettlements
+  fullName: GameStatus.exsistingSettlements
+  nameWithType: GameStatus.exsistingSettlements
+- uid: Global.GameStatus.exsistingSettlements*
+  name: exsistingSettlements
+  href: api/Global.GameStatus.html#Global_GameStatus_exsistingSettlements_
+  commentId: Overload:Global.GameStatus.exsistingSettlements
+  isSpec: "True"
+  fullName: GameStatus.exsistingSettlements
+  nameWithType: GameStatus.exsistingSettlements
 - uid: Global.GameStatus.gameMeta
   name: gameMeta
   href: api/Global.GameStatus.html#Global_GameStatus_gameMeta
@@ -5833,12 +5859,12 @@ references:
   isSpec: "True"
   fullName: Model.MangerUtlities.calcBuildSettlment
   nameWithType: MangerUtlities.calcBuildSettlment
-- uid: Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates)
-  name: ClosestPopCenter(GameStatus, Team, VertexCoordinates)
-  href: api/Model.MangerUtlities.html#Model_MangerUtlities_ClosestPopCenter_GameStatus_Model_Team_Model_VertexCoordinates_
-  commentId: M:Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates)
-  fullName: Model.MangerUtlities.ClosestPopCenter(GameStatus, Model.Team, Model.VertexCoordinates)
-  nameWithType: MangerUtlities.ClosestPopCenter(GameStatus, Team, VertexCoordinates)
+- uid: Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates,System.Int32)
+  name: ClosestPopCenter(GameStatus, Team, VertexCoordinates, Int32)
+  href: api/Model.MangerUtlities.html#Model_MangerUtlities_ClosestPopCenter_GameStatus_Model_Team_Model_VertexCoordinates_System_Int32_
+  commentId: M:Model.MangerUtlities.ClosestPopCenter(GameStatus,Model.Team,Model.VertexCoordinates,System.Int32)
+  fullName: Model.MangerUtlities.ClosestPopCenter(GameStatus, Model.Team, Model.VertexCoordinates, System.Int32)
+  nameWithType: MangerUtlities.ClosestPopCenter(GameStatus, Team, VertexCoordinates, Int32)
 - uid: Model.MangerUtlities.ClosestPopCenter*
   name: ClosestPopCenter
   href: api/Model.MangerUtlities.html#Model_MangerUtlities_ClosestPopCenter_

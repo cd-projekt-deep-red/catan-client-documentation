@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BoardManagerV2.html",
-          "hash": "lWRkL7oWOS/bwRdA34Z42g=="
+          "hash": "Ab9eA6d28W+R9tVYcyhCUA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameStatus.html",
-          "hash": "oeigt2JCCgUupQUThn+iSw=="
+          "hash": "GjdcvuNuBG/tcTJhug/ArQ=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Model.MangerUtlities.html",
-          "hash": "q2OaFg8A6UJxGwcbGdWT3Q=="
+          "hash": "JcCjFEPVUWbFCJDKbkb7vQ=="
         }
       },
       "is_incremental": false,
